@@ -1,4 +1,5 @@
-# Livemark Project (template)
+# Manual de Abertura - Livemark
 
-Livemark project template:
-- https://frictionlessdata.github.io/livemark-project
+Documentação Manual para Abertura de dados criado com auxílio de gerador de site estático [Livemark](https://frictionlessdata.github.io/livemark-project) e Docker.
+
+

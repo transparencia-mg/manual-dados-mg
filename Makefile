@@ -1,3 +1,4 @@
+include env.mk
 .PHONY: help image container build start
 
 MD_FILES= $(wildcard pages/*.md)
@@ -8,7 +9,7 @@ help: ## Short description of the commands
 
 image: ## Build Docker Image
 	@echo 'Building Docker Image...'
-	@docker build . --no-cache --file Dockerfile --tag livemark-webserver
+	@docker build . --build-arg http_proxy=$(HTTP_PROXY) --build-arg https_proxy=$(HTTP_PROXY) --no-cache --file Dockerfile --tag livemark-webserver
 
 container: ## Start Docker Container
 	@echo 'Starting Docker Container...'

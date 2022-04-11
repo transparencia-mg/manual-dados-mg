@@ -1,10 +1,10 @@
-from livemark import Plugin
+# from livemark import Plugin
 
 
-class CustomPlugin(Plugin):
-    identity = "custom"
+# class CustomPlugin(Plugin):
+#     identity = "custom"
 
-    # Process
+#     # Process
 
-    def process_markup(self, markup):
-        markup.add_markup("<span>(template)<span>", target="h1")
+#     def process_markup(self, markup):
+#         markup.add_markup("<span>(template)<span>", target="h1")

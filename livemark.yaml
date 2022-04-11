@@ -1,10 +1,10 @@
 brand:
-  text: Livemark Project
+  text: Manual Dados MG
 about:
-  text: A Livemark project template
+  text: Manual de Abertura de Dados de MG
 github:
-  user: frictionlessdata
-  repo: livemark-project
+  user: transparencia-mg
+  repo: manual-abertura
 topics:
   selector: h2
 site:
@@ -15,12 +15,25 @@ site:
     - assets/javascript/script.js
 pages:
   items:
-    - path: index
-    - path: pages/data
-    - path: pages/contrib
+    - name: Dados Abertos
+      items:
+        - path: pages/001_normas_princípios_e_diretrizes
+        - path: pages/002_metadados
+        - path: pages/003_portal_de_dados_abertos
+    - name: Etapas do Processo de Abertura de Dados
+      items:
+        - path: pages/004_escolha_das_bases_e_preparacao
+        - path: pages/005_documentacao
+        - path: pages/006_limpeza_de_dados
+        - path: pages/007_restricao_de_informacoes
+        - path: pages/008_validacao_dos_dados
+        - path: pages/009_controle_de_versao
+        - path: pages/010_catalogacao_inicial
 links:
   items:
-    - name: Frictionless
-      path: https://frictionlessdata.io
-    - name: Livemark
-      path: https://livemark.frictionlessdata.io
+    - name: Portal de Dados Abertos MG
+      path: https://dados.mg.gov.br
+    - name: GitHub Transparência MG
+      path: https://github.com/transparencia-mg
+    - name: GitHub Dados MG
+      path: https://github.com/dados-mg/

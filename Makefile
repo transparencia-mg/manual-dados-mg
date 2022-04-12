@@ -1,5 +1,4 @@
-include env.mk
-.PHONY: help image container build start
+.PHONY: help container build start
 
 MD_FILES= $(wildcard pages/*.md)
 HTML_FILES= $(patsubst pages/%.md, pages/%.html, $(MD_FILES))
@@ -7,13 +6,9 @@ HTML_FILES= $(patsubst pages/%.md, pages/%.html, $(MD_FILES))
 help: ## Short description of the commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
-image: ## Build Docker Image
-	@echo 'Building Docker Image...'
-	@docker build . --build-arg http_proxy=$(HTTP_PROXY) --build-arg https_proxy=$(HTTP_PROXY) --no-cache --file Dockerfile --tag livemark-webserver
-
 container: ## Start Docker Container
 	@echo 'Starting Docker Container...'
-	@docker run -it -v /$(PWD):/work_dir -p 7000:7000 livemark-webserver bash
+	@docker run -it -v /$(PWD):/work_dir -p 7000:7000 gabrielbdornas/livemark:latest bash
 
 index.html: index.md
 	@echo 'Building index.html file from index.md...'

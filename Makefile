@@ -23,3 +23,8 @@ $(HTML_FILES): pages/%.html : pages/%.md index.html
 start: ## Start livemark server
 	@echo 'Starting livemark server on localhost:7000...'
 	@livemark start --host=0.0.0.0
+
+clean: ## Clean html pages
+	@echo 'Cleaning html pages'
+	@rm -rf pages/*.html
+

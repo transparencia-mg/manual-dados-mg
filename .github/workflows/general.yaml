@@ -17,6 +17,8 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       - name: Build Livemark
+        run: make clean
+      - name: Build Livemark
         run: make build
       - name: Commit new datapackage.json
         uses: stefanzweifel/git-auto-commit-action@v4 

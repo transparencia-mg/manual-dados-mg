@@ -13,7 +13,7 @@ jobs:
       image: gabrielbdornas/livemark:latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build Livemark
+      - name: Clean Html Pages
         run: make clean
       - name: Build Livemark
         run: make build

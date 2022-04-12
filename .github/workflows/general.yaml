@@ -13,9 +13,6 @@ jobs:
       image: gabrielbdornas/livemark:latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
       - name: Build Livemark
         run: make clean
       - name: Build Livemark

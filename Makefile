@@ -26,5 +26,6 @@ start: ## Start livemark server
 
 clean: ## Clean html pages
 	@echo 'Cleaning html pages'
+	@rm -rf index.html
 	@rm -rf pages/*.html
 

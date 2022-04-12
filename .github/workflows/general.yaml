@@ -1,6 +1,6 @@
 name: general
 
-oon:
+on:
   push:
     paths:
       - 'pages/*'

@@ -1,5 +1,11 @@
 # Dados Abertos
 
+- Qual é a diferença entre dados abertos e transparência ativa?
+
+Transparência ativa envolve a divulgação, pelos órgãos públicos, de informações de interesse coletivo ou geral de forma espontânea e proativa, independentemente de solicitações. A divulgação espontânea do maior número possível de informações, além de facilitar o acesso, também é vantajosa para os órgãos, porque tende a reduzir as demandas sobre o assunto nos canais de transparência passiva, minimizando o trabalho e os custos de processamento e gerenciamento dos pedidos de acesso.
+
+A publicação de dados em formato aberto é uma dentre as várias iniciativas de transparência ativa implementadas pelos órgãos.
+
 ## Benefícios esperados
 
 Aumentar a disponibilização e o uso de dados abertos é um objetivo estratégico tanto em [âmbito federal](https://www.governodigital.gov.br/EGD/documentos/revisao-da-estrategia-de-governanca-digital-2016-2019.pdf) quanto em nível estadual (meta PPAG, Estratégia de Governo Digital e metas CGE/MG).

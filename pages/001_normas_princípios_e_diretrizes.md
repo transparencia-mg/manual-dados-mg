@@ -167,4 +167,7 @@ As demais estrelas fornecem mais possibilidades, como navegar mais facilmente po
 
 ## Saiba Mais
 
-Conheça mais um pouco sobre a importância dos dados abertos, suas diferenças e complementaridades com o Portal da Transparência no 17º episódio do PodeFalar!, o nosso podcast da CGE, em que a então Subcontroladora de Transparência e Integridade, Nicolle Bleme, conversou com a Diretora-Executiva da Open Knowledge Brasil, Fernanda Campagnucci.
+Conheça mais um pouco sobre a importância dos dados abertos, suas diferenças e complementaridades com o Portal da Transparência no [17º episódio do PodeFalar!](https://www.youtube.com/watch?v=uFdYbIc_4ws), o nosso podcast da CGE, em que a então Subcontroladora de Transparência e Integridade, Nicolle Bleme, conversou com a Diretora-Executiva da Open Knowledge Brasil, Fernanda Campagnucci.
+
+Clique [aqui](http://www.transparencia.mg.gov.br/) e conheça o Portal da Transparência do Estado de Minas Gerais.
+

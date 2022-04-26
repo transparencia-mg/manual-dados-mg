@@ -32,6 +32,8 @@ Este iniciará Docker Container aonde será possível executar os comandos, prin
 
 ## Build e visualização local utilizando ambiente virtual python e Makefile
 
+Obs.: Devido a um [problema](https://github.com/frictionlessdata/livemark/issues/205) para realização do `build` em sistema operacional Windows, sugerimos utilizar esta opção apenas em Linux ou MacOS.
+
 Caso usuário deseje utilizar comandos Makefile sem a utilização do Docker, será necessário utilizar ambiente virtual python com a ferramenta livemark instalada:
 
 ```Teminal

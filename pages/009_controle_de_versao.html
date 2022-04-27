@@ -1835,22 +1835,22 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
           </a>
         </li>
                 <li class="secondary ">
-          <a href="005_documentacao.html" class="secondary">
-            Documentação
-          </a>
-        </li>
-                <li class="secondary ">
-          <a href="006_limpeza_de_dados.html" class="secondary">
+          <a href="005_limpeza_de_dados.html" class="secondary">
             Limpeza de Dados
           </a>
         </li>
                 <li class="secondary ">
-          <a href="007_restricao_de_informacoes.html" class="secondary">
+          <a href="006_restricao_de_informacoes.html" class="secondary">
             Restrição de Informações
           </a>
         </li>
                 <li class="secondary ">
-          <a href="008_validacao_dos_dados.html" class="secondary">
+          <a href="007_documentacao.html" class="secondary">
+            Documentação
+          </a>
+        </li>
+                <li class="secondary ">
+          <a href="008_validacao.html" class="secondary">
             Validação Automática 
           </a>
         </li>
@@ -1860,7 +1860,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
           </a>
         </li>
                 <li class="secondary ">
-          <a href="010_catalogacao_inicial.html" class="secondary">
+          <a href="010_publicacao.html" class="secondary">
             Catalogação Inicial
           </a>
         </li>
@@ -1877,7 +1877,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2022-04-26 14:53)
+  (2022-04-27 00:16)
 </div>
 
 <h1>Controle de Versão</h1>
@@ -1889,12 +1889,12 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-signs">
   <div>
         <div class="next">
-      <a href="010_catalogacao_inicial.html">
+      <a href="010_publicacao.html">
         Catalogação Inicial »
       </a>
     </div>
             <div class="prev">
-      <a href="008_validacao_dos_dados.html">
+      <a href="008_validacao.html">
         « Validação Automática 
       </a>
     </div>
@@ -2307,30 +2307,30 @@ document.addEventListener("DOMContentLoaded", function () {
           'name': 'Escolha das Bases e Preparação',
           'path': 'pages/004_escolha_das_bases_e_preparacao',
           'relpath': '004_escolha_das_bases_e_preparacao',
-          'text': "# Escolha das Bases e Prepara\u00e7\u00e3o",
+          'text': "# Escolha das Bases e Prepara\u00e7\u00e3o A escolha das bases para serem preparadas e publicadas em formato aberto \u00e9 um processo aut\u00f4nomo e de protagonismo de cada \u00f3rg\u00e3o ou entidade custodiante dos dados. A partir da publica\u00e7\u00e3o do Decreto Estadual 48.383/2022, a ado\u00e7\u00e3o de Planos de Abertura de Dados foi facultada para essa finalidade. Independentemente da ado\u00e7\u00e3o de Planos, recomenda-se o uso de alguns crit\u00e9rios para facilitar no processo de escolha das bases e ordem de prioriza\u00e7\u00e3o para publica\u00e7\u00e3o. Os crit\u00e9rios s\u00e3o da norma federal que versa sobre o tema ([Resolu\u00e7\u00e3o CG INDA 03/2017](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19357601/do1-2017-10-17-resolucao-n-3-de-13-de-outubro-de-2017-19357481)), sendo os principais: - Base de dados muito demandada - identificada em canais de transpar\u00eancia passiva (e-SIC, Fale Conosco, etc) - Possui compromisso assumido de disponibiliza\u00e7\u00e3o da base de dados - Possui obrigatoriedade legal de disponibiliza\u00e7\u00e3o da base de dados - Base de dados estruturante e/ou utilizada por v\u00e1rios \u00f3rg\u00e3os - Demostra resultados diretos e efetivos dos servi\u00e7os p\u00fablicos - Refere-se a projetos estrat\u00e9gicos do governo - Est\u00edmulo ao controle social - Capacidade de fomento ao desenvolvimento sustent\u00e1vel - Possibilidade de fomento a neg\u00f3cios na sociedade Ap\u00f3s a escolha da base, seguem as etapas de prepara\u00e7\u00e3o t\u00e9cnica da base para publica\u00e7\u00e3o, como representadas no esquema sint\u00e9tico a seguir: ![](static/PdA-etl.jpg)",
       },
-          'pages/005_documentacao': {
-          'name': 'Documentação',
-          'path': 'pages/005_documentacao',
-          'relpath': '005_documentacao',
-          'text': "# Documenta\u00e7\u00e3o Descrever as caracter\u00edsticas b\u00e1sicas do conjunto de dados (nome, t\u00edtulo, descri\u00e7\u00e3o, tipo, vari\u00e1veis, padr\u00f5es de valores, licen\u00e7a, autor, organiza\u00e7\u00e3o, etc). ## Metadados ## Padr\u00e3o de Qualidade . Qualidade A partir da defini\u00e7\u00e3o da ISO, podemos inferir que a qualidade \u00e9: o grau em que um conjunto de caracter\u00edsticas inerentes [ie. metadados] de um objeto [ie. dados] atende a sua especifica\u00e7\u00e3o [ie. padr\u00e3o] Em outras palavras, um padr\u00e3o de metadados \u00e9 a especifica\u00e7\u00e3o das caracter\u00edsticas inerentes de um conjunto de dados. Considerando a defini\u00e7\u00e3o da ISO sobre qualidade, aplicada ao nosso objeto, precisamos adotar um padr\u00e3o para documenta\u00e7\u00e3o dos dados que minimize o custo dos usu\u00e1rios em compreender os dados, PORQUE \u201cSe os dados n\u00e3o est\u00e3o dispon\u00edveis num formato aberto e leg\u00edvel por m\u00e1quina, eles n\u00e3o podem ser reutilizados.\u201d (David Eaves/Opendata Charter - principles) A aferi\u00e7\u00e3o da qualidade tamb\u00e9m deve ser um processo automatizado ## Datapackage Os conjuntos de dados (datasets) do Portal de Dados Abertos est\u00e3o documentados conforme as especifica\u00e7\u00f5es [Frictionless Data](https://frictionlessdata.io/) (dados sem fric\u00e7\u00e3o), que atendem \u00e0 caracteriza\u00e7\u00e3o descrita na se\u00e7\u00e3o anterior e possibilitam a documenta\u00e7\u00e3o e valida\u00e7\u00e3o autom\u00e1tica dos dados por servi\u00e7os ofertados pela comunidade. Um datapackage \u00e9... Dicion\u00e1rio de dados est\u00e1 no schema.json... ## Cria\u00e7\u00e3o de um datapackage com o framework da Frictionless Data A oficina \"Dados abertos sem fric\u00e7\u00e3o\" ([v\u00eddeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresenta\u00e7\u00e3o](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)), ocorrida durante a 3\u00aa Semana INOVA, apresenta um passo-a-passo de como preparar um conjunto de dados segundo essas especifica\u00e7\u00f5es, utilizando ferramentas online. Seu conte\u00fado inclui a demonstra\u00e7\u00e3o de ferramentas que objetivam reduzir ou eliminar \u201ca fric\u00e7\u00e3o\u201d, que \u00e9 o tempo que os consumidores gastam para poder entender e trabalhar com os dados abertos. Coda BR... Hands-on FHEMIG Hands-on FJP",
-      },
-          'pages/006_limpeza_de_dados': {
+          'pages/005_limpeza_de_dados': {
           'name': 'Limpeza de Dados',
-          'path': 'pages/006_limpeza_de_dados',
-          'relpath': '006_limpeza_de_dados',
+          'path': 'pages/005_limpeza_de_dados',
+          'relpath': '005_limpeza_de_dados',
           'text': "# Limpeza de Dados Esta etapa tem o objetivo de oferecer informa\u00e7\u00e3o \u00edntegra aos usu\u00e1rios. Exemplos: padroniza\u00e7\u00e3o do formato de datas; inclus\u00e3o de colunas para padroniza\u00e7\u00e3o do layout dos arquivos. ex: inadequa\u00e7\u00f5es planilha remunera\u00e7\u00e3o: - Valor do SD 1 CL segunda coluna; - Valores zero, vazios e sim na terceira coluna; - CBMMG abreviado e outros por extenso na quinta coluna; - Formatos de n\u00famero para carga hor\u00e1ria, remunera\u00e7\u00e3o e data ![](static/limpeza-exemplo.png) Limpeza (guia sugestivo de problemas comuns por respons\u00e1vel) = https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/",
       },
-          'pages/007_restricao_de_informacoes': {
+          'pages/006_restricao_de_informacoes': {
           'name': 'Restrição de Informações',
-          'path': 'pages/007_restricao_de_informacoes',
-          'relpath': '007_restricao_de_informacoes',
+          'path': 'pages/006_restricao_de_informacoes',
+          'relpath': '006_restricao_de_informacoes',
           'text': "# Restri\u00e7\u00e3o de Informa\u00e7\u00f5es Para resguardar informa\u00e7\u00f5es que tenham restri\u00e7\u00e3o de acesso, em atendimento \u00e0 LAI (Cap\u00edtulo IV) e \u00e0 LGPD. \u00c9 realizada com a\u00e7\u00f5es de substituir, omitir, anonimizar caracteres, textos e dados, que contenham informa\u00e7\u00f5es sens\u00edveis e/ou restritas (conhecimento recente, em constru\u00e7\u00e3o conjunta) - EXEMPLO 1: [consultas despesa/restos a pagar de pr\u00eamios lot\u00e9ricos para pessoa f\u00edsica](https://github.com/transparencia-mg/especificacoes-portal-transparencia/blob/master/espec001_anonimizacao-cpf/anonimizacao-cpf-homologa-layout.md#m%C3%A9todo-de-anonimiza%C3%A7%C3%A3o) - EXEMPLO 2: restri\u00e7\u00e3o de nome dos ganhadores de pr\u00eamios lot\u00e9ricos [](!static/restricao-exemplo.png)",
       },
-          'pages/008_validacao_dos_dados': {
+          'pages/007_documentacao': {
+          'name': 'Documentação',
+          'path': 'pages/007_documentacao',
+          'relpath': '007_documentacao',
+          'text': "# Documenta\u00e7\u00e3o Descrever as caracter\u00edsticas b\u00e1sicas do conjunto de dados (nome, t\u00edtulo, descri\u00e7\u00e3o, tipo, vari\u00e1veis, padr\u00f5es de valores, licen\u00e7a, autor, organiza\u00e7\u00e3o, etc). ## Metadados ## Padr\u00e3o de Qualidade . Qualidade A partir da defini\u00e7\u00e3o da ISO, podemos inferir que a qualidade \u00e9: o grau em que um conjunto de caracter\u00edsticas inerentes [ie. metadados] de um objeto [ie. dados] atende a sua especifica\u00e7\u00e3o [ie. padr\u00e3o] Em outras palavras, um padr\u00e3o de metadados \u00e9 a especifica\u00e7\u00e3o das caracter\u00edsticas inerentes de um conjunto de dados. Considerando a defini\u00e7\u00e3o da ISO sobre qualidade, aplicada ao nosso objeto, precisamos adotar um padr\u00e3o para documenta\u00e7\u00e3o dos dados que minimize o custo dos usu\u00e1rios em compreender os dados, PORQUE \u201cSe os dados n\u00e3o est\u00e3o dispon\u00edveis num formato aberto e leg\u00edvel por m\u00e1quina, eles n\u00e3o podem ser reutilizados.\u201d (David Eaves/Opendata Charter - principles) A aferi\u00e7\u00e3o da qualidade tamb\u00e9m deve ser um processo automatizado ## Datapackage Os conjuntos de dados (datasets) do Portal de Dados Abertos est\u00e3o documentados conforme as especifica\u00e7\u00f5es [Frictionless Data](https://frictionlessdata.io/) (dados sem fric\u00e7\u00e3o), que atendem \u00e0 caracteriza\u00e7\u00e3o descrita na se\u00e7\u00e3o anterior e possibilitam a documenta\u00e7\u00e3o e valida\u00e7\u00e3o autom\u00e1tica dos dados por servi\u00e7os ofertados pela comunidade. Um datapackage \u00e9... Dicion\u00e1rio de dados est\u00e1 no schema.json... ## Cria\u00e7\u00e3o de um datapackage com o framework da Frictionless Data A oficina \"Dados abertos sem fric\u00e7\u00e3o\" ([v\u00eddeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresenta\u00e7\u00e3o](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)), ocorrida durante a 3\u00aa Semana INOVA, apresenta um passo-a-passo de como preparar um conjunto de dados segundo essas especifica\u00e7\u00f5es, utilizando ferramentas online. Seu conte\u00fado inclui a demonstra\u00e7\u00e3o de ferramentas que objetivam reduzir ou eliminar \u201ca fric\u00e7\u00e3o\u201d, que \u00e9 o tempo que os consumidores gastam para poder entender e trabalhar com os dados abertos. Coda BR... Hands-on FHEMIG Hands-on FJP",
+      },
+          'pages/008_validacao': {
           'name': 'Validação Automática ',
-          'path': 'pages/008_validacao_dos_dados',
-          'relpath': '008_validacao_dos_dados',
+          'path': 'pages/008_validacao',
+          'relpath': '008_validacao',
           'text': "# Valida\u00e7\u00e3o Autom\u00e1tica Esta etapa tamb\u00e9m serve para para oferecer informa\u00e7\u00e3o \u00edntegra aos usu\u00e1rios. Consiste em comparar se os dados de cada vari\u00e1vel espelham fielmente a descri\u00e7\u00e3o contida no respectivo dicion\u00e1rio de dados. O conjunto de ferramentas da especifica\u00e7\u00e3o Frictionless permite automatizar a valida\u00e7\u00e3o, seja no HD local, ou conectado a um reposit\u00f3rio github onde o conjuntos de dados esteja hospedado: [](!static/dados-validos.png) Uma lista compreensiva dos erros de valida\u00e7\u00e3o mais comuns pode ser acessada [aqui](https://github.com/dados-mg/dados-mg.github.io/blob/erros-valiacao/erros-validacao/erros-comuns-validacao.md), da qual um resumo pode ser visto abaixo: 1. Sintaxe do `datapackage.json`: - faltou fechar algum campo com \u0027]\u0027 ou \u0027}\u0027 - faltou/sobrou alguma v\u00edrgula 2. Nome (`name`) do recurso cont\u00e9m caracteres fora das especifica\u00e7\u00f5es permitidas 3. O caminho (`path`) incorreto: - onde se localizam os arquivos de dados - onde se localizam os arquivos de metadados `datapackage.json`, o `schema.json`, ou o `dialect.json` 4. Diverg\u00eancias de caracter\u00edsticas dos dados no `datapackage.json` - n\u00famero decimal/porcentagem (string X number) - formatos de data - dado obrigat\u00f3rio ausente - valor fora da faixa 5. Arquivo de dados sem encoding `utf-8` 6. Datapackage sem a propriedade `owner-org` obrigat\u00f3ria ## Opera\u00e7\u00e3o da valida\u00e7\u00e3o com o framework da Frictionless Data",
       },
           'pages/009_controle_de_versao': {
@@ -2339,10 +2339,10 @@ document.addEventListener("DOMContentLoaded", function () {
           'relpath': '009_controle_de_versao',
           'text': "# Controle de Vers\u00e3o ## Do Conjunto de Dados (sentido estrito) O controle da vers\u00e3o DO CONJUNTO DE DADOS em si precede a publica\u00e7\u00e3o, pois o n\u00famero da vers\u00e3o corrente \u00e9 informa\u00e7\u00e3o necess\u00e1ria para o pacote realizar upload automatizado [](!static/controle-alteracao.png) ## Do reposit\u00f3rio (sentido amplo)",
       },
-          'pages/010_catalogacao_inicial': {
+          'pages/010_publicacao': {
           'name': 'Catalogação Inicial',
-          'path': 'pages/010_catalogacao_inicial',
-          'relpath': '010_catalogacao_inicial',
+          'path': 'pages/010_publicacao',
+          'relpath': '010_publicacao',
           'text': "# Cataloga\u00e7\u00e3o Inicial Por fim, esta etapa objetiva atender ao art. 8\u00ba, par\u00e1grafo terceiro, incisos segundo e terceiro da LAI (Lei de Acesso \u00e0 Informa\u00e7\u00e3o). Realizada atrav\u00e9s da publica\u00e7\u00e3o ou atualiza\u00e7\u00e3o (updating) dos dados na plataforma CKAN (Comprehensive Knowledge Archive Network), com a respectiva atribui\u00e7\u00e3o de licen\u00e7a aberta, que permita sua reutiliza\u00e7\u00e3o.",
       },
       };

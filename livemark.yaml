@@ -23,12 +23,12 @@ pages:
     - name: Etapas do Processo de Abertura de Dados
       items:
         - path: pages/004_escolha_das_bases_e_preparacao
-        - path: pages/005_documentacao
-        - path: pages/006_limpeza_de_dados
-        - path: pages/007_restricao_de_informacoes
-        - path: pages/008_validacao_dos_dados
+        - path: pages/005_limpeza_de_dados
+        - path: pages/006_restricao_de_informacoes
+        - path: pages/007_documentacao
+        - path: pages/008_validacao
         - path: pages/009_controle_de_versao
-        - path: pages/010_catalogacao_inicial
+        - path: pages/010_publicacao
 links:
   items:
     - name: Portal de Dados Abertos MG

@@ -27,7 +27,7 @@ pages:
         - path: pages/006_restricao_de_informacoes
         - path: pages/007_documentacao
         - path: pages/008_validacao
-        - path: pages/009_erros_comuns_validacao.md
+        - path: pages/009_erros_comuns_validacao
         - path: pages/010_controle_de_versao
         - path: pages/011_publicacao
 links:

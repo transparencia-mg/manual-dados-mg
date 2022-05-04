@@ -20,16 +20,23 @@ pages:
         - path: pages/001_normas_princípios_e_diretrizes
         - path: pages/002_metadados
         - path: pages/003_portal_de_dados_abertos
+    -name: Processo de Escolha das Bases para Abertura
+        - path: pages/004_introducao
+        - path: pages/005_transparencia_ativa
+        - path: pages/006_acao_controladorias
+        - path: pages/007_plano_abertura_dados
+        - path: pages/008_inventario_dados
+        - path: pages/009_matriz_priorizacao
     - name: Etapas do Processo de Abertura de Dados
       items:
-        - path: pages/004_escolha_das_bases_e_preparacao
-        - path: pages/005_limpeza_de_dados
-        - path: pages/006_restricao_de_informacoes
-        - path: pages/007_documentacao
-        - path: pages/008_validacao
-        - path: pages/009_erros_comuns_validacao
-        - path: pages/010_controle_de_versao
-        - path: pages/011_publicacao
+        - path: pages/010_escolha_das_bases_e_preparacao
+        - path: pages/011_limpeza_de_dados
+        - path: pages/012_restricao_de_informacoes
+        - path: pages/013_documentacao
+        - path: pages/014_validacao
+        - path: pages/015_erros_comuns_validacao
+        - path: pages/016_controle_de_versao
+        - path: pages/017_publicacao
 links:
   items:
     - name: Portal de Dados Abertos MG

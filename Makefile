@@ -16,7 +16,7 @@ index.html: index.md
 
 build: $(HTML_FILES) ## Run livemark build inside pages folder
 
-$(HTML_FILES): pages/%.html : pages/%.md index.html
+$(HTML_FILES): pages/%.html : pages/%.md index.html livemark.yaml
 	@echo 'Building pages/$*.html file from pages/$*.md...'
 	@livemark build $< --target $@ --config livemark.yaml
 

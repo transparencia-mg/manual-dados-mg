@@ -23,7 +23,6 @@ pages:
         - path: pages/003_portal_de_dados_abertos
     - name: Processo de Escolha das Bases para Abertura
       items:  
-        - path: pages/escolha_bases
         - path: pages/004_escolha_das_bases
         - path: pages/005_transparencia_ativa
         - path: pages/006_acao_controladorias

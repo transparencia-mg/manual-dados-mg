@@ -15,23 +15,24 @@ site:
     - assets/javascript/script.js
 pages:
   items:
-    - path: pages/dados_abertos.md
     - name: Dados Abertos
       items:
+        - path: pages/dados_abertos
         - path: pages/001_normas_princípios_e_diretrizes
         - path: pages/002_metadados
         - path: pages/003_portal_de_dados_abertos
-    - path: pages/escolha_bases.md
-    -name: Processo de Escolha das Bases para Abertura
+    - name: Processo de Escolha das Bases para Abertura
+      items:  
+        - path: pages/escolha_bases
         - path: pages/004_escolha_das_bases
         - path: pages/005_transparencia_ativa
         - path: pages/006_acao_controladorias
         - path: pages/007_plano_abertura_dados
         - path: pages/008_inventario_dados
         - path: pages/009_matriz_priorizacao
-    -path: pages/etapas_abertura.md
     - name: Etapas do Processo de Abertura de Dados
       items:
+        - path: pages/etapas_abertura
         - path: pages/010_limpeza_de_dados
         - path: pages/011_restricao_de_informacoes
         - path: pages/012_documentacao

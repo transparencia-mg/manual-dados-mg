@@ -25,17 +25,44 @@ Os metadados devem, por fim, permitir a interoperabilidade entre diferentes sist
 
 ## Metadados no Portal de Dados Abertos de Minas Gerais
 
-Os conjuntos de dados (datasets) do Portal de Dados Abertos de Minas Gerais estão documentados conforme as especificações Frictionless Data (dados sem fricção), que atendem à caracterização descrita acima e possibilitam a validação automática dos dados por serviços ofertados pela comunidade.
+Os conjuntos de dados (_datasets_) do Portal de Dados Abertos de Minas Gerais estão documentados conforme as especificações Frictionless Data (dados sem fricção), que atendem à caracterização descrita acima e possibilitam a validação automática dos dados por serviços ofertados pela comunidade.
 
-Os padrões de epecificação da Fricitonless Data utilizam o formato json para descrição de metadados, e acompanham um conjunto de ferramentas de código aberto (bibliotecas, aplicações e instruções em diferentes linguagens) para aplicar os 
+Os padrões de epecificação da _Fricitonless Data_ utilizam o formato `json` para descrição de metadados, e acompanham um conjunto de ferramentas de código aberto (bibliotecas, aplicações e instruções em diferentes linguagens) para aplicar os 
 padrões. Dessa maneira, facilitam a gestão de metadados, a extração, a documentação, a limpeza, a organização, a validação e o compartilhamento dos dados. 
 
 Documentação é a etapa de elaborar os documentos de metadados de um conjunto de dados, enquanto que a validação corresponde à verificação se os dados estão de acordo com os metadados descritos.
 
-Estas etapas poderiam ser custosas (i.e. tempo e esforço) demais para publicadores de dados, não fosse a possibilidade de emprego de ferramentas de código aberto que permitem a automatização de boa parte desse trabalho.
+Estas etapas poderiam ser custosas (i.e. tempo e esforço) demais para publicadores de dados, não fosse a possibilidade de emprego de ferramentas de código aberto, que permitem a automatização de boa parte desse trabalho.
 
-Os padrões de especificação Frictionless podem ser consultados [aqui]()
+Os padrões de especificação Frictionless podem ser consultados [aqui](https://specs.frictionlessdata.io/tabular-data-package/#language)
 
+## Datapackage (pacote de dados)
+
+Segundo a especificação _frictionless data_ (Dados sem Fricção) adotada para o Portal de Dados Abertos, as propriedades das variáveis, dos arquivos (recursos) e do conjunto de dados (dataset) devem estar descritas num formato padronizado e legível por máquina.
+
+A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recrursos e conjunto) formam um `datapackage`
+
+![](static/datapackage.png)
+
+A maior parte dos conjuntos têm sido descrita num formato tabular, com o arquivo separado por vírgulas (ou ponto-e-vírgula), extensão `.csv`, que pode ser representado assim:
+
+![](static/tabular.png)
+
+As propriedades desse tipo de arquivo tabular (_tabular data resource_) estão descritas na [especificação _frictionless data_](https://specs.frictionlessdata.io/tabular-data-resource/#specification).
+
+Já para cada variável, ou coluna, a _frictionless_ sugere um _table schema_, cuja especificação pode ser encontrada [aqui](). Pode-se elencar um conjunto mínimo de propriedades dessas variáveis/colunas:
+
+* Nome (legível por máquina, sem letras maiúsculas, sem acentos, espaços ou caracteres especiais);
+
+* Formato da variável (_string, number, boolean, date_, etc)
+
+* Título (humanamente legível)
+
+* Descrição (humanamente legível)
+
+Não obstante, são exatamente essas 4 propriedades básicas que constam do Dicionário de Dados do Portal de Dados Abertos, conforme exemplo abaixo (coluna = nome, tipo = formato, rótulo = título):
+
+![](static/dicionario.png)
 
 ## Saiba Mais
 

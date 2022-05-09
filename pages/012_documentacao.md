@@ -37,9 +37,3 @@ Dicionário de dados está no schema.json...
 ## Criação de um datapackage com o framework da Frictionless Data
 
 A oficina "Dados abertos sem fricção" ([vídeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresentação](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)), ocorrida durante a 3ª Semana INOVA, apresenta um passo-a-passo de como preparar um conjunto de dados segundo essas especificações, utilizando ferramentas online. Seu conteúdo inclui a demonstração de ferramentas que objetivam reduzir ou eliminar “a fricção”, que é o tempo que os consumidores gastam para poder entender e trabalhar com os dados abertos.
-
-Coda BR...
-
-Hands-on FHEMIG
-
-Hands-on FJP

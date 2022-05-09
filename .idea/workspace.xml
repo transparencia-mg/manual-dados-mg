@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc62a55c-ccc1-473a-9b79-011966b3c46a" name="Changes" comment="inclui links primeira seção">
-      <change beforePath="$PROJECT_DIR$/livemark.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/livemark.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/004_escolha_das_bases_e_preparacao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/004_escolha_das_bases_e_preparacao.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/005_documentacao.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/006_limpeza_de_dados.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/007_restricao_de_informacoes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/008_validacao_dos_dados.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/010_catalogacao_inicial.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006_acao_controladorias.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/010_limpeza_de_dados.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/010_limpeza_de_dados.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/011_restricao_de_informacoes.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/011_restricao_de_informacoes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/012_documentacao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/012_documentacao.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/013_validacao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/013_validacao.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/015_controle_de_versao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/015_controle_de_versao.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,6 +79,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="incrementa e articula e formata conteúdos da primeira seção" />

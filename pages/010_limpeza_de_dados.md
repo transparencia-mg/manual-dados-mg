@@ -4,16 +4,22 @@ Esta etapa tem o objetivo de oferecer informação íntegra aos usuários.
 
 Exemplos: padronização do formato de datas; inclusão de colunas para padronização do layout dos arquivos.
 
-ex: inadequações planilha remuneração:
+Na figura a seguir, temos algumas inadequações na planilha de remuneração:
 
-- Valor do SD 1 CL segunda coluna;
+- Falta de padrão para valores:
 
-- Valores zero, vazios e sim na terceira coluna;
+    - na 2ª coluna: Valor abreviado 'SD 1 CL' e outros por extenso;
 
-- CBMMG abreviado e outros por extenso na quinta coluna;
+    - na 3ª coluna: zero ('0'), vazios ('') e 'sim';
 
-- Formatos de número para carga horária, remuneração e data
+    - na 5ª coluna: valor 'CBMMG' (nome do órgão abreviado) e outros nomes por extenso;
+
+    - na 7ª coluna: separadores de milhar e de decimais para remuneração
+    
+- Formatos de número a serem descritos para valores de carga horária, na 6ª coluna; 
+
+- Formato de descrição da data (última coluna): necessidade de descrição no datapackage.json (como %d%m%a)
 
 ![](static/limpeza-exemplo.png)
 
-Limpeza (guia sugestivo de problemas comuns por responsável) = https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/
+A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns, por responsável, pode ser encontrado [aqui](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/)

@@ -1,8 +1,8 @@
 # Limpeza de Dados
 
-Esta etapa tem o objetivo de oferecer informação íntegra aos usuários.
+Esta etapa tem o objetivo de oferecer informação íntegra aos usuários. A limpeza não se constitui, necessariamente, uma primeira etapa de uma sequência ordenada de ações. Ela usualmente é necessária após a documentação, ou validação dos dados, na medida em que forem identificadas incorreções, incompletudes ou inadequações com os metadados descritos. 
 
-Exemplos: padronização do formato de datas; inclusão de colunas para padronização do layout dos arquivos.
+Exemplos: padronização do formato de valores de colunas (siglas, números, datas, unidades de medida); inclusão ou exclusão de colunas para padronização do layout dos arquivos.
 
 Na figura a seguir, temos algumas inadequações na planilha de remuneração:
 

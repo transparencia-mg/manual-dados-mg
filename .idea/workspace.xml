@@ -3,14 +3,27 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fc62a55c-ccc1-473a-9b79-011966b3c46a" name="Changes" comment="inclui links primeira seção">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006_acao_controladorias.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/010_limpeza_de_dados.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/010_limpeza_de_dados.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/011_restricao_de_informacoes.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/011_restricao_de_informacoes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/012_documentacao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/012_documentacao.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/013_validacao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/013_validacao.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/015_controle_de_versao.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/015_controle_de_versao.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650984802691</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="corrige links de imagens">
+      <created>1652107037206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652107037206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +105,13 @@
     <MESSAGE value="incrementa e articula e formata conteúdos da primeira seção" />
     <MESSAGE value="incrementa e articula e formata conteúdos da segunda seção" />
     <MESSAGE value="inclui links primeira seção" />
-    <option name="LAST_COMMIT_MESSAGE" value="inclui links primeira seção" />
+    <MESSAGE value="corrige links de imagens" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrige links de imagens" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2232" y="162" key="Vcs.Push.Dialog.v2" timestamp="1652107042869">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2232" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1652107042869" />
   </component>
 </project>

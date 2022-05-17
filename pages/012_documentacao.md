@@ -1,37 +1,13 @@
 # Documentação
 
-Descrever as características básicas do conjunto de dados (nome, título, descrição, tipo, variáveis, padrões de valores, licença, autor, organização, etc).
+A documentação se destina a descrever as características básicas do conjunto de dados (nome, título, descrição, tipo, variáveis, padrões de valores, licença, autor, organização, etc). Pelo padrão de dados sem fricção _frictionless_ adotado para o Portal de Dados Abertos de Minas Gerais, essas características têm valores e formatos próprios, predeterminados, para serem utilizados no arquivo de metadados.
 
+A adoção do padrão _frictionless_ permite que se usem algumas ferramentas para facilitar a descrição dos dados:
 
+- [datapackage creator](): ferramenta online, de interface gráfica, para descrição manual dos campos de metadado que representarão as características dos dados (colunas, arquivos e conjunto)
 
-## Metadados
+- [_frictionless describe_](): instrução a ser repassada na linha de comando (bash cell), que infere os metadados básicos de um determinado arquivo de dados (após instalação e configuração - vide [^] setup da máquina )  
 
-## Padrão de Qualidade
-
-. Qualidade
-
-A partir da definição da ISO, podemos inferir que a qualidade é:
-
-	o grau em que um conjunto de características inerentes [ie. metadados] 
-		de um objeto [ie. dados] 
-			atende a sua especificação [ie. padrão]
-
-Em outras palavras, um padrão de metadados é a especificação das características inerentes de um conjunto de dados.
-
-Considerando a definição da ISO sobre qualidade, aplicada ao nosso objeto, precisamos adotar um padrão para documentação dos dados que minimize o custo dos usuários em compreender os dados, PORQUE
-
-	“Se os dados não estão disponíveis num formato aberto e legível por máquina, eles não podem ser reutilizados.” (David Eaves/Opendata Charter - principles)
-
-A aferição da qualidade também deve ser um processo automatizado
-
-
-## Datapackage
-
-Os conjuntos de dados (datasets) do Portal de Dados Abertos estão documentados conforme as especificações [Frictionless Data](https://frictionlessdata.io/) (dados sem fricção), que atendem à caracterização descrita na seção anterior e possibilitam a documentação e validação automática dos dados por serviços ofertados pela comunidade.
-
-Um datapackage é...
-
-Dicionário de dados está no schema.json...
 
 
 ## Criação de um datapackage com o framework da Frictionless Data

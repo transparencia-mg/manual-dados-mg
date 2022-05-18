@@ -25,3 +25,26 @@ A oficina "Dados abertos sem fricção" ([vídeo](https://www.youtube.com/watch?
 [apresentação para oficina SEJUSP](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEJUSP-hands-on-2022-04-12.pptx), ocorrida em 14/04/2022;
 
 [apresentação para oficina SEPLAG](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEPLAG-hands-on-2022-03-30.pptx), ocorrida em 30/03/2022
+
+
+
+[^] Definição de metadados obrigatórios e facultativos
+
+* referência da [publicação da FGV](https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/4o-plano-de-acao-brasileiro/compromisso-2-docs/modelo-de-referencia-de-abertura-de-dados_versao-final-2.pdf), a partir das pp. 28-30: 
+
+> Com base na Recomendação Boas Práticas para Dados na Web (DWBP)44, sugerimos que os metadados a seguir sejam obrigatórios:
+
+• Título;
+• URI;
+• Palavras-chave;
+• Data da publicação;
+• Publicador;
+• Autoria;
+• Ponto de contato (e-mail e/ou telefone); ==> incluir como orientação??
+• Período da publicação;
+
+- licença (orientação para aplicação da Creative Commons Atribuição - resolução ou norma?)
+
+- procedência ==> incluir como orientação??
+
+- versão e histórico (propriedade obrigatória datapackage.json; funcionalidade CKAN e controle versão GITHUB)

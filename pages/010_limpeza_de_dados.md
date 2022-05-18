@@ -22,4 +22,11 @@ Na figura a seguir, temos algumas inadequações na planilha de remuneração:
 
 ![](static/limpeza-exemplo.png)
 
-A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns, por responsável, pode ser encontrado [aqui](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/)
+A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns de limpeza de dados responsável, pode ser encontrado [na EScola de Dados da Open Knowledge Brasil](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/).
+
+O guia divide o tipo de problema pelo responsável indicado para resolvê-lo, como, por exemplo:
+
+* problemas que a fonte dos dados deve resolver: faltam valores, linhas duplicadas, formatos de datas inconsistentes, unidades de medida não estão especificadas, categorias estão mal escolhidas, origem não está documentada, nomes de campos estão ambíguos, texto foi convertido em números, números foram guardados como texto;
+
+* problemas que o usuário dos dados deve resolver: dados foram editados manualmente, escala de tempo foi manipulada, inflação distorce os dados, amostra não é aleatória, amostra é enviesada, margem de erro é muito grande, margem de erro é desconhecida, 
+

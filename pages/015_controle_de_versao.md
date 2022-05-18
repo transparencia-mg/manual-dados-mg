@@ -10,3 +10,5 @@ O controle da versão DO CONJUNTO DE DADOS em si precede a publicação, pois o 
 ## Do repositório (sentido amplo)
 
 ![](static/versionamento-lato.png)
+
+* Exemplo de fluxo de validação contínua, contendo limpeza, validação automática via github actions e publicação: [Demonstração no CODA 2021](https://www.youtube.com/watch?v=Q8tfYmYB7iw)

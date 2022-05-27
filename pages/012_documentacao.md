@@ -20,6 +20,8 @@ A adoção do padrão _frictionless_ permite o uso de ferramentas que facilitam 
 
 A oficina "Dados abertos sem fricção" ([vídeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresentação](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)) contém uma demonstração de como preparar um conjunto de dados para publicação. Seu conteúdo inclui a documentação de um pequeno conjunto de dados, com a ferramenta online _datapackage creator_ seguido da validação e limpeza.
 
+Uma outra referência, textual, para uso do _datapackage creator_, pode ser encontrada no [blog da _frictionless data_](https://frictionlessdata.io/blog/2019/05/20/used-and-useful-data/#include-a-data-schema)
+
 - utilizando a linha de comando: 
 
 [apresentação para oficina SEJUSP](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEJUSP-hands-on-2022-04-12.pptx), ocorrida em 14/04/2022;
@@ -30,9 +32,12 @@ A oficina "Dados abertos sem fricção" ([vídeo](https://www.youtube.com/watch?
 
 [^] Definição de metadados obrigatórios e facultativos
 
+
+* [portal federal](https://dados.gov.br/pagina/padrao-de-metadados) - metadados obrigatórios e desejáveis (conciliar com ckan, frictionless e Transparência Internacional)
+
 * referência da [publicação da FGV](https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/4o-plano-de-acao-brasileiro/compromisso-2-docs/modelo-de-referencia-de-abertura-de-dados_versao-final-2.pdf), a partir das pp. 28-30: 
 
-> Com base na Recomendação Boas Práticas para Dados na Web (DWBP)44, sugerimos que os metadados a seguir sejam obrigatórios:
+* > Com base na Recomendação Boas Práticas para Dados na Web (DWBP)44, sugerimos que os metadados a seguir sejam obrigatórios:
 
 • Título;
 • URI;

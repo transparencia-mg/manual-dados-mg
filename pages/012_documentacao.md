@@ -30,26 +30,81 @@ Uma outra referência, textual, para uso do _datapackage creator_, pode ser enco
 
 
 
-[^] Definição de metadados obrigatórios e facultativos
+## Metadados obrigatórios e facultativos no Portal de Dados Abertos de Minas Gerais
+
+#### Obrigatórios
+
+Conjunto (_dataset_):
+
+ - Perfil (_profile_): para identificar a tipologia do conjunto de acordo com a especificação Dados sem Fricção (_frictinoless data_)
+
+ - Nome (_name_): legível por máquina, sem espaços ou caracteres especiais
+
+ - Título (_title_): legível por pessoas
+
+ - Descrição (_description_): _"Como Participar"_, "_Controle de Alterações_"
+
+ - Organização (_owner_org_): Entidade custodiante dos dados 
+
+ - Publicador (_title_, _role_ e _mail_): nome, papel e e-mail de contato do setor responsável pela autoria e publicação dos dados
+
+ - Licença (_name_, _title_ e _path_): para garantir o reúso indiscriminado dos dados abertos, com a devida atribuição da fonte
+
+ - Frequência de Atualização dos dados: intervalo temporal de atualização dos dados
+
+ - Palavras-chave/etiquetas (_keywords_)
+
+Recursos (_resources_):
+
+ - Perfil (_profile_): para identificar a tipologia do recurso de acordo com a especificação Dados sem Fricção (_frictinoless data_)
+
+ - Nome (_name_): legível por máquina, sem espaços ou caracteres especiais
+
+ - Título (_title_): legível por pessoas
+
+ - Descrição (_description_):
+
+ - Formato (_format_) do arquivo
+
+ - Codificação (_encoding_) do arquivo
+
+ - Pasta de localização do arquivo (_path_)
+
+ - Dicionário de dados (_schema_): características de cada variável (coluna, se tabular)
+
+ 	- Nome (_name_)
+
+ 	- Título (_title_)
+
+ 	- Tipo (_type_)
+
+ 	- Formato (_format_)
+
+ 	- Descrição (_description_)
+
+#### Facultativos
+
+ - Catálogo origem: Página (URL) do órgão onde está publicado o conjunto de dados.
+
+ - Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.
+
+ - Cobertura geográfica: Localização ou região geográfica a que se referem os dados. Ex.: Recife.
+
+ - Cobertura temporal: Data ou período à que referem os dados. Ex.: 03/2012.
+
+ - Granularidade geográfica: Precisão geográfica da cobertura geográfica. Ex.: municipal.
+
+ - Granularidade temporal: Precisão temporal da cobertura temporal. Ex.: mês.
+
+ - Referências: Relações com outros conjuntos de dados.
+
+ - Metodologia: Processo de criação dos dados.
+
+ - Vocabulário/ontologia: Documentos estruturados com metadados específicos do conjunto de dados.
 
 
-* [portal federal](https://dados.gov.br/pagina/padrao-de-metadados) - metadados obrigatórios e desejáveis (conciliar com ckan, frictionless e Transparência Internacional)
+* [portal federal](https://dados.gov.br/pagina/padrao-de-metadados) - metadados obrigatórios e desejáveis (conciliar com ckan, frictionless e Transparência Internacional):
+
 
 * referência da [publicação da FGV](https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/4o-plano-de-acao-brasileiro/compromisso-2-docs/modelo-de-referencia-de-abertura-de-dados_versao-final-2.pdf), a partir das pp. 28-30: 
 
-* > Com base na Recomendação Boas Práticas para Dados na Web (DWBP)44, sugerimos que os metadados a seguir sejam obrigatórios:
-
-• Título;
-• URI;
-• Palavras-chave;
-• Data da publicação;
-• Publicador;
-• Autoria;
-• Ponto de contato (e-mail e/ou telefone); ==> incluir como orientação??
-• Período da publicação;
-
-- licença (orientação para aplicação da Creative Commons Atribuição - resolução ou norma?)
-
-- procedência ==> incluir como orientação??
-
-- versão e histórico (propriedade obrigatória datapackage.json; funcionalidade CKAN e controle versão GITHUB)

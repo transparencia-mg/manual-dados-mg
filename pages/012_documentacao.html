@@ -1924,7 +1924,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2022-05-27 16:36)
+  (2022-05-30 21:00)
 </div>
 
 <h1>Documentação</h1>
@@ -1949,37 +1949,118 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 </ul>
 <p><a href="https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEJUSP-hands-on-2022-04-12.pptx">apresentação para oficina SEJUSP</a>, ocorrida em 14/04/2022;</p>
 <p><a href="https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEPLAG-hands-on-2022-03-30.pptx">apresentação para oficina SEPLAG</a>, ocorrida em 30/03/2022</p>
-<p>[^] Definição de metadados obrigatórios e facultativos</p>
+<h2>Metadados obrigatórios e facultativos no Portal de Dados Abertos de Minas Gerais</h2>
+<h4>Obrigatórios</h4>
+<p>Conjunto (<em>dataset</em>):</p>
 <ul>
 <li>
-<p><a href="https://dados.gov.br/pagina/padrao-de-metadados">portal federal</a> - metadados obrigatórios e desejáveis (conciliar com ckan, frictionless e Transparência Internacional)</p>
+<p>Perfil (<em>profile</em>): para identificar a tipologia do conjunto de acordo com a especificação Dados sem Fricção (<em>frictinoless data</em>)</p>
+</li>
+<li>
+<p>Nome (<em>name</em>): legível por máquina, sem espaços ou caracteres especiais</p>
+</li>
+<li>
+<p>Título (<em>title</em>): legível por pessoas</p>
+</li>
+<li>
+<p>Descrição (<em>description</em>): <em>"Como Participar"</em>, "<em>Controle de Alterações</em>"</p>
+</li>
+<li>
+<p>Organização (<em>owner_org</em>): Entidade custodiante dos dados </p>
+</li>
+<li>
+<p>Publicador (<em>title</em>, <em>role</em> e <em>mail</em>): nome, papel e e-mail de contato do setor responsável pela autoria e publicação dos dados</p>
+</li>
+<li>
+<p>Licença (<em>name</em>, <em>title</em> e <em>path</em>): para garantir o reúso indiscriminado dos dados abertos, com a devida atribuição da fonte</p>
+</li>
+<li>
+<p>Frequência de Atualização dos dados: intervalo temporal de atualização dos dados</p>
+</li>
+<li>
+<p>Palavras-chave/etiquetas (<em>keywords</em>)</p>
+</li>
+</ul>
+<p>Recursos (<em>resources</em>):</p>
+<ul>
+<li>
+<p>Perfil (<em>profile</em>): para identificar a tipologia do recurso de acordo com a especificação Dados sem Fricção (<em>frictinoless data</em>)</p>
+</li>
+<li>
+<p>Nome (<em>name</em>): legível por máquina, sem espaços ou caracteres especiais</p>
+</li>
+<li>
+<p>Título (<em>title</em>): legível por pessoas</p>
+</li>
+<li>
+<p>Descrição (<em>description</em>):</p>
+</li>
+<li>
+<p>Formato (<em>format</em>) do arquivo</p>
+</li>
+<li>
+<p>Codificação (<em>encoding</em>) do arquivo</p>
+</li>
+<li>
+<p>Pasta de localização do arquivo (<em>path</em>)</p>
+</li>
+<li>
+<p>Dicionário de dados (<em>schema</em>): características de cada variável (coluna, se tabular)</p>
+<ul>
+<li>
+<p>Nome (<em>name</em>)</p>
+</li>
+<li>
+<p>Título (<em>title</em>)</p>
+</li>
+<li>
+<p>Tipo (<em>type</em>)</p>
+</li>
+<li>
+<p>Formato (<em>format</em>)</p>
+</li>
+<li>
+<p>Descrição (<em>description</em>)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Facultativos</h4>
+<ul>
+<li>
+<p>Catálogo origem: Página (URL) do órgão onde está publicado o conjunto de dados.</p>
+</li>
+<li>
+<p>Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.</p>
+</li>
+<li>
+<p>Cobertura geográfica: Localização ou região geográfica a que se referem os dados. Ex.: Recife.</p>
+</li>
+<li>
+<p>Cobertura temporal: Data ou período à que referem os dados. Ex.: 03/2012.</p>
+</li>
+<li>
+<p>Granularidade geográfica: Precisão geográfica da cobertura geográfica. Ex.: municipal.</p>
+</li>
+<li>
+<p>Granularidade temporal: Precisão temporal da cobertura temporal. Ex.: mês.</p>
+</li>
+<li>
+<p>Referências: Relações com outros conjuntos de dados.</p>
+</li>
+<li>
+<p>Metodologia: Processo de criação dos dados.</p>
+</li>
+<li>
+<p>Vocabulário/ontologia: Documentos estruturados com metadados específicos do conjunto de dados.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><a href="https://dados.gov.br/pagina/padrao-de-metadados">portal federal</a> - metadados obrigatórios e desejáveis (conciliar com ckan, frictionless e Transparência Internacional):</p>
 </li>
 <li>
 <p>referência da <a href="https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/4o-plano-de-acao-brasileiro/compromisso-2-docs/modelo-de-referencia-de-abertura-de-dados_versao-final-2.pdf">publicação da FGV</a>, a partir das pp. 28-30: </p>
-</li>
-<li>
-<blockquote>
-<p>Com base na Recomendação Boas Práticas para Dados na Web (DWBP)44, sugerimos que os metadados a seguir sejam obrigatórios:</p>
-</blockquote>
-</li>
-</ul>
-<p>• Título;
-• URI;
-• Palavras-chave;
-• Data da publicação;
-• Publicador;
-• Autoria;
-• Ponto de contato (e-mail e/ou telefone); ==&gt; incluir como orientação??
-• Período da publicação;</p>
-<ul>
-<li>
-<p>licença (orientação para aplicação da Creative Commons Atribuição - resolução ou norma?)</p>
-</li>
-<li>
-<p>procedência ==&gt; incluir como orientação??</p>
-</li>
-<li>
-<p>versão e histórico (propriedade obrigatória datapackage.json; funcionalidade CKAN e controle versão GITHUB)</p>
 </li>
 </ul>
 
@@ -2470,7 +2551,7 @@ document.addEventListener("DOMContentLoaded", function () {
           'name': 'Documentação',
           'path': 'pages/012_documentacao',
           'relpath': '012_documentacao',
-          'text': "# Documenta\u00e7\u00e3o A documenta\u00e7\u00e3o se destina a descrever as caracter\u00edsticas b\u00e1sicas do conjunto de dados (nome, t\u00edtulo, descri\u00e7\u00e3o, tipo, vari\u00e1veis, padr\u00f5es de valores, licen\u00e7a, autor, organiza\u00e7\u00e3o, etc). O produto final esperado \u00e9 a elabora\u00e7\u00e3o de um arquivo de metadados. Pelo padr\u00e3o de dados sem fric\u00e7\u00e3o _frictionless_ adotado para o Portal de Dados Abertos de Minas Gerais, essas caracter\u00edsticas t\u00eam valores e formatos pr\u00f3prios, predeterminados, para serem utilizados no arquivo de metadados. Tais caracter\u00edsticas visam permitir a f\u00e1cil acessibilidade, interpretabilidade e reuso dos dados. A ado\u00e7\u00e3o do padr\u00e3o _frictionless_ permite o uso de ferramentas que facilitam a execu\u00e7\u00e3o dessa etapa de documenta\u00e7\u00e3o, ou descri\u00e7\u00e3o, dos dados. S\u00e3o as ferramentas usuais para esse trabalho: - o [datapackage creator](https://create.frictionlessdata.io/): ferramenta online, de interface gr\u00e1fica, para descri\u00e7\u00e3o manual dos campos de metadados que representar\u00e3o as caracter\u00edsticas dos dados, em seus 3 n\u00edveis, que comp\u00f5em um _datapackage_ (colunas/vari\u00e1veis, arquivos/recursos e conjunto/dataset) ![](static/datapackage-creator.png) - [_frictionless describe_](https://framework.frictionlessdata.io/docs/guides/describing-data/): instru\u00e7\u00e3o a ser repassada na linha de comando (bash cell/CLI), que infere os metadados b\u00e1sicos de um determinado arquivo de dados (ap\u00f3s instala\u00e7\u00e3o e configura\u00e7\u00e3o - vide [^] setup da m\u00e1quina ) ## Cria\u00e7\u00e3o de um datapackage com o framework da Frictionless Data - utilizando a ferramenta online: A oficina \"Dados abertos sem fric\u00e7\u00e3o\" ([v\u00eddeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresenta\u00e7\u00e3o](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)) cont\u00e9m uma demonstra\u00e7\u00e3o de como preparar um conjunto de dados para publica\u00e7\u00e3o. Seu conte\u00fado inclui a documenta\u00e7\u00e3o de um pequeno conjunto de dados, com a ferramenta online _datapackage creator_ seguido da valida\u00e7\u00e3o e limpeza. Uma outra refer\u00eancia, textual, para uso do _datapackage creator_, pode ser encontrada no [blog da _frictionless data_](https://frictionlessdata.io/blog/2019/05/20/used-and-useful-data/#include-a-data-schema) - utilizando a linha de comando: [apresenta\u00e7\u00e3o para oficina SEJUSP](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEJUSP-hands-on-2022-04-12.pptx), ocorrida em 14/04/2022; [apresenta\u00e7\u00e3o para oficina SEPLAG](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEPLAG-hands-on-2022-03-30.pptx), ocorrida em 30/03/2022 [^] Defini\u00e7\u00e3o de metadados obrigat\u00f3rios e facultativos * [portal federal](https://dados.gov.br/pagina/padrao-de-metadados) - metadados obrigat\u00f3rios e desej\u00e1veis (conciliar com ckan, frictionless e Transpar\u00eancia Internacional) * refer\u00eancia da [publica\u00e7\u00e3o da FGV](https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/4o-plano-de-acao-brasileiro/compromisso-2-docs/modelo-de-referencia-de-abertura-de-dados_versao-final-2.pdf), a partir das pp. 28-30: * \u003e Com base na Recomenda\u00e7\u00e3o Boas Pr\u00e1ticas para Dados na Web (DWBP)44, sugerimos que os metadados a seguir sejam obrigat\u00f3rios: \u2022 T\u00edtulo; \u2022 URI; \u2022 Palavras-chave; \u2022 Data da publica\u00e7\u00e3o; \u2022 Publicador; \u2022 Autoria; \u2022 Ponto de contato (e-mail e/ou telefone); ==\u003e incluir como orienta\u00e7\u00e3o?? \u2022 Per\u00edodo da publica\u00e7\u00e3o; - licen\u00e7a (orienta\u00e7\u00e3o para aplica\u00e7\u00e3o da Creative Commons Atribui\u00e7\u00e3o - resolu\u00e7\u00e3o ou norma?) - proced\u00eancia ==\u003e incluir como orienta\u00e7\u00e3o?? - vers\u00e3o e hist\u00f3rico (propriedade obrigat\u00f3ria datapackage.json; funcionalidade CKAN e controle vers\u00e3o GITHUB)",
+          'text': "# Documenta\u00e7\u00e3o A documenta\u00e7\u00e3o se destina a descrever as caracter\u00edsticas b\u00e1sicas do conjunto de dados (nome, t\u00edtulo, descri\u00e7\u00e3o, tipo, vari\u00e1veis, padr\u00f5es de valores, licen\u00e7a, autor, organiza\u00e7\u00e3o, etc). O produto final esperado \u00e9 a elabora\u00e7\u00e3o de um arquivo de metadados. Pelo padr\u00e3o de dados sem fric\u00e7\u00e3o _frictionless_ adotado para o Portal de Dados Abertos de Minas Gerais, essas caracter\u00edsticas t\u00eam valores e formatos pr\u00f3prios, predeterminados, para serem utilizados no arquivo de metadados. Tais caracter\u00edsticas visam permitir a f\u00e1cil acessibilidade, interpretabilidade e reuso dos dados. A ado\u00e7\u00e3o do padr\u00e3o _frictionless_ permite o uso de ferramentas que facilitam a execu\u00e7\u00e3o dessa etapa de documenta\u00e7\u00e3o, ou descri\u00e7\u00e3o, dos dados. S\u00e3o as ferramentas usuais para esse trabalho: - o [datapackage creator](https://create.frictionlessdata.io/): ferramenta online, de interface gr\u00e1fica, para descri\u00e7\u00e3o manual dos campos de metadados que representar\u00e3o as caracter\u00edsticas dos dados, em seus 3 n\u00edveis, que comp\u00f5em um _datapackage_ (colunas/vari\u00e1veis, arquivos/recursos e conjunto/dataset) ![](static/datapackage-creator.png) - [_frictionless describe_](https://framework.frictionlessdata.io/docs/guides/describing-data/): instru\u00e7\u00e3o a ser repassada na linha de comando (bash cell/CLI), que infere os metadados b\u00e1sicos de um determinado arquivo de dados (ap\u00f3s instala\u00e7\u00e3o e configura\u00e7\u00e3o - vide [^] setup da m\u00e1quina ) ## Cria\u00e7\u00e3o de um datapackage com o framework da Frictionless Data - utilizando a ferramenta online: A oficina \"Dados abertos sem fric\u00e7\u00e3o\" ([v\u00eddeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresenta\u00e7\u00e3o](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)) cont\u00e9m uma demonstra\u00e7\u00e3o de como preparar um conjunto de dados para publica\u00e7\u00e3o. Seu conte\u00fado inclui a documenta\u00e7\u00e3o de um pequeno conjunto de dados, com a ferramenta online _datapackage creator_ seguido da valida\u00e7\u00e3o e limpeza. Uma outra refer\u00eancia, textual, para uso do _datapackage creator_, pode ser encontrada no [blog da _frictionless data_](https://frictionlessdata.io/blog/2019/05/20/used-and-useful-data/#include-a-data-schema) - utilizando a linha de comando: [apresenta\u00e7\u00e3o para oficina SEJUSP](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEJUSP-hands-on-2022-04-12.pptx), ocorrida em 14/04/2022; [apresenta\u00e7\u00e3o para oficina SEPLAG](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEPLAG-hands-on-2022-03-30.pptx), ocorrida em 30/03/2022 ## Metadados obrigat\u00f3rios e facultativos no Portal de Dados Abertos de Minas Gerais #### Obrigat\u00f3rios Conjunto (_dataset_): - Perfil (_profile_): para identificar a tipologia do conjunto de acordo com a especifica\u00e7\u00e3o Dados sem Fric\u00e7\u00e3o (_frictinoless data_) - Nome (_name_): leg\u00edvel por m\u00e1quina, sem espa\u00e7os ou caracteres especiais - T\u00edtulo (_title_): leg\u00edvel por pessoas - Descri\u00e7\u00e3o (_description_): _\"Como Participar\"_, \"_Controle de Altera\u00e7\u00f5es_\" - Organiza\u00e7\u00e3o (_owner_org_): Entidade custodiante dos dados - Publicador (_title_, _role_ e _mail_): nome, papel e e-mail de contato do setor respons\u00e1vel pela autoria e publica\u00e7\u00e3o dos dados - Licen\u00e7a (_name_, _title_ e _path_): para garantir o re\u00faso indiscriminado dos dados abertos, com a devida atribui\u00e7\u00e3o da fonte - Frequ\u00eancia de Atualiza\u00e7\u00e3o dos dados: intervalo temporal de atualiza\u00e7\u00e3o dos dados - Palavras-chave/etiquetas (_keywords_) Recursos (_resources_): - Perfil (_profile_): para identificar a tipologia do recurso de acordo com a especifica\u00e7\u00e3o Dados sem Fric\u00e7\u00e3o (_frictinoless data_) - Nome (_name_): leg\u00edvel por m\u00e1quina, sem espa\u00e7os ou caracteres especiais - T\u00edtulo (_title_): leg\u00edvel por pessoas - Descri\u00e7\u00e3o (_description_): - Formato (_format_) do arquivo - Codifica\u00e7\u00e3o (_encoding_) do arquivo - Pasta de localiza\u00e7\u00e3o do arquivo (_path_) - Dicion\u00e1rio de dados (_schema_): caracter\u00edsticas de cada vari\u00e1vel (coluna, se tabular) - Nome (_name_) - T\u00edtulo (_title_) - Tipo (_type_) - Formato (_format_) - Descri\u00e7\u00e3o (_description_) #### Facultativos - Cat\u00e1logo origem: P\u00e1gina (URL) do \u00f3rg\u00e3o onde est\u00e1 publicado o conjunto de dados. - Documenta\u00e7\u00e3o: URL de documento que exp\u00f5e detalhes sobre o conjunto de dados. - Cobertura geogr\u00e1fica: Localiza\u00e7\u00e3o ou regi\u00e3o geogr\u00e1fica a que se referem os dados. Ex.: Recife. - Cobertura temporal: Data ou per\u00edodo \u00e0 que referem os dados. Ex.: 03/2012. - Granularidade geogr\u00e1fica: Precis\u00e3o geogr\u00e1fica da cobertura geogr\u00e1fica. Ex.: municipal. - Granularidade temporal: Precis\u00e3o temporal da cobertura temporal. Ex.: m\u00eas. - Refer\u00eancias: Rela\u00e7\u00f5es com outros conjuntos de dados. - Metodologia: Processo de cria\u00e7\u00e3o dos dados. - Vocabul\u00e1rio/ontologia: Documentos estruturados com metadados espec\u00edficos do conjunto de dados. * [portal federal](https://dados.gov.br/pagina/padrao-de-metadados) - metadados obrigat\u00f3rios e desej\u00e1veis (conciliar com ckan, frictionless e Transpar\u00eancia Internacional): * refer\u00eancia da [publica\u00e7\u00e3o da FGV](https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/4o-plano-de-acao-brasileiro/compromisso-2-docs/modelo-de-referencia-de-abertura-de-dados_versao-final-2.pdf), a partir das pp. 28-30:",
       },
           'pages/013_validacao': {
           'name': 'Validação Automática ',

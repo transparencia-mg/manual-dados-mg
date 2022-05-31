@@ -50,7 +50,7 @@ A maior parte dos conjuntos têm sido descrita num formato tabular, com o arquiv
 
 As propriedades desse tipo de arquivo tabular (_tabular data resource_) estão descritas na [especificação _frictionless data_](https://specs.frictionlessdata.io/tabular-data-resource/#specification).
 
-Já para cada variável, ou coluna, a _frictionless_ sugere um _table schema_, cuja especificação pode ser encontrada [aqui](). Pode-se elencar um conjunto mínimo de propriedades dessas variáveis/colunas:
+Já para cada variável, ou coluna, a _frictionless_ sugere um _table schema_, cuja especificação pode ser encontrada [aqui](https://specs.frictionlessdata.io/table-schema/). Pode-se elencar um conjunto mínimo de propriedades dessas variáveis/colunas:
 
 * Nome (legível por máquina, sem letras maiúsculas, sem acentos, espaços ou caracteres especiais);
 
@@ -63,6 +63,89 @@ Já para cada variável, ou coluna, a _frictionless_ sugere um _table schema_, c
 Não obstante, são exatamente essas 4 propriedades básicas que constam do Dicionário de Dados do Portal de Dados Abertos, conforme exemplo abaixo (coluna = nome, tipo = formato, rótulo = título):
 
 ![](static/dicionario.png)
+
+## Metadados obrigatórios e facultativos no Portal de Dados Abertos de Minas Gerais
+
+#### Obrigatórios
+
+Conjunto (_dataset_):
+
+ - Perfil (_profile_): para identificar a tipologia do conjunto de acordo com a especificação Dados sem Fricção (_frictinoless data_)
+
+ - Nome (_name_): legível por máquina, sem espaços ou caracteres especiais
+
+ - Título (_title_): legível por pessoas
+
+ - Descrição (_description_): _"Como Participar"_, "_Controle de Alterações_"
+
+ - Organização (_owner_org_): Entidade custodiante dos dados 
+
+ - Publicador (_title_, _role_ e _mail_): nome, papel e e-mail de contato do setor responsável pela autoria e publicação dos dados
+
+ - Licença (_name_, _title_ e _path_): para garantir o reúso indiscriminado dos dados abertos, com a devida atribuição da fonte
+
+ - Frequência de Atualização dos dados: intervalo temporal de atualização dos dados
+
+ - Palavras-chave/etiquetas (_keywords_)
+
+ ![](static/dataset-json.png)
+
+Recursos (_resources_):
+
+ - Perfil (_profile_): para identificar a tipologia do recurso de acordo com a especificação Dados sem Fricção (_frictinoless data_)
+
+ - Nome (_name_): legível por máquina, sem espaços ou caracteres especiais
+
+ - Título (_title_): legível por pessoas
+
+ - Descrição (_description_):
+
+ - Formato (_format_) do arquivo
+
+ - Codificação (_encoding_) do arquivo
+
+ - Pasta de localização do arquivo (_path_)
+
+ ![](static/resource-json.png)
+
+ - Dicionário de dados (_schema_): características de cada variável (coluna, se tabular)
+
+ 	- Nome (_name_)
+
+ 	- Título (_title_)
+
+ 	- Tipo (_type_)
+
+ 	- Formato (_format_)
+
+ 	- Descrição (_description_)
+
+ ![](static/schema-json.png)
+
+[^] a ordem das propriedades nos datapackage.json quase nunca é igual; 
+
+	não estamos publicando `description` nos conjuntos do `age7`
+
+#### Facultativos
+
+ - Catálogo origem: Página (URL) do órgão onde está publicado o conjunto de dados.
+
+ - Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.
+
+ - Cobertura geográfica: Localização ou região geográfica a que se referem os dados. Ex.: Recife.
+
+ - Cobertura temporal (_temporal_): Data ou período à que referem os dados. Ex.: 03/2012.
+
+ - Granularidade geográfica: Precisão geográfica da cobertura geográfica. Ex.: municipal.
+
+ - Granularidade temporal: Precisão temporal da cobertura temporal. Ex.: mês.
+
+ - Referências: Relações com outros conjuntos de dados.
+
+ - Metodologia: Processo de criação dos dados.
+
+ - Vocabulário/ontologia: Documentos estruturados com metadados específicos do conjunto de dados.
+
 
 ## Saiba Mais
 

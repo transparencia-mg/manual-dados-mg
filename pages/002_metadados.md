@@ -78,15 +78,19 @@ Conjunto (_dataset_):
 
  - Descrição (_description_): _"Como Participar"_, "_Controle de Alterações_"
 
+ - Catálogo origem (_homepage_): Página (URL) do órgão onde está publicado o conjunto de dados.
+
  - Organização (_owner_org_): Entidade custodiante dos dados 
+
+ - Versão (_version_): indica a versão do conjunto; também deve estar discriminada e detalhada na seção `CHANGELOG`
 
  - Publicador (_title_, _role_ e _mail_): nome, papel e e-mail de contato do setor responsável pela autoria e publicação dos dados
 
  - Licença (_name_, _title_ e _path_): para garantir o reúso indiscriminado dos dados abertos, com a devida atribuição da fonte
 
- - Frequência de Atualização dos dados: intervalo temporal de atualização dos dados
-
  - Palavras-chave/etiquetas (_keywords_)
+
+ - Frequência de Atualização dos dados: intervalo temporal de atualização dos dados
 
  ![](static/dataset-json.png)
 
@@ -127,8 +131,6 @@ Recursos (_resources_):
 	não estamos publicando `description` nos conjuntos do `age7`
 
 #### Facultativos
-
- - Catálogo origem: Página (URL) do órgão onde está publicado o conjunto de dados.
 
  - Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.
 

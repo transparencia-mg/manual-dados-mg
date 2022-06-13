@@ -13,7 +13,6 @@ A adoção do padrão _frictionless_ permite o uso de ferramentas que facilitam 
 - [_frictionless describe_](https://framework.frictionlessdata.io/docs/guides/describing-data/): instrução a ser repassada na linha de comando (bash cell/CLI), que infere os metadados básicos de um determinado arquivo de dados (após instalação e configuração - vide [^] setup da máquina )  
 
 
-
 ## Criação de um datapackage com o framework da Frictionless Data
 
 - utilizando a ferramenta online:
@@ -27,7 +26,6 @@ Uma outra referência, textual, para uso do _datapackage creator_, pode ser enco
 [apresentação para oficina SEJUSP](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEJUSP-hands-on-2022-04-12.pptx), ocorrida em 14/04/2022;
 
 [apresentação para oficina SEPLAG](https://github.com/dados-mg/apresentacoes/blob/master/hands-on/SEPLAG-hands-on-2022-03-30.pptx), ocorrida em 30/03/2022
-
 
 
 ## Metadados obrigatórios e facultativos no Portal de Dados Abertos de Minas Gerais
@@ -44,15 +42,19 @@ Conjunto (_dataset_):
 
  - Descrição (_description_): _"Como Participar"_, "_Controle de Alterações_"
 
+ - Catálogo origem (_homepage_): Página (URL) do órgão onde está publicado o conjunto de dados.
+
  - Organização (_owner_org_): Entidade custodiante dos dados 
+
+ - Versão (_version_): indica a versão do conjunto; também deve estar discriminada e detalhada na seção `CHANGELOG`
 
  - Publicador (_title_, _role_ e _mail_): nome, papel e e-mail de contato do setor responsável pela autoria e publicação dos dados
 
  - Licença (_name_, _title_ e _path_): para garantir o reúso indiscriminado dos dados abertos, com a devida atribuição da fonte
 
- - Frequência de Atualização dos dados: intervalo temporal de atualização dos dados
-
  - Palavras-chave/etiquetas (_keywords_)
+
+ - Frequência de Atualização dos dados: intervalo temporal de atualização dos dados
 
 Recursos (_resources_):
 
@@ -83,8 +85,6 @@ Recursos (_resources_):
  	- Descrição (_description_)
 
 #### Facultativos
-
- - Catálogo origem: Página (URL) do órgão onde está publicado o conjunto de dados.
 
  - Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.
 

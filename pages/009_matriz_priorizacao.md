@@ -1,2 +1,0 @@
-# Matriz de Priorização
-

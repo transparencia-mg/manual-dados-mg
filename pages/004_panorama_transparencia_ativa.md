@@ -1,4 +1,4 @@
-# Transparência Ativa
+# Panorama dos Dados Abertos na Transparência Ativa
 
 O Portal de Dados Abertos esteve vinculado ao Portal da Transparência, e os conjuntos de dados publicados estavam restritos aos dados fiscais e de orçamento, previstos na Lei de Responsabilidade Fiscal.
 

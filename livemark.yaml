@@ -21,14 +21,10 @@ pages:
         - path: pages/001_normas_princípios_e_diretrizes
         - path: pages/002_metadados
         - path: pages/003_portal_de_dados_abertos
+        - path: pages/004_panorama_transparencia_ativa
     - name: Processo de Escolha das Bases para Abertura
       items:  
-        - path: pages/004_escolha_das_bases
-        - path: pages/005_transparencia_ativa
-        - path: pages/006_acao_controladorias
-        - path: pages/007_plano_abertura_dados
-        - path: pages/008_inventario_dados
-        - path: pages/009_matriz_priorizacao
+        - path: pages/005_escolha_das_bases
     - name: Etapas do Processo de Abertura de Dados
       items:
         - path: pages/etapas_abertura

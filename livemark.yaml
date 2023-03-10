@@ -33,7 +33,7 @@ pages:
         - path: pages/011_erros_comuns_validacao
         - path: pages/012_controle_de_versao
         - path: pages/013_publicacao
-        - path: pages/114_capacitacao_publicando_CKAN
+        - path: pages/014_capacitacao_publicando_CKAN
         - path: pages/015_solicitacao_acesso
     - name: Guia para Uso dos Dados
       items:

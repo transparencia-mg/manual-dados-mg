@@ -15,26 +15,30 @@ site:
     - assets/javascript/script.js
 pages:
   items:
-    - name: Dados Abertos
+    - name: Dados Abertos - Contexto e Políticas
       items:
         - path: pages/dados_abertos
-        - path: pages/001_normas_princípios_e_diretrizes
-        - path: pages/002_metadados
-        - path: pages/003_portal_de_dados_abertos
-        - path: pages/004_panorama_transparencia_ativa
-    - name: Processo de Escolha das Bases para Abertura
+        - path: pages/001_normas_legais
+        - path: pages/002_principios_diretrizes
+        - path: pages/003_panorama_transparencia_ativa
+        - path: pages/004_portal_de_dados_abertos
+    - name: Guia para Publicadores de Dados Abertos
       items:  
         - path: pages/005_escolha_das_bases
-    - name: Etapas do Processo de Abertura de Dados
+        - path: pages/006_etapas_abertura
+        - path: pages/007_limpeza_de_dados
+        - path: pages/008_restricao_de_informacoes
+        - path: pages/009_documentacao
+        - path: pages/010_validacao
+        - path: pages/011_erros_comuns_validacao
+        - path: pages/012_controle_de_versao
+        - path: pages/013_publicacao
+        - path: pages/114_capacitacao_publicando_CKAN
+        - path: pages/015_solicitacao_acesso
+    - name: Guia para Uso dos Dados
       items:
-        - path: pages/etapas_abertura
-        - path: pages/010_limpeza_de_dados
-        - path: pages/011_restricao_de_informacoes
-        - path: pages/012_documentacao
-        - path: pages/013_validacao
-        - path: pages/014_erros_comuns_validacao
-        - path: pages/015_controle_de_versao
-        - path: pages/016_publicacao
+        - path: pages/016_acesso_consulta_portal-GUI
+        - path: pages/017_acesso_consulta_portal-CLI_API
         
 links:
   items:

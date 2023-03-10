@@ -1,31 +1,96 @@
-.PHONY: help container build start
+.ONESHELL:
+.PHONY: help setup venv install scripts format lint-blue lint-isort link-prospect lint security tests clean
 
-MD_FILES= $(wildcard pages/*.md)
-HTML_FILES= $(patsubst pages/%.md, pages/%.html, $(MD_FILES))
+ACTIVATE_LINUX=. venv/bin/activate
+INSTALL_PACKAGES=pip install -r requirements.txt
+UNINSTALL_PACKAGES=pip uninstall -r unrequirements.txt -y
+PDFS= $(wildcard docs/assets/pdfs/*.pdf)
+IMAGES= $(patsubst docs/assets/pdfs/%.pdf, docs/assets/images/%, $(PDFS))
 
-help: ## Short description of the commands
+help: ## Short description to make targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
+
+image: ## Build Docker Container
+	@echo 'Build Docker Image...'
+	@docker build . --file Dockerfile --tag work-stefanini:latest
 
 container: ## Start Docker Container
 	@echo 'Starting Docker Container...'
-	@docker run -it -v /$(PWD):/work_dir -p 7000:7000 gabrielbdornas/livemark:latest bash
+	@docker run -it --rm -v /$(PWD):/work_dir -p 8000:8000 work-stefanini:latest bash
 
-index.html: index.md
-	@echo 'Building index.html file from index.md...'
-	@livemark build $< --target $@ --config livemark.yaml
+setup: clean venv install scripts ## Initial project setup with package installation and needed scripts
 
-build: $(HTML_FILES) ## Run livemark build inside pages folder
+venv: ## Create python virtual environment in 'venv' folder
+	@echo "Creating python virtual environment in 'venv' folder..."
+	@python3 -m venv venv
 
-$(HTML_FILES): pages/%.html : pages/%.md index.html livemark.yaml
-	@echo 'Building pages/$*.html file from pages/$*.md...'
-	@livemark build $< --target $@ --config livemark.yaml
+install: ## Install python packages
+	@echo "Installing python packages..."
+	@$(ACTIVATE_LINUX)
+	@$(INSTALL_PACKAGES)
 
-start: ## Start livemark server
-	@echo 'Starting livemark server on localhost:7000...'
-	@livemark start --host=0.0.0.0
+scripts: ## Run initial setup scripts
+	@echo "Running initial setup scripts..."
+	@$(ACTIVATE_LINUX)
+	@python3 scripts/setup.py
+	@git add . && git commit -m 'Initial setup'
 
-clean: ## Clean html pages
-	@echo 'Cleaning html pages'
-	@rm -rf index.html
-	@rm -rf pages/*.html
+format: ## Run blue and isor python libraries to better format the code
+	@echo "Running blue and isor python libraries to better format the code..."
+	@$(ACTIVATE_LINUX)
+	@blue .
+	@isort .
 
+lint-blue: ## Use blue python library to check code formats
+	@echo "Using blue python library to check code formats..."
+	@$(ACTIVATE_LINUX)
+	@blue --check .
+
+lint-isort: ## Use isort python library to check import orders
+	@echo "Using isort python library to check import orders..."
+	@$(ACTIVATE_LINUX)
+	@isort --check .
+
+link-prospect: ## Use prospector python library to check docstrings formats
+	@echo "Using prospector python library to check docstrings formats..."
+	@$(ACTIVATE_LINUX)
+	@prospector --with-tool pydocstyle --doc-warning
+
+lint: lint-blue lint-isort link-prospect
+
+security: ## Check python libraries installed with pip-audit
+	@echo "Checking python libraries installed with pip-audit..."
+	@$(ACTIVATE_LINUX)
+	@$(UNINSTALL_PACKAGES)
+	@pip-audit --desc
+	@$(INSTALL_PACKAGES)
+
+tests: ## Run python tests
+	@echo "Running python tests..."
+	@$(ACTIVATE_LINUX)
+	@pytest -v
+
+security-pull: lint security tests
+
+gh-deploy-mkdocs: ## Deploy docs
+	@echo "Running mkdocs gh-deploy..."
+	@$(ACTIVATE_LINUX)
+	@mkdocs gh-deploy
+
+gh-deploy-mike: ## Deploy docs
+	@echo "Running mike deploy..."
+	@$(ACTIVATE_LINUX)
+	@mike deploy --push --update-aliases 0.1 latest
+
+convert-pdf: $(IMAGES)
+
+$(IMAGES): docs/assets/images/%: docs/assets/pdfs/*.pdf
+	pdftoppm -png $< $@
+
+serve: ## Start mkdocs server
+	@echo "Starting mkdocs server"
+	@mkdocs serve -a 0.0.0.0:8000
+
+clean: ## Clean previous python virtual environment
+	@echo "Cleaning previous python virtual environment..."
+	@rm -rf venv

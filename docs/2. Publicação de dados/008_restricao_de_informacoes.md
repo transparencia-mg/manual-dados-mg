@@ -32,5 +32,5 @@ Ainda segundo a Autoridade Nacional de Proteção de Dados (ANPD), em [NT sobre 
 
 Outro exemplo de restrição de dados pessoais, eacessível no Portal da Transparência, é a **descaracterização** do nome e do CPF dos ganhadores de prêmios lotéricos. Nesse caso, a técnica de descaracterização aplicada tem a intenção de impossibilitar a identificação dos vencedores dos prêmios lotéricos, para que a sua eventual identificação, ou reidentificação, não fosse um risco potencial à sua segurança.
 
-![](assets/images/restricao-exemplo.png)
+![restricao-exemplo](https://user-images.githubusercontent.com/52294411/225654625-88f95d15-6f08-4699-8eea-5938ad0a38f9.png)
 

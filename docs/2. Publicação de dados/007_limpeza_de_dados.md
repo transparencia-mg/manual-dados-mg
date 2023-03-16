@@ -25,7 +25,7 @@ Na figura a seguir, temos algumas inadequações na planilha de remuneração:
 
 - Formato de descrição da data (última coluna): necessidade de descrição no datapackage.json (como %d%m%a)
 
-![](assets/images/limpeza-exemplo.png)
+![limpeza-exemplo](https://user-images.githubusercontent.com/52294411/225653960-5fc2c8d3-f0ed-4d4d-850a-8514f812b17c.png)
 
 A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns de limpeza de dados responsável, pode ser encontrado [na EScola de Dados da Open Knowledge Brasil](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/).
 

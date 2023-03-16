@@ -49,11 +49,11 @@ Segundo a especificação _frictionless data_ (Dados sem Fricção) adotada para
 
 A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recrursos e conjunto) formam um `datapackage`
 
-![](assets/images/datapackage.png)
+![datapackage](https://user-images.githubusercontent.com/52294411/225654987-97fd5518-f04b-4aec-8196-ae80d80db229.png)
 
 A maior parte dos conjuntos têm sido descrita num formato tabular, com o arquivo separado por vírgulas (ou ponto-e-vírgula), extensão `.csv`, que pode ser representado assim:
 
-![](assets/images/tabular.png)
+![tabular](https://user-images.githubusercontent.com/52294411/225655081-78c447af-d0e1-469a-b924-5fa75ba9252f.png)
 
 As propriedades desse tipo de arquivo tabular (_tabular data resource_) estão descritas na [especificação _frictionless data_](https://specs.frictionlessdata.io/tabular-data-resource/#specification).
 
@@ -69,7 +69,7 @@ Já para cada variável, ou coluna, a _frictionless_ sugere um _table schema_, c
 
 Não obstante, são exatamente essas 4 propriedades básicas que constam do Dicionário de Dados do Portal de Dados Abertos, conforme exemplo abaixo (coluna = nome, tipo = formato, rótulo = título):
 
-![](assets/images/dicionario.png)
+![dicionario](https://user-images.githubusercontent.com/52294411/225655187-91f96aaa-913e-4830-b58c-8feefe5440d4.png)
 
 ## Metadados obrigatórios e facultativos no Portal de Dados Abertos de Minas Gerais
 
@@ -117,7 +117,7 @@ Recursos (_resources_):
 
  - Pasta de localização do arquivo (_path_)
 
- ![](assets/images/resource-json.png)
+![resource-json](https://user-images.githubusercontent.com/52294411/225655500-e24e5f85-f89c-4c2b-bb55-dc8e9534f8a7.png)
 
  - Dicionário de dados (_schema_): características de cada variável (coluna, se tabular)
 
@@ -131,7 +131,7 @@ Recursos (_resources_):
 
  	- Descrição (_description_)
 
- ![](assets/images/schema-json.png)
+ ![schema-json](https://user-images.githubusercontent.com/52294411/225655600-538cfbfd-7e79-4bcb-9fcf-eecd64397a89.png)
 
 [^] a ordem das propriedades nos datapackage.json quase nunca é igual; 
 

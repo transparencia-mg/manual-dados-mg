@@ -38,7 +38,7 @@ Os formatos `.PDF, .DOC, .DOCX, .XLS e .XLSX` são INCOMPATÍVEIS com a filosofi
 
 ★ ★★ ★★ : dados conectados (exemplo?) LOD
 
-![](static/escala.png)
+![escala](https://user-images.githubusercontent.com/52294411/225652134-886dff90-f20b-4925-948b-552039901a63.png)
 
 Nessa escala, o dado é considerado efetivamente aberto quando alcança o nível de três estrelas.
 

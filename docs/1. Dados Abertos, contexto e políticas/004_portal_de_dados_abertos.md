@@ -35,5 +35,5 @@ https://dados.mg.gov.br
 
 O acesso pode ser feito pelo computador, telefone celular, ou qualquer outro dispositivo eletrônico que tenha navegador instalado e esteja conectado à internet.
 
-![](static/portal.png)
+![portal](https://user-images.githubusercontent.com/52294411/225652740-1334ec19-a146-4cec-bc8a-484efbee7cc9.png)
 

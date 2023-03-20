@@ -902,6 +902,53 @@
 <p><strong>Formatos</strong></p>
 <p>Conforme a Cartilha Técnica para Publicação de Dados Abertos no Brasil, os principais formatos de dados abertos são os arquivos com as seguintes extensões:</p>
 <p>.csv, .xml, .ods, .rdf, .json</p>
+<p><strong>dado tabular</strong>:</p>
+<div class="highlight"><pre><span></span><code>campo     campo
+  |         |
+  |         |
+  V         V
+
+ A     |    B    |    C    |    D      &lt;--- linha (cabeçalho)
+ ------------------------------------
+ valA  |   valB  |  valC   |   valD    &lt;--- linha
+</code></pre></div>
+<p><strong>csv</strong>:</p>
+<ul>
+<li>
+<p>definição, características e exemplos no <a href="https://datosgcba.github.io/guia-datos/guia-abiertos/#csv">portal de Dados Abertos de Buenos Aires</a></p>
+</li>
+<li>
+<p>o que é, como editar, importar e exportar: https://rockcontent.com/br/blog/csv/</p>
+</li>
+</ul>
+<p><strong>json</strong>:</p>
+<div class="highlight"><pre><span></span><code>[
+  { &quot;A&quot;: valor, &quot;B&quot;: valor, ... },
+  { &quot;A&quot;: valor, &quot;B&quot;: valor, ... },
+  ...
+]
+</code></pre></div>
+<ul>
+<li>
+<p>dado tabular X json: https://specs.frictionlessdata.io/table-schema/#concepts</p>
+</li>
+<li>
+<p>exemplo de descrição lógica, em formato json, da estrutura do arquivo csv:</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>{
+  &quot;dialect&quot;: {
+    &quot;csvddfVersion&quot;: 1.2,
+    &quot;delimiter&quot;: &quot;;&quot;,
+    &quot;doubleQuote&quot;: true,
+    &quot;lineTerminator&quot;: &quot;\r\n&quot;,
+    &quot;quoteChar&quot;: &quot;\&quot;&quot;,
+    &quot;skipInitialSpace&quot;: true,
+    &quot;header&quot;: true,
+    &quot;commentChar&quot;: &quot;#&quot;
+  }
+}
+</code></pre></div>
 <p>Os formatos <code>.PDF, .DOC, .DOCX, .XLS e .XLSX</code> são INCOMPATÍVEIS com a filosofia dos dados abertos!</p>
 <p><strong>Escala de Dados Abertos</strong></p>
 <p>★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.</p>
@@ -963,7 +1010,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 20, 2023 19:07:13</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 20, 2023 22:26:47</span>
       
         <br>
         Created:

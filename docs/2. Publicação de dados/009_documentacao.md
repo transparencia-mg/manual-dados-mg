@@ -49,7 +49,7 @@ Segundo a especificação _frictionless data_ (Dados sem Fricção) adotada para
 
 A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recrursos e conjunto) formam um `datapackage`
 
-![datapackage](https://user-images.githubusercontent.com/52294411/225654987-97fd5518-f04b-4aec-8196-ae80d80db229.png)
+![](../assets/images/datapackage.png)
 
 A maior parte dos conjuntos têm sido descrita num formato tabular, com o arquivo separado por vírgulas (ou ponto-e-vírgula), extensão `.csv`, que pode ser representado assim:
 

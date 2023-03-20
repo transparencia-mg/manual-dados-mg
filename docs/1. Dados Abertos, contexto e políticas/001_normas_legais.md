@@ -39,11 +39,13 @@ Acesse a Resolução [aqui](http://pesquisalegislativa.mg.gov.br/LegislacaoCompl
 As recentes normas mostram o interesse renovado na regulamentação da transparência ativa. 
 
 A Lei 14.129 criou a possibilidade de solicitação de abertura de base de dados, análoga à possibilidade de obtenção de informação via transparência passiva (e-SIC), com prazo predeterminado:
-````
-“Art. 30. Qualquer interessado poderá apresentar pedido de abertura de bases de dados da administração pública, que deverá conter os dados de contato do requerente e a especificação da base de dados requerida.
-§ 1º O requerente poderá solicitar a preservação de sua identidade quando entender que sua identificação prejudicará o princípio da impessoalidade, caso em que o canal responsável deverá resguardar os dados sem repassá-los ao setor, ao órgão ou à entidade responsável pela resposta.
-§ 2º Os procedimentos e os prazos previstos para o processamento de pedidos de acesso à informação, nos termos da Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso à Informação), aplicam-se às solicitações de abertura de bases de dados da administração pública.”
-````
+
+> Art. 30. Qualquer interessado poderá apresentar pedido de abertura de bases de dados da administração pública, que deverá conter os dados de contato do requerente e a especificação da base de dados requerida.
+
+>  § 1º O requerente poderá solicitar a preservação de sua identidade quando entender que sua identificação prejudicará o princípio da impessoalidade, caso em que o canal responsável deverá resguardar os dados sem repassá-los ao setor, ao órgão ou à entidade responsável pela resposta.
+
+>  § 2º Os procedimentos e os prazos previstos para o processamento de pedidos de acesso à informação, nos termos da Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso à Informação), aplicam-se às solicitações de abertura de bases de dados da administração pública.”
+
 
 Acesse a Lei 14129 [aqui](https://www.in.gov.br/en/web/dou/-/lei-n-14.129-de-29-de-marco-de-2021-311282132).
 
@@ -52,15 +54,21 @@ Acesse a Lei 14129 [aqui](https://www.in.gov.br/en/web/dou/-/lei-n-14.129-de-29-
 
 Tal dispositivo está referendando a aplicação da Lei Federal 14.129/2021 em Minas Gerais, além de instituir o Portal de Dados Abertos como o _lócus_ de publicação de dados de compartilhamento amplo:
 
-````
-Art. 27 – O compartilhamento amplo de dados dispensa autorização prévia pelo gestor de dados e será realizado pelos canais existentes para dados abertos e para transparência ativa, na forma da legislação.
 
-§ 1º – Na hipótese de o dado de compartilhamento amplo de que trata o inciso I do art. 25 não estar disponível em formato aberto, o solicitante de dados poderá requerer sua abertura junto ao gestor de dados.
+> Art. 27 – O compartilhamento amplo de dados dispensa autorização prévia pelo gestor de dados e será realizado pelos canais existentes para dados abertos e para transparência ativa, na forma da legislação.
 
-§ 2º – Na hipótese prevista no § 1º, o gestor de dados poderá condicionar a abertura de dados nos termos do art. 12 da Lei Federal nº 12.527, de 18 de novembro de 2011.
+> § 1º – Na hipótese de o dado de compartilhamento amplo de que trata o inciso I do art. 25 não estar disponível em formato aberto, o solicitante de dados poderá requerer sua abertura junto ao gestor de dados.
 
-§ 3º – Os dados de compartilhamento amplo serão catalogados no Portal de Dados Abertos do Estado de Minas Gerais, https://www.dados.mg.gov.br, em formato aberto.
-````
+> § 2º – Na hipótese prevista no § 1º, o gestor de dados poderá condicionar a abertura de dados nos termos do art. 12 da Lei Federal nº 12.527, de 18 de novembro de 2011.
+
+> § 3º – Os dados de compartilhamento amplo serão catalogados no Portal de Dados Abertos do Estado de Minas Gerais, https://www.dados.mg.gov.br, em formato aberto.
+
+
+- Pedido de abertura de bases por qualquer interessado, com mesmo prazo de atendimento às demandas do e-SIC = art. 23
+
+- Compartilhamento amplo de dados = art. 27 (dispensa autorização e publicação no Portal de Dados Abertos) 
+
+- Plano de Dados Abertos (facultativo) = art. 22
 
 Acesse o decreto 48.383 [aqui](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48383&comp=&ano=2022)
 

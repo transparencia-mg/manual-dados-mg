@@ -4,14 +4,20 @@ A Lei de Acesso à Informação foi o marco inicial da obrigação normativa de 
 
 ## Lei de Acesso à Informação (LAI): Lei 12.527 de 2011
 
-````
-Art. 8º -  É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação (..) de informações de interesse coletivo ou geral por eles produzidas ou custodiadas. 
-(...)
-§ 3º  Os sítios [oficiais de governo] deverão atender aos requisitos (dentre outros):
-    II - possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, de modo a facilitar a análise das informações;
-    III - possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina;
-    IV - divulgar em detalhes os formatos utilizados para estruturação da informação;
-````
+> Art. 8º -  É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação 
+
+> (..) de informações de interesse coletivo ou geral por eles produzidas ou custodiadas. 
+
+> (...)
+
+> § 3º  Os sítios [oficiais de governo] deverão atender aos requisitos (dentre outros):
+
+> II - possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, de modo a facilitar a análise das informações;
+
+> III - possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina;
+
+> IV - divulgar em detalhes os formatos utilizados para estruturação da informação;
+
 
 Formatos de arquivo não-proprietários não exigem uma licença para uso. Já os formatos proprietários não têm essa liberdade, como, por exemplo, os formatos word e excel.
 

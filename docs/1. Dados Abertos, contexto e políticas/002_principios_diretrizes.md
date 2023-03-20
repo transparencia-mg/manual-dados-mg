@@ -23,6 +23,55 @@ Conforme a Cartilha Técnica para Publicação de Dados Abertos no Brasil, os pr
 
   .csv, .xml, .ods, .rdf, .json
 
+**dado tabular**:
+
+````
+campo     campo
+  |         |
+  |         |
+  V         V
+
+ A     |    B    |    C    |    D      <--- linha (cabeçalho)
+ ------------------------------------
+ valA  |   valB  |  valC   |   valD    <--- linha
+````
+ 
+ **csv**:
+
+ - definição, características e exemplos no [portal de Dados Abertos de Buenos Aires](https://datosgcba.github.io/guia-datos/guia-abiertos/#csv)
+ 
+ - o que é, como editar, importar e exportar: https://rockcontent.com/br/blog/csv/
+
+**json**:
+
+````
+[
+  { "A": valor, "B": valor, ... },
+  { "A": valor, "B": valor, ... },
+  ...
+]
+````
+
+* dado tabular X json: https://specs.frictionlessdata.io/table-schema/#concepts
+
+* exemplo de descrição lógica, em formato json, da estrutura do arquivo csv:
+
+````
+{
+  "dialect": {
+    "csvddfVersion": 1.2,
+    "delimiter": ";",
+    "doubleQuote": true,
+    "lineTerminator": "\r\n",
+    "quoteChar": "\"",
+    "skipInitialSpace": true,
+    "header": true,
+    "commentChar": "#"
+  }
+}
+
+````
+
 
 Os formatos `.PDF, .DOC, .DOCX, .XLS e .XLSX` são INCOMPATÍVEIS com a filosofia dos dados abertos!
 

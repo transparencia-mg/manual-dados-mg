@@ -21,17 +21,7 @@ Arquivos estruturados e legíveis por máquina têm formato padrão preestabelec
 
 Esta norma infra da CGE replicou diretrizes para os dados abertos e pontuou as seguintes características dos dados abertos:
 
-dados públicos (1) 
-
-representados em meio digital (2), 
-
-estruturados em formato aberto (3), 
-
-processáveis por máquina (4), 
-
-referenciados na rede mundial de computadores (5), 
-
-disponibilizados sob licença aberta (6) 
+![image](https://user-images.githubusercontent.com/52294411/226441755-5e582e2b-5e89-4454-bccd-7702a2f1e22c.png)
 
 que permita sua livre reutilização, consumo ou cruzamento em aplicações digitais desenvolvidas pela sociedade.
 

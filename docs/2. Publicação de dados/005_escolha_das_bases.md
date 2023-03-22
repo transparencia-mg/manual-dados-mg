@@ -10,19 +10,18 @@ A escolha das bases para serem preparadas e publicadas em formato aberto é um p
 
 A partir da publicação do Decreto Estadual 48.383/2022, a adoção de Planos de Abertura de Dados foi facultada para essa finalidade:
 
-````
-§ 1º A implementação da transparência ativa de dados poderá ocorrer por meio da execução de Plano de Dados Abertos no âmbito de cada órgão ou entidade da Administração Pública direta, autárquica e fundacional, o qual deverá dispor, no mínimo, sobre os seguintes tópicos:
+> § 1º A implementação da transparência ativa de dados poderá ocorrer por meio da execução de Plano de Dados Abertos no âmbito de cada órgão ou entidade da Administração Pública direta, autárquica e fundacional, o qual deverá dispor, no mínimo, sobre os seguintes tópicos:
 
-I - mecanismos transparentes de priorização na abertura de bases de dados que considerem o potencial de utilização e reutilização dos dados tanto pelo governo quanto pela sociedade civil;
+> I - mecanismos transparentes de priorização na abertura de bases de dados que considerem o potencial de utilização e reutilização dos dados tanto pelo governo quanto pela sociedade civil;
 
-II - cronograma relacionado aos procedimentos de abertura das bases de dados, sua atualização e sua melhoria;
+> II - cronograma relacionado aos procedimentos de abertura das bases de dados, sua atualização e sua melhoria;
 
-III - especificação clara sobre os papéis e responsabilidades das unidades do órgão ou da entidade da Administração Pública relacionados com a publicação, a atualização, a evolução e a manutenção das bases de dados;
+> III - especificação clara sobre os papéis e responsabilidades das unidades do órgão ou da entidade da Administração Pública relacionados com a publicação, a atualização, a evolução e a manutenção das bases de dados;
 
-IV - criação de processos para o engajamento de cidadãos, com o objetivo de facilitar e priorizar a abertura de dados, esclarecer dúvidas de interpretação na utilização e corrigir problemas nos dados já disponibilizados;
+> IV - criação de processos para o engajamento de cidadãos, com o objetivo de facilitar e priorizar a abertura de dados, esclarecer dúvidas de interpretação na utilização e corrigir problemas nos dados já disponibilizados;
 
-V - demais mecanismos para a promoção, o fomento e o uso eficiente e efetivo das bases de dados pela sociedade e pelo governo
-````
+> V - demais mecanismos para a promoção, o fomento e o uso eficiente e efetivo das bases de dados pela sociedade e pelo governo
+
 
 Independentemente da adoção de Planos de Abertura, recomenda-se o uso de alguns critérios para facilitar no processo de escolha das bases e ordem de priorização para publicação. O principal deles é coincidente, não por acaso, com uma das diretrizes estratégicas do Planejamento da CGE: _Promover melhora na gestão pública por meio de elevado grau de transparência ativa nas secretarias e vinculadas e **menor necessidade de busca por transparência passiva**_.
 

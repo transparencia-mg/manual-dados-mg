@@ -885,6 +885,7 @@
 
 <h1 id="principios-e-diretrizes">Princípios e Diretrizes<a class="headerlink" href="#principios-e-diretrizes" title="Permanent link">⚓︎</a></h1>
 <p><strong><a href="https://eaves.ca/2009/09/30/three-law-of-open-government-data/">Leis dos Dados Abertos</a> - por David Eaves:</strong></p>
+<p>São proposições amplamente difundidas sobre as características mínimas esperadas para uma base aberta de dados. Gestores governamentais e publicadores devem cuidar para que essas características estejam asseguradas, de modo a promover o acesso, uso e reuso dos dados.</p>
 <ol>
 <li>
 <p>Se o dado não pode ser encontrado e indexado na web, ele não existe. </p>
@@ -900,9 +901,19 @@
 </li>
 </ol>
 <p><strong>Formatos</strong></p>
-<p>Conforme a Cartilha Técnica para Publicação de Dados Abertos no Brasil, os principais formatos de dados abertos são os arquivos com as seguintes extensões:</p>
+<p>Conforme a <a href="https://wiki-dados-h.cgu.gov.br/GetFile.aspx?Page=Tecnologia&amp;File=Cartilha%20T%c3%a9cnica%20para%20Publica%c3%a7%c3%a3o%20de%20Dados%20Abertos%20no%20Brasil%20v1.pdf">Cartilha Técnica para Publicação de Dados Abertos no Brasil</a>, os principais formatos de dados abertos são os arquivos com as seguintes extensões:</p>
 <p>.csv, .xml, .ods, .rdf, .json</p>
-<p><strong>dado tabular</strong>:</p>
+<p>Os formatos de dados mais utilizados no Portal de Dados Abertos de Minas Gerais são:</p>
+<ul>
+<li>
+<p>o <code>csv</code>, para os dados</p>
+</li>
+<li>
+<p>o <code>json</code>, para os metadados;</p>
+</li>
+</ul>
+<p>Ambos têm uma característica essencial, que é ser <strong>tabular</strong>.</p>
+<p><strong>Representação do dado tabular</strong>:</p>
 <div class="highlight"><pre><span></span><code>campo     campo
   |         |
   |         |
@@ -915,10 +926,10 @@
 <p><strong>csv</strong>:</p>
 <ul>
 <li>
-<p>definição, características e exemplos no <a href="https://datosgcba.github.io/guia-datos/guia-abiertos/#csv">portal de Dados Abertos de Buenos Aires</a></p>
+<p>Um bom exemplo de definição, características e exemplos do dado em formato <code>.csv</code> encontra-se no <a href="https://datosgcba.github.io/guia-datos/guia-abiertos/#csv">portal de Dados Abertos de Buenos Aires</a></p>
 </li>
 <li>
-<p>o que é, como editar, importar e exportar: https://rockcontent.com/br/blog/csv/</p>
+<p>como editar, importar e exportar, pode ser melhor verificado em: https://rockcontent.com/br/blog/csv/</p>
 </li>
 </ul>
 <p><strong>json</strong>:</p>
@@ -929,33 +940,29 @@
 ]
 </code></pre></div>
 <ul>
-<li>
-<p>dado tabular X json: https://specs.frictionlessdata.io/table-schema/#concepts</p>
-</li>
-<li>
-<p>exemplo de descrição lógica, em formato json, da estrutura do arquivo csv:</p>
-</li>
+<li>Uma caracterização desse formato tabular com as especificações utilizadas no Portal de Dados Abertos pode ser encontrada em: https://specs.frictionlessdata.io/table-schema/#concepts</li>
 </ul>
+<p><strong>O dialect: como fazer representar o arquivo de dados <code>.csv</code>:</strong></p>
+<p>Parte dos metadados são formas de representação lógica dos próprios dados (tal qual um mapa visa descrever um território). Uma informação de metadado necessária para correta leitura, interpretação e reuso dos dados tabulares em formato <code>.csv</code> é a sua descrição lógica num arquivo <code>dialect.json</code>. Um exemplo dessa descrição lógica, da estrutura do arquivo csv:</p>
 <div class="highlight"><pre><span></span><code>{
   &quot;dialect&quot;: {
-    &quot;csvddfVersion&quot;: 1.2,
     &quot;delimiter&quot;: &quot;;&quot;,
     &quot;doubleQuote&quot;: true,
     &quot;lineTerminator&quot;: &quot;\r\n&quot;,
     &quot;quoteChar&quot;: &quot;\&quot;&quot;,
     &quot;skipInitialSpace&quot;: true,
     &quot;header&quot;: true,
-    &quot;commentChar&quot;: &quot;#&quot;
   }
 }
 </code></pre></div>
 <p>Os formatos <code>.PDF, .DOC, .DOCX, .XLS e .XLSX</code> são INCOMPATÍVEIS com a filosofia dos dados abertos!</p>
 <p><strong>Escala de Dados Abertos</strong></p>
+<p>Uma figura comum nas cartilhas e materiais que trata de fazer mostrar o grau de maturidade dos dados de acordo com um conjunto de atributos necessários, prescritos nas leis e normas (incluindo até a terceira estrela abaixo)e desejáveis</p>
 <p>★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.</p>
 <p>★ ★ : dados disponíveis de forma estruturada. Por exemplo, excel no lugar de imagem escaneada.</p>
 <p>★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV e não excel.</p>
-<p>★ ★★ ★: identificador uniforme de recurso (exemplo?) RDF</p>
-<p>★ ★★ ★★ : dados conectados (exemplo?) LOD</p>
+<p>★ ★★ ★: identificador uniforme de recurso (exemplo?) </p>
+<p>★ ★★ ★★ : dados conectados (exemplo?) RDF/LOD</p>
 <p><img alt="image" src="https://user-images.githubusercontent.com/52294411/226441191-1dfef786-da09-4f82-ad94-de6fc5e7ba7c.png" /></p>
 <p>Nessa escala, o dado é considerado efetivamente aberto quando alcança o nível de três estrelas.</p>
 <p>As demais estrelas fornecem mais possibilidades, como navegar mais facilmente por eles e encontrar novas informações e relações.</p>
@@ -1003,14 +1010,13 @@
 </table>
 <h2 id="saiba-mais">Saiba Mais<a class="headerlink" href="#saiba-mais" title="Permanent link">⚓︎</a></h2>
 <p>Conheça mais um pouco sobre a importância dos dados abertos, suas diferenças e complementaridades com o Portal da Transparência no <a href="https://www.youtube.com/watch?v=uFdYbIc_4ws">17º episódio do PodeFalar!</a>, o nosso podcast da CGE, em que a então Subcontroladora de Transparência e Integridade, Nicolle Bleme, conversou com a Diretora-Executiva da Open Knowledge Brasil, Fernanda Campagnucci.</p>
-<p>Clique <a href="http://www.transparencia.mg.gov.br/">aqui</a> e conheça o Portal da Transparência do Estado de Minas Gerais.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 20, 2023 22:26:47</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 22, 2023 14:24:01</span>
       
         <br>
         Created:

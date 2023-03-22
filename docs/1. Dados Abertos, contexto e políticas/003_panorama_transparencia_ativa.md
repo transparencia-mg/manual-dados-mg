@@ -22,15 +22,30 @@ Esse decreto instituiu duas definições de base:
 
 Assim, além da possibilidade de realizar um Plano de Abertura de Dados, algumas parcerias para abertura de dados têm sido realizadas desde 2021.
 
-O Portal de Dados Abertos de Minas Gerais disponibilizou no dia 19/04/2022 acesso a 3 novos conjuntos de dados abertos da Fundação Hospitalar de Minhas Gerais - FHEMIG.
+#### FHEMIG (Fundação Hospitalar de Minhas Gerais) 
 
-São eles: 
+[Conjuntos de dados publicados em abril de 2022](https://dados.mg.gov.br/organization/fundacao-hospitalar-do-estado-de-minas-gerais-fhemig): 
 
-• Cirurgias por porte de unidades hospitalar da FHEMIG, por ano e mês. 
+- [APACHE](https://dados.mg.gov.br/dataset/apache), índice médico de classificação que determina os índices de gravidade de um paciente internado em uma Unidade de Terapia Intensiva (UTI);
 
-• Clinical Risk Index for Babies - CRIB: escore que mensura o risco da mortalidade hospitalar de recém nato prematuro, baseado na gravidade clínica inicial. 
+- [CRIB](https://dados.mg.gov.br/dataset/crib), score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT);
 
-• APACHE: sistema médico de classificação que determina os índices de gravidade de um paciente internado em uma Unidade de Terapia Intensiva (UTI), a partir de critérios clínicos, fisiológicos e laboratoriais.
+- [Cirurgias realizadas por porte](https://dados.mg.gov.br/dataset/cirurgias)
 
-Fruto da colaboração entre a FHEMIG e a Controladoria-Geral do Estado, esses conjuntos representam um marco para o Portal de Dados Abertos, que agora passa a contar com dados atualizados de gestão hospitalar oriundos dos sistemas gerenciais da FHEMIG. É a primeira publicação realizada de forma descentralizada pelos órgãos e entidades, depois da aprovação do Decreto 48.383, de 18/03/2022, que estabelece a obrigatoriedade de que os dados de compartilhamento amplo - dados públicos que não estão sujeitos a nenhuma restrição de acesso - sejam catalogados no Portal de Dados Abertos em formato aberto.
 
+#### SEDESE (Secretaria de Estado de Desenvolvimento Social)
+
+Conjunto de dados sobre os [Programas de Transferência de Renda de 2020 e 2021](https://dados.mg.gov.br/dataset/programas-transferencia-renda) 
+
+#### SEJUSP (Secretaria de Estado de Justiça e Segurança Pública)
+
+Conjunto de dados referentes aos [Crimes Violentos](https://dados.mg.gov.br/dataset/crimes-violentos)
+
+
+## Gestor Público
+
+Se você é um gestor público do Estado de Minas Gerais gestor de dados de compartilhamento amplo - aqueles que não estão sujeitos a nenhuma restrição de acesso - mas que não estão catalogados no Portal de Dados Abertos, entre em contato pelo email transparencia@cge.mg.gov.br para realizar a abertura dos dados da sua unidade.
+
+## Saiba Mais
+
+Clique [aqui](http://www.transparencia.mg.gov.br/) e conheça o Portal da Transparência do Estado de Minas Gerais.

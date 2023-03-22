@@ -1,6 +1,6 @@
 # Contexto Normativo
 
-A Lei de Acesso à Informação foi o marco inicial da obrigação normativa de disponibilização de bases de dados públicos em formato aberto. Mais recentemente, o tema teve interesse renovado pela edição das Leis de Governo Aberto e o seu respectivo Decreto Estadual regulamentador.
+A Lei de Acesso à Informação (LAI) foi o marco inicial da obrigação normativa de disponibilização de bases de dados públicos em formato aberto. Mais recentemente, o tema teve interesse renovado pela publicação da [Lei de Governo Aberto](https://transparencia.github.io/manual-abertura-2023-3/0.1/1.%20Dados%20Abertos%2C%20contexto%20e%20pol%C3%ADticas/001_normas_legais/#lei-federal-14129-de-2011-lei-do-governo-digital) e o seu respectivo [Decreto Estadual regulamentador](https://transparencia.github.io/manual-abertura-2023-3/0.1/1.%20Dados%20Abertos%2C%20contexto%20e%20pol%C3%ADticas/001_normas_legais/#decreto-estadual-48383).
 
 ## Lei de Acesso à Informação (LAI): Lei 12.527 de 2011
 
@@ -52,8 +52,21 @@ Acesse a Lei 14129 [aqui](https://www.in.gov.br/en/web/dou/-/lei-n-14.129-de-29-
 
 ## Decreto Estadual 48.383
 
-Tal dispositivo está referendando a aplicação da Lei Federal 14.129/2021 em Minas Gerais, além de instituir o Portal de Dados Abertos como o _lócus_ de publicação de dados de compartilhamento amplo:
+Tal dispositivo está referendando a aplicação da Lei Federal 14.129/2021 em Minas Gerais, com destaque para os pontos:
 
+- O compartilhamento amplo de dados que dispensa autorização para publicação no Portal de Dados Abertos (art. 27)
+
+- A possibilidade de pedido de abertura de bases por qualquer interessado, com mesmo prazo de atendimento às demandas do e-SIC (arts. 23 e 27):
+
+> Art. 23 – Qualquer interessado poderá apresentar pedido de abertura de bases de dados dos órgãos, das autarquias e das fundações do Poder Executivo, observadas as regras previstas pela Lei Federal nº 14.129, de 2021.
+
+- A possibilidade dos órgãos adotarem um Plano de Dados Abertos, em caráter facultativo, como instumento para promover abertura de bases de dados de interesse coletivo e geral (art. 22):
+
+> Art. 22 – Os dados disponibilizados pelos prestadores de serviços públicos e qualquer informação de transparência ativa são de livre utilização pela sociedade, observados os princípios dispostos no art. 6º da Lei Federal nº 13.709, de 2018, e os requisitos previstos pela Lei Federal nº 14.129, de 2021.
+
+> § 1º – A implementação da transparência ativa de dados poderá ocorrer por meio da execução de Plano de Dados Abertos no âmbito de cada órgão ou entidade da Administração Pública direta, autárquica e fundacional, o qual deverá dispor, no mínimo, sobre os seguintes tópicos: (...)
+
+- A instituição do Portal de Dados Abertos como o _lócus_ de publicação de dados de compartilhamento amplo (art. 27):
 
 > Art. 27 – O compartilhamento amplo de dados dispensa autorização prévia pelo gestor de dados e será realizado pelos canais existentes para dados abertos e para transparência ativa, na forma da legislação.
 
@@ -62,13 +75,6 @@ Tal dispositivo está referendando a aplicação da Lei Federal 14.129/2021 em M
 > § 2º – Na hipótese prevista no § 1º, o gestor de dados poderá condicionar a abertura de dados nos termos do art. 12 da Lei Federal nº 12.527, de 18 de novembro de 2011.
 
 > § 3º – Os dados de compartilhamento amplo serão catalogados no Portal de Dados Abertos do Estado de Minas Gerais, https://www.dados.mg.gov.br, em formato aberto.
-
-
-- Pedido de abertura de bases por qualquer interessado, com mesmo prazo de atendimento às demandas do e-SIC = art. 23
-
-- Compartilhamento amplo de dados = art. 27 (dispensa autorização e publicação no Portal de Dados Abertos) 
-
-- Plano de Dados Abertos (facultativo) = art. 22
 
 Acesse o decreto 48.383 [aqui](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48383&comp=&ano=2022)
 

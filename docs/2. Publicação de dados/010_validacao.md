@@ -14,6 +14,8 @@ Esta etapa também serve para para oferecer informação íntegra aos usuários.
 ## Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator
 
 **tela 1ª validação com um recurso**
+![image](https://user-images.githubusercontent.com/52294411/235264375-c3aae20c-e3fa-49f7-943a-32b6369b908d.png)
+
 
 #### Corrigir eventuais inconsistências (rol exemplificativo)
 
@@ -24,12 +26,17 @@ Esta etapa também serve para para oferecer informação íntegra aos usuários.
 ## Verificar relacionamento
 
 **tela DER com1º recurso**
+![image](https://user-images.githubusercontent.com/52294411/235264314-ce96eb4a-b268-4b6e-ab10-ca9002f66f95.png)
+
 
 ## Verificar dicionários de dados
 
 **tela dicionário de dados**
+![image](https://user-images.githubusercontent.com/52294411/235264281-eb229f34-7f0a-400c-9be0-99a1da899cde.png)
 
 **tela view metadata**
+![image](https://user-images.githubusercontent.com/52294411/235264263-c21ab52f-eede-4e4e-9a69-9d75ae3b0b1f.png)
+
 
 ## Operação da validação com o framework da Frictionless Data
 

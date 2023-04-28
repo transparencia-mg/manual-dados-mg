@@ -13,7 +13,7 @@
     
     
       
-        <title>009 recurso - Manual do Portal de Dados Abertos de Minas Gerais</title>
+        <title>Adicionar recurso e documentar seus metadados - Manual do Portal de Dados Abertos de Minas Gerais</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#adicionar-recurso" class="md-skip">
+        <a href="#adicionar-recurso-e-documentar-seus-metadados" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              009 recurso
+              Adicionar recurso e documentar seus metadados
             
           </span>
         </div>
@@ -608,14 +608,16 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          009 recurso
+          Adicionar recurso e documentar seus metadados
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        009 recurso
+        Adicionar recurso e documentar seus metadados
       </a>
       
         
@@ -623,6 +625,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -632,15 +636,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#adicionar-recurso" class="md-nav__link">
-    Adicionar recurso
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentar-os-metadados-do-recurso" class="md-nav__link">
-    Documentar os metadados do recurso
+  <a href="#adicionar-mais-recursos-e-editar-metadados" class="md-nav__link">
+    Adicionar mais recursos e editar metadados
   </a>
   
 </li>
@@ -801,6 +798,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -809,15 +808,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#adicionar-recurso" class="md-nav__link">
-    Adicionar recurso
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentar-os-metadados-do-recurso" class="md-nav__link">
-    Documentar os metadados do recurso
+  <a href="#adicionar-mais-recursos-e-editar-metadados" class="md-nav__link">
+    Adicionar mais recursos e editar metadados
   </a>
   
 </li>
@@ -874,17 +866,50 @@
   </a>
 
 
-  <h1>009 recurso</h1>
-
-<h2 id="adicionar-recurso">Adicionar recurso<a class="headerlink" href="#adicionar-recurso" title="Permanent link">⚓︎</a></h2>
-<h2 id="documentar-os-metadados-do-recurso">Documentar os metadados do recurso<a class="headerlink" href="#documentar-os-metadados-do-recurso" title="Permanent link">⚓︎</a></h2>
+<h1 id="adicionar-recurso-e-documentar-seus-metadados">Adicionar recurso e documentar seus metadados<a class="headerlink" href="#adicionar-recurso-e-documentar-seus-metadados" title="Permanent link">⚓︎</a></h1>
+<p>Após criar o conjunto, você será redirecionado para a página (<em>Home /Organizations / <sua organização> / <seu conjunto de dados> / Edit / Add New Resource</em>).</p>
+<p>Escolha um nome, em letras minúsculas, separado por traços '-', sem caracteres especiais, espaços, acentos ou letras maiúsculas (nome legível por máquina).</p>
+<p>Selecione o arquivo em sua máquina e clique no botão 'Carregar' (<em>Load</em>)</p>
+<p><strong>tela add new resource</strong></p>
+<p>O CKAN vai inferir as colunas do arquivo tabular e carregar as informações sobre os metadados de cada uma, para que você preencha:</p>
+<p><strong>tela inferência metadados</strong></p>
+<p>Note que o nome do cabeçalho de cada coluna aparece, e também há uma visualização prévia dos valores de cada coluna, ao cliar em <em>Preview item</em>, abaixo do nome:</p>
+<p><strong>tela preview item</strong></p>
+<p>Cada caixa pertence a uma coluna, que deve ter, pelo menos Título (<em>Title</em>), Descrição (<em>Description</em>), Tipo (<em>Type</em>) e Formato (<em>Format</em>). Clique em Editar metadado (<em>Edit Metadata</em>) para editar os metadados de cada coluna:</p>
+<p><strong>tela inferencia metadados coluna</strong></p>
+<p>O título e a descrição devem ser legíveis por pessoas, então comportam acentos, espaços, maiúsculas, caracteres especiais.</p>
+<p>O tipo e o formato dos valores de cada coluna são inferidos automaticamente pelo CKAN, mas você pode alterá-los, se julgar que um outro representa melhor o dado de determinada coluna. </p>
+<p>[referência sobre especificação da Fricionless para type e format]</p>
+<p>Você pode ampliar a qualidade da documentação dos teus dados, adicionando propriedades:</p>
+<ul>
+<li>requerido (<em>required</em>), se for obrigatório ter dados na coluna;</li>
+<li>valores únicos (<em>unique</em>)</li>
+<li>chaves primária (<em>Primary Key</em>) e/ou estrangeira (<em>Foreign Key</em>)</li>
+<li>extras (clicar no botão '+ Add Metadata'):<ul>
+<li>max/min</li>
+<li>pattern</li>
+<li>enum</li>
+</ul>
+</li>
+</ul>
+<p><strong>tela Add Metadata</strong></p>
+<p>Para qualquer arquivo (recurso ou <em>Resource Data</em>) incluído, também são necessários título (<em>Title</em>) e descrição (<em>Description</em>). Além disso, o formato (<em>Format</em>), tipo (<em>type</em>) e <em>encoding</em> tamb´´em são obrigatórios, mas já vêm inferidos pelo CKAN</p>
+<p><strong>tela metadados recurso</strong></p>
+<p>Você também pode adicionar mais metadados do recurso, clicando no botão '+Add Metadata'</p>
+<p><strong>tela add metadata</strong></p>
+<p>Se o conjunto contiver somente um recurso, clique no botão 'Validate', para checar o resultado na porção superior da página. Aparecendo o texto em verde '', pode clicar no botão 'Publish', no canto inferior da página. </p>
+<p>OBS.: o texto que aparece após clicar no botão 'Validate' não correspnode ao resultado da checagem se os dados estão de acordo com os metadados informados, mas somente se o processo aconteceu.</p>
+<p>Caso queira adicionar mais recursos, veja na subseção seguinte.</p>
+<h2 id="adicionar-mais-recursos-e-editar-metadados">Adicionar mais recursos e editar metadados<a class="headerlink" href="#adicionar-mais-recursos-e-editar-metadados" title="Permanent link">⚓︎</a></h2>
+<p>Para adicionar mais um recurso, clique no botão '+ Add Resource' no final da página:</p>
+<p><strong>tela add resource</strong></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 28, 2023 21:25:52</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 28, 2023 22:06:01</span>
       
         <br>
         Created:

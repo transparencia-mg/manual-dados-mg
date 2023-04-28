@@ -522,14 +522,6 @@
         
           
         
-          
-        
-          
-        
-          
-        
-          
-        
       
       
         <label class="md-nav__link" for="__nav_4">
@@ -588,34 +580,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../007_limpeza_de_dados/" class="md-nav__link">
-        Limpeza de Dados
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../008_restricao_de_informacoes/" class="md-nav__link">
-        Restrição de Informações
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../009_documentacao/" class="md-nav__link">
         Documentação: Elaboração e edição dos Metadados
       </a>
@@ -658,36 +622,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../012_controle_de_versao/" class="md-nav__link">
-        Controle de Versão
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../013_publicacao/" class="md-nav__link">
-        Catalogação Inicial
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../014_capacitacao_publicando_CKAN/" class="md-nav__link">
-        Publicando dados no CKAN
+        014 capacitacao publicando CKAN
       </a>
     </li>
   
@@ -852,13 +788,76 @@
 <p><img alt="" src="../../assets/images/PdA-etl.jpg" />
 As etapas de documentação, validação e publicação contam com o auxílio de ferramentas para automatização do trabalho, customizadas pela DCTA. </p>
 <p>Tais ferramentas necessitam de instalação e configuração, cujas instruções podem ser acessadas <a href="https://github.com/dados-mg/dados-mg.github.io/blob/main/setup-maquina-windows.md">aqui</a></p>
+<h1 id="limpeza-de-dados">Limpeza de Dados<a class="headerlink" href="#limpeza-de-dados" title="Permanent link">⚓︎</a></h1>
+<p>Esta etapa tem o objetivo de oferecer informação íntegra aos usuários. A limpeza não se constitui, necessariamente, uma primeira etapa de uma sequência ordenada de ações. Ela usualmente é necessária após a documentação, ou validação dos dados, na medida em que forem identificadas incorreções, incompletudes ou inadequações com os metadados descritos. </p>
+<p>Exemplos: padronização do formato de valores de colunas (siglas, números, datas, unidades de medida); inclusão ou exclusão de colunas para padronização do layout dos arquivos.</p>
+<p>Na figura a seguir, temos algumas inadequações na planilha de remuneração:</p>
+<ul>
+<li>
+<p>Falta de padrão para valores:</p>
+<ul>
+<li>
+<p>na 2ª coluna: Valor abreviado 'SD 1 CL' e outros por extenso;</p>
+</li>
+<li>
+<p>na 3ª coluna: zero ('0'), vazios ('') e 'sim';</p>
+</li>
+<li>
+<p>na 5ª coluna: valor 'CBMMG' (nome do órgão abreviado) e outros nomes por extenso;</p>
+</li>
+<li>
+<p>na 7ª coluna: separadores de milhar e de decimais para remuneração</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Formatos de número a serem descritos para valores de carga horária, na 6ª coluna; </p>
+</li>
+<li>
+<p>Formato de descrição da data (última coluna): necessidade de descrição no datapackage.json (como %d%m%a)</p>
+</li>
+</ul>
+<p><img alt="limpeza-exemplo" src="https://user-images.githubusercontent.com/52294411/225653960-5fc2c8d3-f0ed-4d4d-850a-8514f812b17c.png" /></p>
+<p>A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns de limpeza de dados responsável, pode ser encontrado <a href="https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/">na EScola de Dados da Open Knowledge Brasil</a>.</p>
+<p>O guia divide o tipo de problema pelo responsável indicado para resolvê-lo, como, por exemplo:</p>
+<ul>
+<li>
+<p>problemas que a fonte dos dados deve resolver: faltam valores, linhas duplicadas, formatos de datas inconsistentes, unidades de medida não estão especificadas, categorias estão mal escolhidas, origem não está documentada, nomes de campos estão ambíguos, texto foi convertido em números, números foram guardados como texto;</p>
+</li>
+<li>
+<p>problemas que o usuário dos dados deve resolver: dados foram editados manualmente, escala de tempo foi manipulada, inflação distorce os dados, amostra não é aleatória, amostra é enviesada, margem de erro é muito grande, margem de erro é desconhecida, </p>
+</li>
+</ul>
+<h1 id="restricao-de-informacoes">Restrição de Informações<a class="headerlink" href="#restricao-de-informacoes" title="Permanent link">⚓︎</a></h1>
+<p>Esta etapa visa resguardar informações que tenham restrição de acesso, em atendimento à Lei de Acesso à Informação (LAI, Capítulo IV) e à Lei Geral de Proteção de Dados (LGPD). </p>
+<p>É realizada com ações de substituir, omitir, anonimizar caracteres, textos e dados, que contenham informações sensíveis e/ou restritas.</p>
+<p>As decisões sobre restringir informações são balizadas pela análise caso-a-caso e devem contar com a análise dos especialistas de cada área temática ou política pública.</p>
+<p>[^]
+  - Enunciado AGE março de 2022 </p>
+<p>O <a href="https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf">Guia de Boas Práticas da LGPD</a>, publicado pelo Comitê Cetral de Governança de Dados, traz algumas definições e estratégias para identificar a necessidade e aplicar técnicas de anonimização e pseudonimização.</p>
+<p>Segundo o Guia:</p>
+<ul>
+<li>
+<p>anonimizado <em>é o dado que, considerados os meios técnicos razoáveis no momento do tratamento, perde a possibilidade de associação, direta ou indireta, a um indivíduo.</em></p>
+</li>
+<li>
+<p>pseudonimização <em>é a técnica de tratar dados pessoais de uma forma em que os dados somente possam ser atribuídos a um titular de dados mediante a utilização de informações adicionais, não disponíveis a todos, desde que essas informações sejam mantidas em ambiente separado, controlado e seguro. A título ilustrativo, criptografia é um método de pseudonimização, quando os dados somente podem ser atribuídos a um titular mediante o conhecimento da chave criptográfica</em></p>
+</li>
+</ul>
+<p>[^ ]</p>
+<p>Ainda segundo a Autoridade Nacional de Proteção de Dados (ANPD), em <a href="https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/sei_00261-000730_2022_53-nt-46.pdf">NT sobre a divulgação dos microdados do censo escolar</a></p>
+<blockquote>
+<p>6.2. A anonimização não é uma medida de segurança que deve ser adotada em todo e qualquer tratamento de dados pessoais, pois a LGPD não a elegeu como condição técnica para a divulgação pública ou para o compartilhamento de dados pessoais por entidades e órgãos públicos. Em realidade, a principal determinação da LGPD é quanto à necessidade de avaliação de riscos e de adoção de medidas para mitigar a ocorrência de danos. Por esta razão, a eventual identificação dos titulares ou a admissão de algum grau de risco de sua identificação, quando necessário para atender, por exemplo, a determinações legais, o interesse público e o direito de acesso à informação, são compatíveis com a LGPD, desde que adotadas as salvaguardas apropriadas.</p>
+</blockquote>
+<p>Outro exemplo de restrição de dados pessoais, eacessível no Portal da Transparência, é a <strong>descaracterização</strong> do nome e do CPF dos ganhadores de prêmios lotéricos. Nesse caso, a técnica de descaracterização aplicada tem a intenção de impossibilitar a identificação dos vencedores dos prêmios lotéricos, para que a sua eventual identificação, ou reidentificação, não fosse um risco potencial à sua segurança.</p>
+<p><img alt="restricao-exemplo" src="https://user-images.githubusercontent.com/52294411/225654625-88f95d15-6f08-4699-8eea-5938ad0a38f9.png" /></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 20, 2023 20:55:51</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 28, 2023 18:59:06</span>
       
         <br>
         Created:
@@ -955,13 +954,13 @@ As etapas de documentação, validação e publicação contam com o auxílio de
       
       
         
-        <a href="../007_limpeza_de_dados/" class="md-footer__link md-footer__link--next" aria-label="Next: Limpeza de Dados" rel="next">
+        <a href="../009_documentacao/" class="md-footer__link md-footer__link--next" aria-label="Next: Documentação: Elaboração e edição dos Metadados" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Limpeza de Dados
+              Documentação: Elaboração e edição dos Metadados
             </div>
           </div>
           <div class="md-footer__button md-icon">

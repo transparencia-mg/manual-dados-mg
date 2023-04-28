@@ -13,6 +13,8 @@ Esta etapa também serve para para oferecer informação íntegra aos usuários.
 
 ## Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator
 
+**tela 1ª validação com um recurso**
+
 #### Corrigir eventuais inconsistências (rol exemplificativo)
 
 1. Tipo de dado da coluna: data, numeral inteiro/decimal, com vírgulas, etc
@@ -21,8 +23,13 @@ Esta etapa também serve para para oferecer informação íntegra aos usuários.
 
 ## Verificar relacionamento
 
+**tela DER com1º recurso**
+
 ## Verificar dicionários de dados
 
+**tela dicionário de dados**
+
+**tela view metadata**
 
 ## Operação da validação com o framework da Frictionless Data
 

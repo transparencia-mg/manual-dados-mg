@@ -67,3 +67,7 @@ Caso queira adicionar mais recursos, veja na subseção seguinte.
 Para adicionar mais um recurso, clique no botão '+ Add Resource' no final da página:
 
 **tela add resource**
+
+Se você já tiver publicado um conjunto apenas com o primeiro recurso, pode voltar a adicionar mais recursos, após cliar no conjunto, e no botão Gerenciar (_Manage_). Então, na tela abaixo, clicar em '+Add new resource':
+
+**tela add new resource pos publish**

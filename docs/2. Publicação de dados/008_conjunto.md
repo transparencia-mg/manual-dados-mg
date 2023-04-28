@@ -82,3 +82,7 @@ Caso tenha esquecido ou ficado em dúvida sobre algum metadado do conjunto, ou a
 Depois, basta clicar em Gerenciar (_Manage_):
 
 **tela Draft**
+
+Após a inserção e validação de recurso:
+
+**tela conjunto private válido**

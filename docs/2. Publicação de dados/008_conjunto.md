@@ -72,3 +72,13 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 * Frequência de Atualização (_Frequency_) também é um metadado muito importante e fortemente recomnedado, para assegurar uma regularidade e fixar uma expectativa concreta quando às novas atualizações e inserção de novos dados e/ou recursos
 
 * Dica: verifique a página onde você está navegando no menu superior da página (Home / Conjunto de Dados / Criar um conjunto de dados >>)
+
+## Recuperar a criação de um conjunto 
+
+Caso tenha esquecido ou ficado em dúvida sobre algum metadado do conjunto, ou a autenticação (login) tenha se desfeito por qualquer motivo, você pode retomar a edição dos metadados do conjunto, no ponto em que parou. Na tela Conjuntos, selecionar o conjunto: 
+
+**tela conjuntos**
+
+Depois, basta clicar em Gerenciar (_Manage_):
+
+**tela Draft**

@@ -19,7 +19,7 @@ tags:
 
 Acesse sua conta inserindo login de usuário e senha. Para isso, você precisa solicitar a criação do teu usuário, instruções em [Solicitação de Cadastro de Novo Usuário no Portal de Dados Abertos]():
 
-**tela login**
+![image](https://user-images.githubusercontent.com/52294411/235250208-db525f1c-cf73-4896-9740-eb75f1c0a76c.png)
 
 ## Criar e documentar novo conjunto de dados
 
@@ -36,7 +36,7 @@ Após clicar no botão de criação, na página 'Criar um conjunto de dados (Cre
 - selecione o tipo dos dados do conjunto(_Type_): tabular ou não-tabular(_Not Tabular_)
 - seleciona a licença(_License_), dentre as opções que o CKAN oferece para licenças abertas 
 
-**tela create dataset metadata 1**
+![image](https://user-images.githubusercontent.com/52294411/235251657-9cd82ace-e26b-43e8-9bf4-3c055c20bfc7.png)
 
 Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
@@ -60,11 +60,13 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
 - Insira palavras-chave no campo 'Etiquetas', separando-as por vírgulas e espaço, para facilitar a identificação, classificação, filtragem/seleção e acesso ao seu conjunto de dados (o campo livre, mas sugere-se o reaproveitamento de vocabulários controlados e analogias a legislações da área temática e com outros portais de dados **inserir link para VCGE federal**)
 
-**tela create dataset metadata 2**
+![image](https://user-images.githubusercontent.com/52294411/235250980-859fe8b1-f8e1-46d0-b4aa-dc60be6c2f4e.png)
 
 * OBS.: os metadados Título (_Title_), Descrição (_Description_) e Organização (_Organization_) são obrigatórios, por isso estão marcados com asterisco
 
-* os metadados Licença (_License_), Publicador (_Publisher_) e Frequência de Atualização (_Frequency_) também são obrigatórios 
+* os metadados Licença (_License_) e Publicador (_Publisher_) são requisitos para um conjunto ser considerado aberto por suas características intrínsecas de acesso livre e de facilidade de acesso/contato com o responsável
+
+* Frequência de Atualização (_Frequency_) também é um metadado muito importante e fortemente recomnedado, para assegurar uma regularidade e fixar uma expectativa concreta quando às novas atualizações e inserção de novos dados e/ou recursos
 
 * Dica: verifique a página onde você está navegando no menu superior da página (Home / Conjunto de Dados / Criar um conjunto de dados >>)
 

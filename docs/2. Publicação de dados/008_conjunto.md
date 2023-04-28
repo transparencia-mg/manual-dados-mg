@@ -85,4 +85,4 @@ Depois, basta clicar em Gerenciar (_Manage_):
 
 Após a inserção e validação de recurso:
 
-**tela conjunto private válido**
+![image](https://user-images.githubusercontent.com/52294411/235264156-43f44a9e-6d10-4f46-9cfb-e584b7e504a6.png)

@@ -3,6 +3,7 @@ comments: true
 tags:
   - publicação
   - metadados
+  - validação
   - qualidade
 ---
 # Documentação: Elaboração e edição dos Metadados
@@ -155,9 +156,3 @@ Recursos (_resources_):
 
  - Vocabulário/ontologia: Documentos estruturados com metadados específicos do conjunto de dados.
 
-
-## Saiba Mais
-
-A oficina "Dados abertos sem fricção" ([vídeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresentação](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf)), ocorrida durante a 3ª Semana INOVA, apresenta um passo-a-passo de como preparar um conjunto de dados segundo essas especificações, utilizando ferramentas online. Seu conteúdo inclui a demonstração de ferramentas que objetivam reduzir ou eliminar “a fricção”, que é o tempo que os consumidores gastam para poder entender e trabalhar com os dados abertos.
-
-No capítulo sobre [Etapas do Processo de Abertura de Dados](https://transparencia-mg.github.io/manual-abertura/pages/005_documentacao.html), cada parte desse processo é explicado com mais detalhes.

@@ -7,13 +7,14 @@ tags:
   - guias
   - treinamento
 ---
+
+# Publicando dados no Portal de Dados Abertos de MG
+
 - [Apresentação sobre dados abertos](https://github.com/dados-mg/dados-mg.github.io/blob/invitation/dados-abertos-pcmg-2023-02-16.pptx?raw=true)
 
 - Material estático com o ambiente de treinamento versão CKAN produção 2.10 + plugin ckanext-datapackage-creator
 
-- Vídeo/tutorial do treinamento (link da Gravação da capacitação/oficina hands-on da Semana do Controle Interno de maio de 2023 a ser incluído após oficina do dia 10/05)  
-
-# Publicando dados no Portal de Dados Abertos de MG
+- Vídeo/tutorial do treinamento (link da Gravação da capacitação/oficina hands-on da Semana do Controle Interno de maio de 2023 a ser incluído após oficina do dia 10/05) 
 
 ## Login
 
@@ -62,6 +63,8 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
 ![image](https://user-images.githubusercontent.com/52294411/235250980-859fe8b1-f8e1-46d0-b4aa-dc60be6c2f4e.png)
 
+- Você também pode adicionar propriedades adicionais, clicando em '+Add Property'
+
 * OBS.: os metadados Título (_Title_), Descrição (_Description_) e Organização (_Organization_) são obrigatórios, por isso estão marcados com asterisco
 
 * os metadados Licença (_License_) e Publicador (_Publisher_) são requisitos para um conjunto ser considerado aberto por suas características intrínsecas de acesso livre e de facilidade de acesso/contato com o responsável
@@ -69,24 +72,3 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 * Frequência de Atualização (_Frequency_) também é um metadado muito importante e fortemente recomnedado, para assegurar uma regularidade e fixar uma expectativa concreta quando às novas atualizações e inserção de novos dados e/ou recursos
 
 * Dica: verifique a página onde você está navegando no menu superior da página (Home / Conjunto de Dados / Criar um conjunto de dados >>)
-
-
-## Adicionar recurso
-
-## Documentar os metadados do recurso
-
-## Verificar a validação dos dados
-
-#### Corrigir eventuais inconsistências (rol exemplificativo)
-
-1. Tipo de dado da coluna: data, numeral inteiro/decimal, com vírgulas, etc
-2. Encoding
-3. 
-
-## Verificar relacionamento
-
-## Verificar dicionários de dados
-
-## Publicar dados
-
-## Baixar conjunto de dados

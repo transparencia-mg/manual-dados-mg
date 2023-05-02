@@ -24,9 +24,12 @@ Acesse sua conta inserindo login de usuário e senha. Para isso, você precisa s
 
 ## Criar e documentar novo conjunto de dados
 
-Após fazer login, na página de [Conjuntos de Dados(Datasets)](), clicar no botão azul 'Adicionar Conjunto de Dados':
+Após fazer login, na página de [Conjuntos de Dados(Datasets)](), ou de [Organizações(Organizations)]()clicar no botão azul 'Adicionar Conjunto de Dados':
 
 **tela add dataset**
+![image](https://user-images.githubusercontent.com/52294411/235776345-fde61cfc-892c-4f7e-a1f6-b7300b70aeaf.png)
+**tela add dataset organização**
+![image](https://user-images.githubusercontent.com/52294411/235776137-eb524f74-5a7f-4e80-a9b7-30a1af025689.png)
 
 Após clicar no botão de criação, na página 'Criar um conjunto de dados (Create dataset)', preencha as informações básicas (metadados) do conjunto a ser criado:
 
@@ -75,14 +78,15 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
 ## Recuperar a criação de um conjunto 
 
-Caso tenha esquecido ou ficado em dúvida sobre algum metadado do conjunto, ou a autenticação (login) tenha se desfeito por qualquer motivo, você pode retomar a edição dos metadados do conjunto, no ponto em que parou. Na tela Conjuntos, selecionar o conjunto: 
+Caso tenha esquecido ou ficado em dúvida sobre algum metadado do conjunto, ou a autenticação (login) tenha se desfeito por qualquer motivo, você pode retomar a edição dos metadados do conjunto, no ponto em que parou. Na tela Conjuntos, selecionar o conjunto (caso não encontre, clicar em ADMIN, no canto superior direito): 
 
-**tela conjuntos**
+**tela conjuntos ADMIN**
+![image](https://user-images.githubusercontent.com/52294411/235775288-91796ef7-6da4-4b78-90c5-5b281b6f579f.png)
 
 Depois, basta clicar em Gerenciar (_Manage_):
 
-**tela Draft**
+![image](https://user-images.githubusercontent.com/52294411/235775001-e00ca9c3-2e1e-486a-b883-01d1387ed493.png)
 
-Após a inserção e validação de recurso:
+Após a inserção e validação de recurso (instruções na próxima subseção), a página se apresenta dessa forma:
 
 ![image](https://user-images.githubusercontent.com/52294411/235264156-43f44a9e-6d10-4f46-9cfb-e584b7e504a6.png)

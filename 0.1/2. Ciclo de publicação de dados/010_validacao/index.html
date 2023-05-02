@@ -13,7 +13,7 @@
     
     
       
-        <title>Acesso e consulta aos dados do Portal com ferramentas open source - Manual do Portal de Dados Abertos de Minas Gerais</title>
+        <title>Validação Automática - Manual do Portal de Dados Abertos de Minas Gerais</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#acesso-e-consulta-aos-dados-do-portal-com-ferramentas-open-source" class="md-skip">
+        <a href="#validacao-automatica" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Acesso e consulta aos dados do Portal com ferramentas open source
+              Validação Automática
             
           </span>
         </div>
@@ -264,13 +264,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/005_escolha_das_bases/" class="md-tabs__link">
+      <a href="../005_escolha_das_bases/" class="md-tabs__link md-tabs__link--active">
         2. Ciclo de publicação de dados
       </a>
     </li>
@@ -280,15 +282,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../../3.%20Consulta%20e%20uso%20dos%20dados/017_acesso_consulta_portal-CLI_API/" class="md-tabs__link">
         3. Consulta e uso dos dados
       </a>
     </li>
@@ -496,12 +496,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -546,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/005_escolha_das_bases/" class="md-nav__link">
+      <a href="../005_escolha_das_bases/" class="md-nav__link">
         Escolha das Bases
       </a>
     </li>
@@ -560,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/" class="md-nav__link">
+      <a href="../006_etapas_abertura/" class="md-nav__link">
         Ciclo de Abertura, Documentação, Validação e Publicação
       </a>
     </li>
@@ -574,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/007_documentacao/" class="md-nav__link">
+      <a href="../007_documentacao/" class="md-nav__link">
         Documentação: Elaboração e edição dos Metadados
       </a>
     </li>
@@ -588,7 +590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/008_conjunto/" class="md-nav__link">
+      <a href="../008_conjunto/" class="md-nav__link">
         Publicando dados no Portal de Dados Abertos de MG
       </a>
     </li>
@@ -602,7 +604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/009_recurso/" class="md-nav__link">
+      <a href="../009_recurso/" class="md-nav__link">
         Adicionar recurso e documentar seus metadados
       </a>
     </li>
@@ -614,11 +616,86 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/010_validacao/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Validação Automática
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Validação Automática
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-a-validacao-dos-dados-no-portal-de-dados-com-o-plugin-ckanext-datapackage-creator" class="md-nav__link">
+    Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator
+  </a>
+  
+    <nav class="md-nav" aria-label="Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#corrigir-eventuais-inconsistencias-rol-exemplificativo" class="md-nav__link">
+    Corrigir eventuais inconsistências (rol exemplificativo)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-relacionamento" class="md-nav__link">
+    Verificar relacionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-dicionarios-de-dados" class="md-nav__link">
+    Verificar dicionários de dados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operacao-da-validacao-com-o-framework-da-frictionless-data" class="md-nav__link">
+    Operação da validação com o framework da Frictionless Data
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -630,7 +707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/011_erros_comuns_validacao/" class="md-nav__link">
+      <a href="../011_erros_comuns_validacao/" class="md-nav__link">
         Erros comuns de validação:
       </a>
     </li>
@@ -644,7 +721,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/012_publicar_baixar/" class="md-nav__link">
+      <a href="../012_publicar_baixar/" class="md-nav__link">
         012 publicar baixar
       </a>
     </li>
@@ -658,7 +735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/015_solicitacao_cadastro/" class="md-nav__link">
+      <a href="../015_solicitacao_cadastro/" class="md-nav__link">
         Solicitação de Cadastro de Novo Usuário no Portal de Dados Abertos
       </a>
     </li>
@@ -672,7 +749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/016_semana_controle/" class="md-nav__link">
+      <a href="../016_semana_controle/" class="md-nav__link">
         Oficinas, capacitações, palestras, webnarios
       </a>
     </li>
@@ -692,14 +769,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       
       
@@ -726,52 +801,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Acesso e consulta aos dados do Portal com ferramentas open source
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../3.%20Consulta%20e%20uso%20dos%20dados/017_acesso_consulta_portal-CLI_API/" class="md-nav__link">
         Acesso e consulta aos dados do Portal com ferramentas open source
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#casos-de-uso-de-leitura-de-dados-com-pacote-pandas-do-python" class="md-nav__link">
-    Casos de Uso de leitura de dados com pacote pandas do Python
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -783,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../018_acesso_consulta_portal_GUI/" class="md-nav__link">
+      <a href="../../3.%20Consulta%20e%20uso%20dos%20dados/018_acesso_consulta_portal_GUI/" class="md-nav__link">
         Acessando o Portal e consultando dados
       </a>
     </li>
@@ -824,8 +858,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#casos-de-uso-de-leitura-de-dados-com-pacote-pandas-do-python" class="md-nav__link">
-    Casos de Uso de leitura de dados com pacote pandas do Python
+  <a href="#verificar-a-validacao-dos-dados-no-portal-de-dados-com-o-plugin-ckanext-datapackage-creator" class="md-nav__link">
+    Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator
+  </a>
+  
+    <nav class="md-nav" aria-label="Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#corrigir-eventuais-inconsistencias-rol-exemplificativo" class="md-nav__link">
+    Corrigir eventuais inconsistências (rol exemplificativo)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-relacionamento" class="md-nav__link">
+    Verificar relacionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-dicionarios-de-dados" class="md-nav__link">
+    Verificar dicionários de dados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operacao-da-validacao-com-o-framework-da-frictionless-data" class="md-nav__link">
+    Operação da validação com o framework da Frictionless Data
   </a>
   
 </li>
@@ -845,35 +913,73 @@
                   
   
 
+  <nav class="md-tags" >
+    
+      
+      
+        <a href="../../2023-03-10_tags/#publicacao" class="md-tag">publicação</a>
+      
+    
+      
+      
+        <a href="../../2023-03-10_tags/#validacao" class="md-tag">validação</a>
+      
+    
+      
+      
+        <a href="../../2023-03-10_tags/#metadados" class="md-tag">metadados</a>
+      
+    
+      
+      
+        <a href="../../2023-03-10_tags/#qualidade" class="md-tag">qualidade</a>
+      
+    
+  </nav>
 
 
-  <a href="https://github.com/Andrelamor/manual-abertura-2023-3/edit/main/docs/3. Consulta e uso dos dados/017_acesso_consulta_portal-CLI_API.md" title="Edit this page" class="md-content__button md-icon">
+
+  <a href="https://github.com/Andrelamor/manual-abertura-2023-3/edit/main/docs/2. Ciclo de publicação de dados/010_validacao.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="acesso-e-consulta-aos-dados-do-portal-com-ferramentas-open-source">Acesso e consulta aos dados do Portal com ferramentas open source<a class="headerlink" href="#acesso-e-consulta-aos-dados-do-portal-com-ferramentas-open-source" title="Permanent link">⚓︎</a></h1>
-<h2 id="casos-de-uso-de-leitura-de-dados-com-pacote-pandas-do-python">Casos de Uso de leitura de dados com pacote pandas do Python<a class="headerlink" href="#casos-de-uso-de-leitura-de-dados-com-pacote-pandas-do-python" title="Permanent link">⚓︎</a></h2>
-<ul>
-<li>
-<p><a href="https://github.com/transparencia-mg/pdt-pandas/tree/main/compras_contratos">Compras e Contratos</a></p>
-</li>
-<li>
-<p><a href="https://github.com/transparencia-mg/pdt-pandas/tree/main/remuneracao">Remuneração</a></p>
-</li>
-</ul>
+<h1 id="validacao-automatica">Validação Automática<a class="headerlink" href="#validacao-automatica" title="Permanent link">⚓︎</a></h1>
+<p>Esta etapa também serve para para oferecer informação íntegra aos usuários. Consiste em comparar se os dados de cada variável espelham fielmente a descrição contida no respectivo dicionário de dados. </p>
+<h2 id="verificar-a-validacao-dos-dados-no-portal-de-dados-com-o-plugin-ckanext-datapackage-creator">Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator<a class="headerlink" href="#verificar-a-validacao-dos-dados-no-portal-de-dados-com-o-plugin-ckanext-datapackage-creator" title="Permanent link">⚓︎</a></h2>
+<p><strong>tela 1ª validação com um recurso</strong>
+<img alt="image" src="https://user-images.githubusercontent.com/52294411/235264375-c3aae20c-e3fa-49f7-943a-32b6369b908d.png" /></p>
+<h4 id="corrigir-eventuais-inconsistencias-rol-exemplificativo">Corrigir eventuais inconsistências (rol exemplificativo)<a class="headerlink" href="#corrigir-eventuais-inconsistencias-rol-exemplificativo" title="Permanent link">⚓︎</a></h4>
+<ol>
+<li>Tipo de dado da coluna: data, numeral inteiro/decimal, com vírgulas, etc</li>
+<li>Encoding</li>
+<li></li>
+</ol>
+<h2 id="verificar-relacionamento">Verificar relacionamento<a class="headerlink" href="#verificar-relacionamento" title="Permanent link">⚓︎</a></h2>
+<p><strong>tela DER com1º recurso</strong>
+<img alt="image" src="https://user-images.githubusercontent.com/52294411/235264314-ce96eb4a-b268-4b6e-ab10-ca9002f66f95.png" /></p>
+<h2 id="verificar-dicionarios-de-dados">Verificar dicionários de dados<a class="headerlink" href="#verificar-dicionarios-de-dados" title="Permanent link">⚓︎</a></h2>
+<p><strong>tela dicionário de dados</strong>
+<img alt="image" src="https://user-images.githubusercontent.com/52294411/235264281-eb229f34-7f0a-400c-9be0-99a1da899cde.png" /></p>
+<p><strong>tela view metadata</strong>
+<img alt="image" src="https://user-images.githubusercontent.com/52294411/235264263-c21ab52f-eede-4e4e-9a69-9d75ae3b0b1f.png" /></p>
+<h2 id="operacao-da-validacao-com-o-framework-da-frictionless-data">Operação da validação com o framework da Frictionless Data<a class="headerlink" href="#operacao-da-validacao-com-o-framework-da-frictionless-data" title="Permanent link">⚓︎</a></h2>
+<p>O conjunto de ferramentas da especificação Frictionless permite automatizar a validação, seja no HD local, ou conectado a um repositório github onde o conjuntos de dados esteja hospedado.</p>
+<p>A oficina "Dados abertos sem fricção" (<a href="https://www.youtube.com/watch?v=tZ0bmlnqMuY">vídeo</a> e <a href="https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf">apresentação</a>) demonstram como preparar um conjunto de dados para publicação, com ferramenta online da Frictionless Data (especificação de metadados utilizada no Portal de Dados Abertos). Seu conteúdo inclui a documentação de um pequeno conjunto de dados, com a ferramenta online <em>datapackage creator</em> seguido da validação e limpeza.</p>
+<p>O webnário <a href=""></a> também abordou exemplos de como inferir, documentar os metadados e validá-los, com a ferramenta CLI (linha de comando) dpckan e também com a extensão (plugin) ckanext-datapackage-creator, de interface gráfica </p>
+<p>Uma lista compreensiva dos erros de validação mais comuns pode ser acessada na próxima sessão.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 10, 2023 19:47:18</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 2, 2023 14:32:57</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 10, 2023 19:47:18</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 10, 2023 15:05:51</span>
       
     
   </small>
@@ -882,6 +988,53 @@
 
 
 
+
+  <h2 id="__comments">Comments</h2>
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+          data-repo="transparencia-mg/handbook"
+          data-repo-id="MDEwOlJlcG9zaXRvcnkxOTkwNzY2NzE="
+          data-category="Announcements"
+          data-category-id="DIC_kwDOC92rP84CTRDF"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="pt"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
                 
               </article>
@@ -903,7 +1056,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../../2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/016_semana_controle/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Oficinas, capacitações, palestras, webnarios" rel="prev">
+        <a href="../009_recurso/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Adicionar recurso e documentar seus metadados" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -912,20 +1065,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Oficinas, capacitações, palestras, webnarios
+              Adicionar recurso e documentar seus metadados
             </div>
           </div>
         </a>
       
       
         
-        <a href="../018_acesso_consulta_portal_GUI/" class="md-footer__link md-footer__link--next" aria-label="Next: Acessando o Portal e consultando dados" rel="next">
+        <a href="../011_erros_comuns_validacao/" class="md-footer__link md-footer__link--next" aria-label="Next: Erros comuns de validação:" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Acessando o Portal e consultando dados
+              Erros comuns de validação:
             </div>
           </div>
           <div class="md-footer__button md-icon">

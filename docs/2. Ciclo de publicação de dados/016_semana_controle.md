@@ -10,6 +10,8 @@ tags:
 
 # Oficinas, capacitações, palestras, webnarios
 
+[webnario OKBr março/2023 - Gerenciando dados no CKAN com dpckan e ckanext-datapackage-creator](https://transparencia-mg.github.io/reveal.js/presentations/20230328_gerenciar_dados_abertos_com_dpckan/index.html)
+
 # roteiro oficina
 
 ![image](https://user-images.githubusercontent.com/52294411/235708922-ea9682a8-5f30-41c9-b611-d1a5a6e5b9a9.png)

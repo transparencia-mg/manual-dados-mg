@@ -16,7 +16,7 @@ Esta etapa também serve para para oferecer informação íntegra aos usuários.
 **tela 1ª validação com um recurso**
 ![image](https://user-images.githubusercontent.com/52294411/235264375-c3aae20c-e3fa-49f7-943a-32b6369b908d.png)
 
-Para cada edição em algum recurso em que o botão 'Publish' tenha sido acionado, haverá um novo relatório de validação acessível, como exemplificafo abaixo:
+Para cada edição em algum recurso em que o botão 'Publish' tenha sido acionado, haverá um novo relatório de validação acessível, como exemplificado abaixo:
 
 ![image](https://user-images.githubusercontent.com/52294411/235788319-564166d7-ca89-403b-a473-f4255eb4f165.png)
 No caso acima, houve uma referência incorreta de chaves primária (primary key) e chave estrangeira (foreign key). 
@@ -34,7 +34,7 @@ No caso acima, houve uma referência incorreta de chaves primária (primary key)
 
 **tela DER com 1º recurso**
 ![image](https://user-images.githubusercontent.com/52294411/235264314-ce96eb4a-b268-4b6e-ab10-ca9002f66f95.png)
-**tela DER com um chaveamento/relaççao entre 2 tabelas**
+**tela DER com um chaveamento/relação entre 2 tabelas**
 ![image](https://user-images.githubusercontent.com/52294411/235786800-3c4c4ad8-b703-44c5-b0df-e001160aaf20.png)
 
 ## Verificar dicionários de dados

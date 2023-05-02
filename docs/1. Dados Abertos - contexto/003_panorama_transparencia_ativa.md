@@ -1,6 +1,6 @@
 # Panorama dos Dados Abertos na Transparência Ativa
 
-O Portal de Dados Abertos esteve vinculado ao Portal da Transparência, e os conjuntos de dados publicados estavam restritos aos dados fiscais e de orçamento, previstos na Lei de Responsabilidade Fiscal.
+O Portal de Dados Abertos esteve vinculado ao Portal da Transparência até 2020, e os conjuntos de dados publicados estavam restritos aos dados fiscais e de orçamento, previstos na Lei de Responsabilidade Fiscal.
 
 Desde 2020, o Planejamento Estratégico da CGE previa:
 
@@ -20,7 +20,7 @@ Esse decreto instituiu duas definições de base:
 
 Àquela época, a Diretoria Central de Transparência Ativa já estava trabalhado na validação da estrutura e processos de publicação de dados abertos no novo Portal, relançado em 2020. Constituem duas ações paralelas de indução de transparência ativa (pela abertura de novas bases): a ação do Plano de Contole Interno da CGE (PACI) de 2022 e a busca direta da DCTA, em nível central, a órgãos e entidades interessadas em abrir suas bases de dados.
 
-Assim, além da possibilidade de realizar um Plano de Abertura de Dados, algumas parcerias para abertura de dados têm sido realizadas desde 2021.
+Assim, além da possibilidade de realizar um Plano de Abertura de Dados, algumas parcerias para abertura de dados têm sido realizadas desde 2021:
 
 #### FHEMIG (Fundação Hospitalar de Minhas Gerais) 
 
@@ -35,11 +35,11 @@ Assim, além da possibilidade de realizar um Plano de Abertura de Dados, algumas
 
 #### SEDESE (Secretaria de Estado de Desenvolvimento Social)
 
-Conjunto de dados sobre os [Programas de Transferência de Renda de 2020 e 2021](https://dados.mg.gov.br/dataset/programas-transferencia-renda) 
+Conjunto de dados sobre os [Programas de Transferência de Renda de 2020 e 2021](https://dados.mg.gov.br/dataset/programas-transferencia-renda), publicados em setembro de 2022 
 
 #### SEJUSP (Secretaria de Estado de Justiça e Segurança Pública)
 
-Conjunto de dados referentes aos [Crimes Violentos](https://dados.mg.gov.br/dataset/crimes-violentos)
+Conjunto de dados referentes aos [Crimes Violentos](https://dados.mg.gov.br/dataset/crimes-violentos), publicados em janeiro de 2023
 
 
 ## Gestor Público

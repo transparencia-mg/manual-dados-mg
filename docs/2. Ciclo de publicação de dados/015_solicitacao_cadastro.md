@@ -1,6 +1,8 @@
 ---
 comments: true
 tags:
+  - cadastro
+  - login
   - publicação
 ---
 # Solicitação de Cadastro de Novo Usuário no Portal de Dados Abertos

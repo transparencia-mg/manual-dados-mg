@@ -20,24 +20,11 @@ tags:
 
 1
 
-- boas vindas, previsão de tempo (1h30) e etapas da oficina (3), avisar da gravação
-
-- início gravação
-
-- apresentações pessoais
 
 - - - 
 
 ![image](https://user-images.githubusercontent.com/52294411/235705786-b506164d-08d3-40ba-aec2-e1cc85d51607.png)
 
-- contexto geral de ampliação da disponibilização de dados de interesse coletivo e geral
-	- relançamento do PdA em 2020
-	- Decreto Governo Digital de março de 2022
-	- adesão em escala em 2023 após adaptações do PdA
-
-- objetivo é instrumentalizar pessoas responsáveis por bases de dados, em algum nível (produção, manutenção, manipulação, compartilhamento, publicação, etc), para publicar dados no PdA/CKAN
-	
-	- vamos fazer, portanto, a simulação de um fluxo de publicação no CKAN
 
 - - - 
 2
@@ -45,52 +32,20 @@ tags:
 
 https://github.com/ckan/ckan
 
-- CKAN é 
-	- plataforma de dados abertos governamentais mais utilizada no mundo
-	
-	- ferramenta open source, 
-	
-	- baseada em postgress, solr, (python)
-	
-	- desenvolvida pela OKF e mantida pela comunidade (repo aberto no github),
-	
+
 - - - 
 3
 ![image](https://user-images.githubusercontent.com/52294411/235703452-f20606ed-3db3-45cb-9248-3fc779d5a0c4.png)
 
 https://ckan.org/blog/the-ckan-30-team-is-formed-welcome-to-dragan-and-svetozar
 
-- sujeita a manutenções e evoluções periódicas
-		
-	- a última delas era prevista para out/22 e somente foi publicada em jan/23
 
-- vamos usar um ambiente básico da última versão 2.10 publicada em janeiro, acrescida de um plug-in específico desenvolvido recentemente para facilitar a publicação e uso dos dados
-		
-	- o plugin ainda é matéria de testes, e a oficina também serve para captar dúvidas e necessidades de ajustes
-
-	- a oficina ficará gravada para consulta e prática
-
-	- também temos uma versão em elaboração do Manual de Dados Abertos, para consulta e aberta para observações e sugestões
-
-	- prevemos subir esse ambiente que vamos usar para o PdA em julho (?), juntamente com a agregação de dúvidas e observaçoes no Manual
-	
 - - - 
 4
 ![image](https://user-images.githubusercontent.com/52294411/235704328-972bc2b7-bae7-43f2-aa09-31a6dd5f2378.png)
 
 ## fluxo publicação (1 slide + mão-na-massa - 50min)
 
-- etapas do fluxo: 
-	- escolha das bases, 
-	- preparação (limpeza, anonimização, formato aberto), 
-	- documentação (descrição dos metadados), 
-	- validação (se dados estão de acordo com metadados)
-	- publicação
-	- uso, reuso, feedbacks (mecanismos de transparência passiva)
-	- novas versões do conjunto
-
-	- nessa oficina, vamos fazer as etapas de documentação, validação e publicação 
-	- a oficina é instrumental e visa mostrar as funcionalidades da ferramenta/plataforma, mas ela não exaure nossas responsabilidades de promoção de transparência enquanto agentes públicos (preparações e decisões são necessárias e variam conforme órgão e base de dado - i. e. processo de escolha das bases, limpeza, restrição de informações pessoais/sensíveis, atribuição de licenças e uso de formatos abertos - observações ao final da simulação de um fluxo de publicação no CKAN, correlacionando com os principais requisitos legais vigentes)
 
 - - -
 5

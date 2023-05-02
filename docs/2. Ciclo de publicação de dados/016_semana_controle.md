@@ -18,12 +18,11 @@ tags:
 
 ## intro (4 slides - máx. 10min)
 
-1
 
 ![image](https://user-images.githubusercontent.com/52294411/235719411-25869bc6-010b-4b93-864c-299df02a150a.png)
 
 - - - 
-
+1
 ![image](https://user-images.githubusercontent.com/52294411/235705786-b506164d-08d3-40ba-aec2-e1cc85d51607.png)
 
 

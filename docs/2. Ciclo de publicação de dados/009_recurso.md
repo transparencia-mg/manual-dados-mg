@@ -50,8 +50,7 @@ Você pode ampliar a qualidade da documentação dos teus dados, adicionando pro
 	- enum
 
 **tela Add Metadata**
-	
-![image](https://user-images.githubusercontent.com/52294411/235265312-5ac0b178-ed9b-485a-865e-69d012b3fb60.png)
+![image](https://user-images.githubusercontent.com/52294411/235783577-3291d706-8633-4d3c-9d5d-0a248761fc7f.png)
 
 Mais informações sobre a aplicabilidade de cada metadado em https://specs.frictionlessdata.io/table-schema/#constraints.
 
@@ -63,7 +62,7 @@ Para qualquer arquivo (recurso ou _Resource Data_) incluído, também são neces
 Você também pode adicionar mais metadados do recurso, clicando no botão '+Add Metadata'
 
 **tela add metadata**
-![image](https://user-images.githubusercontent.com/52294411/235783577-3291d706-8633-4d3c-9d5d-0a248761fc7f.png)
+
 
 Se o conjunto contiver somente um recurso, clique no botão 'Validate', para checar o resultado na porção superior da página. Aparecendo o texto em verde 'Successfully saved resourse', pode clicar no botão 'Publish', no canto inferior da página (o botão 'PUBLISH' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após vocÊ clicar em 'Validate'). 
 

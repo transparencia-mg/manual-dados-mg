@@ -78,10 +78,10 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
 ## Recuperar a criação de um conjunto 
 
-Caso tenha esquecido ou ficado em dúvida sobre algum metadado do conjunto, ou a autenticação (login) tenha se desfeito por qualquer motivo, você pode retomar a edição dos metadados do conjunto, no ponto em que parou. Na tela Conjuntos, selecionar o conjunto (caso não encontre, clicar em ADMIN, no canto superior direito): 
+Caso tenha esquecido ou ficado em dúvida sobre algum metadado do conjunto, ou a autenticação (login) tenha se desfeito por qualquer motivo, você pode retomar a edição dos metadados do conjunto, no ponto em que parou. Na tela Conjuntos, selecionar o conjunto (caso não encontre, clicar no teu nome de usuário, no canto superior direito - no exemplo abaixo, o nome de usuário é 'admin'): 
 
 **tela conjuntos ADMIN**
-![image](https://user-images.githubusercontent.com/52294411/235775288-91796ef7-6da4-4b78-90c5-5b281b6f579f.png)
+![image](https://user-images.githubusercontent.com/52294411/235778244-e6bbe670-8838-46d1-993c-56a8e7cdab56.png)
 
 Depois, basta clicar em Gerenciar (_Manage_):
 

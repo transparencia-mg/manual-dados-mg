@@ -87,3 +87,9 @@ Se você já tiver publicado um conjunto apenas com o primeiro recurso, pode vol
 
 **tela add new resource pos publish**
 ![image](https://user-images.githubusercontent.com/52294411/235785430-e49fe674-331f-4275-90f6-4b358078a302.png)
+	
+## Incluir um relacionamento
+	
+## Incluir uma restrição (metadado de constraint)
+	
+

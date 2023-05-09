@@ -90,6 +90,7 @@ Se você já tiver publicado um conjunto apenas com o primeiro recurso, pode vol
 	
 ## Incluir um relacionamento
 	
-## Incluir uma restrição (metadado de constraint)
-	
+**primary Key**
+
+**foreign Key**
 

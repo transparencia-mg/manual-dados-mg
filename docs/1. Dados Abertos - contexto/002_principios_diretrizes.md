@@ -96,9 +96,9 @@ Uma figura comum nas cartilhas e materiais que trata de fazer mostrar o grau de 
 
 ★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV e não excel.
 
-★ ★★ ★: identificador uniforme de recurso (exemplo?) 
+★ ★★ ★: identificador uniforme de recurso
 
-★ ★★ ★★ : dados conectados (exemplo?) RDF/LOD
+★ ★★ ★★ : dados conectados RDF/LOD
 
 ![image](https://user-images.githubusercontent.com/52294411/226441191-1dfef786-da09-4f82-ad94-de6fc5e7ba7c.png)
 

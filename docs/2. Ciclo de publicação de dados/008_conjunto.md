@@ -10,12 +10,6 @@ tags:
 
 # Publicando dados no Portal de Dados Abertos de MG
 
-- [Apresentação sobre dados abertos](https://github.com/dados-mg/dados-mg.github.io/blob/invitation/dados-abertos-pcmg-2023-02-16.pptx?raw=true)
-
-- Material estático com o ambiente de treinamento versão CKAN produção 2.10 + plugin ckanext-datapackage-creator
-
-- Vídeo/tutorial do treinamento (link da Gravação da capacitação/oficina hands-on da Semana do Controle Interno de maio de 2023 a ser incluído após oficina do dia 10/05) 
-
 ## Login
 
 Acesse sua conta inserindo login de usuário e senha. Para isso, você precisa solicitar a criação do teu usuário, instruções em [Solicitação de Cadastro de Novo Usuário no Portal de Dados Abertos]():
@@ -24,7 +18,7 @@ Acesse sua conta inserindo login de usuário e senha. Para isso, você precisa s
 
 ## Criar e documentar novo conjunto de dados
 
-Após fazer login, na página de [Conjuntos de Dados(Datasets)](), ou de [Organizações(Organizations)]()clicar no botão azul 'Adicionar Conjunto de Dados':
+Após fazer login, na página de [Conjuntos de Dados(Datasets)](http://projetockan.cge.mg.gov.br/dataset/), ou de [Organizações(Organizations)](http://projetockan.cge.mg.gov.br/organization/)clicar no botão azul 'Adicionar Conjunto de Dados':
 
 **tela add dataset**
 ![image](https://user-images.githubusercontent.com/52294411/235776345-fde61cfc-892c-4f7e-a1f6-b7300b70aeaf.png)
@@ -46,9 +40,9 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
 - Preencha uma página/site/URL (_Source_), caso haja, com a fonte original da base de dados, ou uma página informativa sobre a base ou sobre o setor responsável pela publicação
 
-- Informe a versão (_Version_) corrente do conjunto a ser publicado (dicas para atribuição de versão em **inserir link**)
+- Informe a versão (_Version_) corrente do conjunto a ser publicado (regras para atribuição de versão em https://semver.org/lang/pt-BR/)
 
-- Contribuidores (_Contributors_): o publicador (_Publisher_) já vem preenchido automaticamente com as informações de nome do login e email; caso o autor (_Author_) da base seja diferente do publicador (alguém de outro setor, por exemplo, informar nos campos correspondentes. Também é possível informar um site/URL referente ao publicador ou autor (**inserir exemplo**).
+- Contribuidores (_Contributors_): o publicador (_Publisher_) já vem preenchido automaticamente com as informações de nome do login e email; caso o autor (_Author_) da base seja diferente do publicador (alguém de outro setor, por exemplo, informar nos campos correspondentes. Também é possível informar um site/URL referente ao publicador ou autor (como uma URL/página referência do setor ou política no sítio institucional do seu órgão/entidade).
 
 - Você também pode adicionar um 'Contribuidor', após clicar em '+Add Contributor' e selecionar seu tipo (_Select the contributor type_). A documentação do CKAN permite vários tipos, mas sugerimos restringir aos tipos publicador (_Publisher_), autor (_Author_) ou mantenedor (_Maintainer_)
 

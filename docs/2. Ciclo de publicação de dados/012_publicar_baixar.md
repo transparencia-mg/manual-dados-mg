@@ -8,7 +8,7 @@ tags:
   - treinamento
 ---
 
-## Publicar dados
+# Publicar dados
 
 Se o conjunto contiver somente um recurso, clique no botão '_Validate_', para checar o resultado na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após clicar em '_Validate_'). 
 

@@ -88,9 +88,13 @@ Se você já tiver publicado um conjunto apenas com o primeiro recurso, pode vol
 **tela add new resource pos publish**
 ![image](https://user-images.githubusercontent.com/52294411/235785430-e49fe674-331f-4275-90f6-4b358078a302.png)
 	
-## Incluir um relacionamento
-	
+## Incluir um relacionamento (chaves primária '_primary Key_'e estrangeira '_foreign Key_')
+
+Serve para representar o relacionamento entre colunas com mesmos valores (instâncias) de duas tabelas (recursos) que dizem respeito a um mesmo fenômeno. A visualização das referências entre as colunas que se relacionam podem ser notadas nas setas [deste conjunto-teste](http://projetockan.cge.mg.gov.br/datapackage-creator/show-diagram/teste-rapido-sprint-6). As chaves são incluidas nas caixas de adição de metadados, como as telas a seguir mostram:
+
 **primary Key**
+![image](https://github.com/Andrelamor/manual-abertura-2023-3/assets/52294411/55fbbabc-9863-463f-832b-18363ddcd911)
 
 **foreign Key**
+![image](https://github.com/Andrelamor/manual-abertura-2023-3/assets/52294411/bd8c622a-6e68-4eca-9fef-680a34a893c2)
 

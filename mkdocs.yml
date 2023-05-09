@@ -86,7 +86,7 @@ extra: # Footer
       link: http://dados.mg.gov.br/
     - icon: fontawesome/brands/github-alt
       name: Repositório do Manual de Dados no GitHub.
-      link: https://github.com/transparencia-mg/manual-abertura
+      link: https://github.com/transparencia-mg/manual-dados-mg
     - icon: fontawesome/brands/youtube
       name: Canal Transparência no YouTube.
       link: https://www.youtube.com/@transparenciamg2235

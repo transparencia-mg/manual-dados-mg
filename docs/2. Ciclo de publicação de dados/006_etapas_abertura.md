@@ -11,9 +11,11 @@ tags:
 Após a escolha da base, seguem as etapas de preparação técnica da base para publicação, como representadas no esquema sintético a seguir:
 
 ![](../assets/images/PdA-etl.jpg)
-As etapas de documentação, validação e publicação contam com o auxílio de ferramentas para automatização do trabalho, customizadas pela DCTA. 
+As etapas de documentação, validação e publicação contam com o auxílio de ferramentas de linha de comando (CLI) para automatização do trabalho, customizadas pela DCTA. 
 
-Tais ferramentas necessitam de instalação e configuração, cujas instruções podem ser acessadas [aqui](https://github.com/dados-mg/dados-mg.github.io/blob/main/setup-maquina-windows.md)
+Tais ferramentas necessitam de instalação e configuração, cujas instruções podem ser acessadas [aqui](https://github.com/dados-mg/dados-mg.github.io/blob/main/setup-maquina-windows.md). 
+
+Oportunamente, a [instância do CKAN em produção que comporta o Portal de Dados Abertos](www.dados.mg.gov.br) poderá ter a incorporação dessas ferramentas na sua interface gráfica (GUI), conforme explicado nas Oficinas de Capacitação em Abertura de Dados (ocorrida em 10/05), da 2ª Semana Mineira de Controle (2023).
 
 # Limpeza de Dados
 
@@ -39,7 +41,7 @@ Na figura a seguir, temos algumas inadequações na planilha de remuneração:
 
 ![limpeza-exemplo](https://user-images.githubusercontent.com/52294411/225653960-5fc2c8d3-f0ed-4d4d-850a-8514f812b17c.png)
 
-A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns de limpeza de dados responsável, pode ser encontrado [na EScola de Dados da Open Knowledge Brasil](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/).
+A responsabilidade pela limpeza dos dados deve ser da área produtora (ou custodiante). Um guia sugestivo de problemas comuns de limpeza de dados responsável, pode ser encontrado [na Escola de Dados da Open Knowledge Brasil](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/).
 
 O guia divide o tipo de problema pelo responsável indicado para resolvê-lo, como, por exemplo:
 
@@ -55,11 +57,7 @@ Esta etapa visa resguardar informações que tenham restrição de acesso, em at
 
 As decisões sobre restringir informações são balizadas pela análise caso-a-caso e devem contar com a análise dos especialistas de cada área temática ou política pública.
 
-[^]
-  - Enunciado AGE março de 2022 
-
-
-O [Guia de Boas Práticas da LGPD](https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf), publicado pelo Comitê Cetral de Governança de Dados, traz algumas definições e estratégias para identificar a necessidade e aplicar técnicas de anonimização e pseudonimização.
+O [Guia de Boas Práticas da LGPD](https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf), publicado pelo Comitê Central de Governança de Dados, traz algumas definições e estratégias para identificar a necessidade e aplicar técnicas de anonimização e pseudonimização.
 
 Segundo o Guia:
 
@@ -67,9 +65,7 @@ Segundo o Guia:
 
 * pseudonimização _é a técnica de tratar dados pessoais de uma forma em que os dados somente possam ser atribuídos a um titular de dados mediante a utilização de informações adicionais, não disponíveis a todos, desde que essas informações sejam mantidas em ambiente separado, controlado e seguro. A título ilustrativo, criptografia é um método de pseudonimização, quando os dados somente podem ser atribuídos a um titular mediante o conhecimento da chave criptográfica_
 
-[^ ]
-
-Ainda segundo a Autoridade Nacional de Proteção de Dados (ANPD), em [NT sobre a divulgação dos microdados do censo escolar](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/sei_00261-000730_2022_53-nt-46.pdf)
+Ainda segundo a Autoridade Nacional de Proteção de Dados (ANPD), em [NT sobre a divulgação dos microdados do censo escolar](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/sei_00261-000730_2022_53-nt-46.pdf), que podem balizar a avaliação de riscos e mitigar possibilidades de identificação de pessoas físicas:
 
 > 6.2. A anonimização não é uma medida de segurança que deve ser adotada em todo e qualquer tratamento de dados pessoais, pois a LGPD não a elegeu como condição técnica para a divulgação pública ou para o compartilhamento de dados pessoais por entidades e órgãos públicos. Em realidade, a principal determinação da LGPD é quanto à necessidade de avaliação de riscos e de adoção de medidas para mitigar a ocorrência de danos. Por esta razão, a eventual identificação dos titulares ou a admissão de algum grau de risco de sua identificação, quando necessário para atender, por exemplo, a determinações legais, o interesse público e o direito de acesso à informação, são compatíveis com a LGPD, desde que adotadas as salvaguardas apropriadas.
 

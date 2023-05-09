@@ -17,7 +17,7 @@ Tais ferramentas necessitam de instalação e configuração, cujas instruções
 
 Oportunamente, a [instância do CKAN em produção que comporta o Portal de Dados Abertos](www.dados.mg.gov.br) poderá ter a incorporação dessas ferramentas na sua interface gráfica (GUI), conforme explicado nas Oficinas de Capacitação em Abertura de Dados (ocorrida em 10/05), da 2ª Semana Mineira de Controle (2023).
 
-# Limpeza de Dados
+## Limpeza de Dados
 
 Esta etapa tem o objetivo de oferecer informação íntegra aos usuários. A limpeza não se constitui, necessariamente, uma primeira etapa de uma sequência ordenada de ações. Ela usualmente é necessária após a documentação, ou validação dos dados, na medida em que forem identificadas incorreções, incompletudes ou inadequações com os metadados descritos. 
 
@@ -49,7 +49,7 @@ O guia divide o tipo de problema pelo responsável indicado para resolvê-lo, co
 
 * problemas que o usuário dos dados deve resolver: dados foram editados manualmente, escala de tempo foi manipulada, inflação distorce os dados, amostra não é aleatória, amostra é enviesada, margem de erro é muito grande, margem de erro é desconhecida, 
 
-# Restrição de Informações
+## Restrição de Informações
 
 Esta etapa visa resguardar informações que tenham restrição de acesso, em atendimento à Lei de Acesso à Informação (LAI, Capítulo IV) e à Lei Geral de Proteção de Dados (LGPD). 
 

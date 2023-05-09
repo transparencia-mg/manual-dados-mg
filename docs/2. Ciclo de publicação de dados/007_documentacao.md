@@ -134,10 +134,6 @@ Recursos (_resources_):
 
  ![schema-json](https://user-images.githubusercontent.com/52294411/225655600-538cfbfd-7e79-4bcb-9fcf-eecd64397a89.png)
 
-[^] a ordem das propriedades nos datapackage.json quase nunca é igual; 
-
-	não estamos publicando `description` nos conjuntos do `age7`
-
 #### Facultativos
 
  - Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.

@@ -22,7 +22,7 @@ Após adicionar os recursos desejados, clique no botão '_Validate_', para checa
 
 Após publicado, a tela exibida com o conjunto e seus recursos:
 
-
+![image](https://github.com/transparencia-mg/manual-dados-mg/assets/52294411/30b6d1c7-d1e3-470e-9047-6ea2e3395c72)
 
 ## Baixar conjunto de dados
 

@@ -10,8 +10,9 @@ tags:
 
 # Adicionar recurso e documentar seus metadados
 
-Após criar o conjunto, você será redirecionado para a página (Home /Organizations / <sua organização> / <seu conjunto de dados> / Edit / Add New Resource)
-Selecione o arquivo em sua máquina e clique no botão 'Carregar' (_Load_). 
+Após criar o conjunto, você será redirecionado para a página _(Home /Organizations / (sua organização) / (seu conjunto de dados) / Edit / Add New Resource)_.
+
+Selecione o arquivo em sua máquina e clique no botão 'Carregar' (_Load_): 
 	
 **tela add new resource**
 ![image](https://user-images.githubusercontent.com/52294411/235779150-0a846533-bb46-4ae3-9d59-e5bda9520b8c.png)
@@ -37,22 +38,22 @@ O título e a descrição devem ser legíveis por pessoas, então comportam acen
 
 O tipo e o formato dos valores de cada coluna são inferidos automaticamente pelo CKAN, mas você pode alterá-los, se julgar que um outro representa melhor o dado de determinada coluna. 
 
-Mais detalhes sobre as especificações de tipos e formatos de coluna em https://specs.frictionlessdata.io/table-schema/#field-descriptors.
+Mais detalhes sobre as especificações de tipos e formatos de coluna nas [Especificações da _Frictionless Data_('dados sem fricção')](https://specs.frictionlessdata.io/table-schema/#field-descriptors).
 
 Você pode ampliar a qualidade da documentação dos teus dados, adicionando propriedades:
 
-- requerido (_required_), se for obrigatório ter dados na coluna;
-- valores únicos (_unique_)
-- chaves primária (_Primary Key_) e/ou estrangeira (_Foreign Key_)
+- requerido (_required_), se for obrigatório ter dados na coluna (não pode haver campo 'NULL');
+- valores únicos (_unique_), se todos os valores da coluna forem únicos;
+- chaves primária (_Primary Key_) e/ou estrangeira (_Foreign Key_), para indicar variáveis (coluna) que conectam tabelas (modelo entidade-relacionamento/M.E.R.)
 - extras (clicar no botão '+ Add Metadata'):
-	- max/min
-	- pattern
-	- enum
+	- max/min (valores mínimo e máximo, se numeral)
+	- pattern (expressão regular, com sintaxe definida no [XML Schema regular expression syntax](http://www.w3.org/TR/xmlschema-2/#regexs))
+	- enum (lista exaustiva que indica todos os possíveis valores de uma coluna)
 
 **tela Add Metadata**
 ![image](https://user-images.githubusercontent.com/52294411/235783577-3291d706-8633-4d3c-9d5d-0a248761fc7f.png)
 
-Mais informações sobre a aplicabilidade de cada metadado em https://specs.frictionlessdata.io/table-schema/#constraints.
+Mais informações sobre a aplicabilidade de cada metadado restritivo (_constraints_) em [_Frictionless Table Schema Fields Constraints_](https://specs.frictionlessdata.io/table-schema/#constraints.
 
 Para qualquer arquivo (recurso ou _Resource Data_) incluído, também são necessários título (_Title_) e descrição (_Description_). Além disso, o formato (_Format_), tipo (_type_) e _encoding_ também são obrigatórios, mas já vêm inferidos pelo CKAN.
 
@@ -64,7 +65,7 @@ Você também pode adicionar mais metadados do recurso, clicando no botão '+Add
 **tela add metadata**
 
 
-Se o conjunto contiver somente um recurso, clique no botão 'Validate', para checar o resultado na porção superior da página. Aparecendo o texto em verde 'Successfully saved resourse', pode clicar no botão 'Publish', no canto inferior da página (o botão 'PUBLISH' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após vocÊ clicar em 'Validate'). 
+Se o conjunto contiver somente um recurso, clique no botão '_Validate_', para checar o resultado na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após vocÊ clicar em '_Validate_'). 
 
 ![image](https://user-images.githubusercontent.com/52294411/235782539-3d554c36-f931-4398-983c-40e732691441.png)
 
@@ -72,9 +73,8 @@ Se o conjunto contiver somente um recurso, clique no botão 'Validate', para che
 
 ![image](https://user-images.githubusercontent.com/52294411/235782829-d41e5233-374b-4732-9e32-09bce15844e0.png)
 	
-OBS.: o texto que aparece após clicar no botão 'Validate' não correspnode ao resultado da checagem se os dados estão de acordo com os metadados informados, mas somente se o processo aconteceu.
+**OBS.IMPORTANTE!** o texto que aparece após clicar no botão 'Validate' não corresponde ao resultado da checagem se os dados estão de acordo com os metadados informados, mas somente que o processo aconteceu. O resultado fica numa '_badge_' (ou etiqueta) de validação na página inicial de cada conjunto, com os dizeres _DATAPACKAGE VALID_ (válido) ou _DATAPACKAGE INVALID_ (inválido).
 
-Caso queira adicionar mais recursos, veja o próximo tópico.
 
 ## Adicionar mais recursos e editar metadados
 

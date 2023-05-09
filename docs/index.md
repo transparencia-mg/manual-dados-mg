@@ -37,8 +37,6 @@ Guia para acesso, consulta, uso e reúso dos dados:
 
 - [Portal de Dados Abertos de Minas Gerais/PdA](https://dados.mg.gov.br/about)
 
-- [posts sobre o PdA e sua plataforma, o CKAN](https://transparencia-mg.github.io/handbook/0.1/posts/20221213_tags/#ckan)
-
 - [Portal de Transparência de Minas Gerais](https://www.transparencia.mg.gov.br/)
 
 - [e-SIC](https://acessoainformacao.mg.gov.br/sistema/site/index.aspx) 

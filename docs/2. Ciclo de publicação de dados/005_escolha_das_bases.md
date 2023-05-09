@@ -51,4 +51,4 @@ A Superitnendência Central de Transparência promoveu, em 2022, uma ação junt
  
 Esse trabalho visa alcançar benefícios tanto para os custodiantes das bases, quanto para os usuários do Portal de Dados Abertos de Minas Gerais, uma vez que poderão ser disponibilizados em formato aberto as principais bases demandadas pelos usuários ou outras bases não indicadas, mas que trazem valor às atividades desenvolvidas pelos órgãos e entidades.
 
-O resultado dessa ação se consiste no levantamento inicial das bases caracterizadas que pode ser consutada em https://transparencia-mg.github.io/PACI-2022/criterios-abertura/
+O resultado dessa ação se consiste no levantamento inicial das bases caracterizadas como propoensas para abertura, e os pontos focais dos órgãos serão provocados oportunamente para iniciarem os trabalhos de preparação e documentação das bases para abertura e publicação - num primeiro momento, serão consideradas as bases mais viáveis (que já estão estruturadas, não precisam de limpeza e nem anonimização). As demais terão seu cronograma estruturado num momento oportuno. 

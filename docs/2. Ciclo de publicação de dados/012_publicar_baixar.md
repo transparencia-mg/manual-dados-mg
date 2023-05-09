@@ -10,7 +10,7 @@ tags:
 
 # Publicar dados
 
-Se o conjunto contiver somente um recurso, clique no botão '_Validate_', para checar o resultado na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após clicar em '_Validate_'). 
+Após adicionar os recursos desejados, clique no botão '_Validate_', para checar o resultado na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após clicar em '_Validate_'). 
 
 ![image](https://user-images.githubusercontent.com/52294411/235782539-3d554c36-f931-4398-983c-40e732691441.png)
 
@@ -19,6 +19,10 @@ Se o conjunto contiver somente um recurso, clique no botão '_Validate_', para c
 ![image](https://user-images.githubusercontent.com/52294411/235782829-d41e5233-374b-4732-9e32-09bce15844e0.png)
 	
 **OBS.IMPORTANTE!** o texto que aparece após clicar no botão 'Validate' não corresponde ao resultado da checagem se os dados estão de acordo com os metadados informados, mas somente que o processo aconteceu. O resultado fica numa '_badge_' (ou etiqueta) de validação na página inicial de cada conjunto, com os dizeres _DATAPACKAGE VALID_ (válido) ou _DATAPACKAGE INVALID_ (inválido).
+
+Após publicado, a tela exibida com o conjunto e seus recursos:
+
+
 
 ## Baixar conjunto de dados
 

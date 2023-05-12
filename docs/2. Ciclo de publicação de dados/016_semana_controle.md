@@ -14,6 +14,6 @@ tags:
 
 - [Apresentação sobre dados abertos](https://github.com/dados-mg/dados-mg.github.io/blob/invitation/dados-abertos-pcmg-2023-02-16.pptx?raw=true)
 
-- Vídeo/tutorial do treinamento (link da Gravação da capacitação/oficina hands-on da Semana do Controle Interno de maio de 2023 a ser incluído após oficina do dia 10/05) 
+- [Vídeo](https://youtu.be/ZDWAPa19Dms) e [apresentação](https://github.com/transparencia-mg/oficina-semana-controle-2023/raw/main/oficina-maio%20(1).pptx) do treinamento (link da Gravação da capacitação/oficina hands-on da Semana do Controle Interno, realizada no dia 10/05/2023) 
 
 

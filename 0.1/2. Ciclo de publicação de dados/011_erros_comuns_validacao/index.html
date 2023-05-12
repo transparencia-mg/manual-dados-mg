@@ -694,6 +694,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#12-nome-name-do-recurso-contem-caracteres-fora-da-faixa-permitida" class="md-nav__link">
+    1.2. Nome name do recurso contém caracteres fora da faixa permitida
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-o-caminho-path-incorreto" class="md-nav__link">
+    1.3. O caminho path incorreto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sobre-os-arquivos-de-dados-e-seu-conteudo" class="md-nav__link">
+    2. Sobre os arquivos de dados e seu conteúdo
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Sobre os arquivos de dados e seu conteúdo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-divergencias-de-caracteristicas-dos-dados-no-datapackagejson" class="md-nav__link">
+    2.1. Divergências de características dos dados no datapackage.json
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -879,6 +913,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#12-nome-name-do-recurso-contem-caracteres-fora-da-faixa-permitida" class="md-nav__link">
+    1.2. Nome name do recurso contém caracteres fora da faixa permitida
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-o-caminho-path-incorreto" class="md-nav__link">
+    1.3. O caminho path incorreto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sobre-os-arquivos-de-dados-e-seu-conteudo" class="md-nav__link">
+    2. Sobre os arquivos de dados e seu conteúdo
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Sobre os arquivos de dados e seu conteúdo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-divergencias-de-caracteristicas-dos-dados-no-datapackagejson" class="md-nav__link">
+    2.1. Divergências de características dos dados no datapackage.json
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -967,27 +1035,24 @@
 <p>na inclusão da propriedade <code>owner_org</code>; dentre outros ...</p>
 </li>
 </ul>
-<p>````$ frictionless validate datapackage.json</p>
-<h1 id="-">-------<a class="headerlink" href="#-" title="Permanent link">⚓︎</a></h1>
-<h1 id="invalid-datapackagejson">invalid: datapackage.json<a class="headerlink" href="#invalid-datapackagejson" title="Permanent link">⚓︎</a></h1>
-<h1 id="-_1">-------<a class="headerlink" href="#-_1" title="Permanent link">⚓︎</a></h1>
-<p>=============  ===================================================================================================================================
-code           message                                                        <br />
+<div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
+# -------
+# invalid: datapackage.json
+# -------
 =============  ===================================================================================================================================
-package-error  The data package has an error: cannot extract metadata "datapackage.json" because "Expecting value: line 101 column 28 (char 3812)"
+code           message                                                          
 =============  ===================================================================================================================================
-<div class="highlight"><pre><span></span><code>![](assets/images/sintaxe2-datapackage-frictionless.png)
-
-![](assets/images/sintaxe2-datapackage.png)
-
-
-* Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)
-
-**b. faltou/sobrou alguma vírgula**
-
-Esse problema pode acontecer em diversas situações, tal qual exemplificado no caso de uso anterior.
-
-````$ frictionless validate datapackage.json
+package-error  The data package has an error: cannot extract metadata &quot;datapackage.json&quot; because &quot;Expecting value: line 101 column 28 (char 3812)&quot;
+=============  ===================================================================================================================================
+</code></pre></div>
+<p><img alt="" src="../../assets/images/sintaxe2-datapackage-frictionless.png" /></p>
+<p><img alt="" src="../../assets/images/sintaxe2-datapackage.png" /></p>
+<ul>
+<li>Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)</li>
+</ul>
+<p><strong>b. faltou/sobrou alguma vírgula</strong></p>
+<p>Esse problema pode acontecer em diversas situações, tal qual exemplificado no caso de uso anterior.</p>
+<div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
 # -------
 # invalid: datapackage.json
 # -------
@@ -996,35 +1061,33 @@ code           message
 =============  ==========================================================================================================================================
 package-error  The data package has an error: cannot extract metadata &quot;datapackage.json&quot; because &quot;Expecting &#39;,&#39; delimiter: line 96 column 11 (char 3621)&quot;
 =============  ==========================================================================================================================================
-</code></pre></div></p>
-<p><img alt="" src="assets/images/sintaxe-datapackage-frictionless.png" /></p>
-<p><img alt="" src="assets/images/sintaxe-datapackage.png" /></p>
+</code></pre></div>
+<p><img alt="" src="../../assets/images/sintaxe-datapackage-frictionless.png" /></p>
+<p><img alt="" src="../../assets/images/sintaxe-datapackage.png" /></p>
 <ul>
 <li><strong>Solução</strong>: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)</li>
 </ul>
 <h4 id="12-nome-name-do-recurso-contem-caracteres-fora-da-faixa-permitida">1.2. Nome <code>name</code> do recurso contém caracteres fora da faixa permitida<a class="headerlink" href="#12-nome-name-do-recurso-contem-caracteres-fora-da-faixa-permitida" title="Permanent link">⚓︎</a></h4>
 <p><a href="#top">(inicio)</a></p>
 <p>A especificação <code>Frictionless</code> não aceita espaços, letras maiúsculas ou caracteres especiais no valor deste campo:</p>
-<p>````$ frictionless validate datapackage.json</p>
-<h1 id="-_2">-------<a class="headerlink" href="#-_2" title="Permanent link">⚓︎</a></h1>
-<h1 id="invalid-datapackagejson_1">invalid: datapackage.json<a class="headerlink" href="#invalid-datapackagejson_1" title="Permanent link">⚓︎</a></h1>
-<h1 id="-_3">-------<a class="headerlink" href="#-_3" title="Permanent link">⚓︎</a></h1>
-<p>=============  ================================================================================================================================================================================================================
-code           message                                                                                                                                        <br />
+<div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
+# -------
+# invalid: datapackage.json
+# -------
 =============  ================================================================================================================================================================================================================
-package-error  The data package has an error: "'doa▒▒es-comodatos-amigo-estado-mg' does not match '^([-a-z0-9._/])+$'" at "resources/0/name" in metadata and at "properties/resources/items/properties/name/pattern" in profile
+code           message                                                                                                                                          
 =============  ================================================================================================================================================================================================================
-<div class="highlight"><pre><span></span><code>![](assets/images/name.png)
-
-* **Solução**: corrigir a propriedade `name` contendo [especificações legíveis por máquina](https://specs.frictionlessdata.io/data-resource/#metadata-properties)
-
-
-#### 1.3. O caminho `path` incorreto
-&lt;a href=&quot;#top&quot;&gt;(inicio)&lt;/a&gt;
-
-**a. onde se localizam os arquivos de dados:**
-
-````$ frictionless validate datapackage.json
+package-error  The data package has an error: &quot;&#39;doa▒▒es-comodatos-amigo-estado-mg&#39; does not match &#39;^([-a-z0-9._/])+$&#39;&quot; at &quot;resources/0/name&quot; in metadata and at &quot;properties/resources/items/properties/name/pattern&quot; in profile
+=============  ================================================================================================================================================================================================================
+</code></pre></div>
+<p><img alt="" src="../../assets/images/name.png" /></p>
+<ul>
+<li><strong>Solução</strong>: corrigir a propriedade <code>name</code> contendo <a href="https://specs.frictionlessdata.io/data-resource/#metadata-properties">especificações legíveis por máquina</a></li>
+</ul>
+<h4 id="13-o-caminho-path-incorreto">1.3. O caminho <code>path</code> incorreto<a class="headerlink" href="#13-o-caminho-path-incorreto" title="Permanent link">⚓︎</a></h4>
+<p><a href="#top">(inicio)</a></p>
+<p><strong>a. onde se localizam os arquivos de dados:</strong></p>
+<div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
 # -------
 # invalid: doacoes-comodatos-amigo-estado-mg.csv
 # -------
@@ -1034,60 +1097,57 @@ row  field  code          message
 ===  =====  ============  ==============================================================================================================================
             scheme-error  The data source could not be successfully loaded: [Errno 2] No such file or directory: &#39;doacoes-comodatos-amigo-estado-mg.csv&#39;
 ===  =====  ============  ==============================================================================================================================
-</code></pre></div></p>
-<p><img alt="" src="assets/images/path-frictionless.png" /></p>
-<p><img alt="" src="assets/images/path.png" /></p>
+</code></pre></div>
+<p><img alt="" src="../../assets/images/path-frictionless.png" /></p>
+<p><img alt="" src="../../assets/images/path.png" /></p>
 <ul>
 <li><strong>Solução</strong>: corrigir o valor da propriedade <code>path</code> incorporando o nome da pasta ou URL onde se localiza o recurso, ou corrigindo o nome do recurso, se for o caso</li>
 </ul>
 <p><strong>b. onde se localizam os arquivos de metadados <code>datapackage.json</code>, o <code>schema.json</code>, ou o <code>dialect.json</code></strong></p>
-<p>````$ frictionless validate datapackage.json</p>
-<h1 id="-_4">-------<a class="headerlink" href="#-_4" title="Permanent link">⚓︎</a></h1>
-<h1 id="invalid-datapackagejson_2">invalid: datapackage.json<a class="headerlink" href="#invalid-datapackagejson_2" title="Permanent link">⚓︎</a></h1>
-<h1 id="-_5">-------<a class="headerlink" href="#-_5" title="Permanent link">⚓︎</a></h1>
-<p>============  =======================================================================================================================
-code          message                                                         <br />
+<div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
+# -------
+# invalid: datapackage.json
+# -------
 ============  =======================================================================================================================
-schema-error  Schema is not valid: cannot extract metadata "schema.json" because "[Errno 2] No such file or directory: 'schema.json'"
+code          message                                                           
 ============  =======================================================================================================================
-<div class="highlight"><pre><span></span><code>![](assets/images/path-schema-frictionless.png)
-
-![](assets/images/path-schema.png)
-
-* **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o `schema` ou `dialect`, ou corrigindo seu nome, se for o caso
-
-
-## 2. Sobre os arquivos de dados e seu conteúdo
-&lt;a href=&quot;#top&quot;&gt;(inicio)&lt;/a&gt;
-
-#### 2.1. Divergências de características dos dados no `datapackage.json`
-
-**2.1.1. formatos de data**
-
-Observar se a estrutura física do dado está coerente com sua representação lógica no arquivo de metadados `datapackage.json`, ex:
-
-- AAAA/MM/DD (formato `default` para data na especificação `Frictionless`);
-
-- dd/mm/aaaa (formato usual no Brasil e como geralmente esse tipo de variável é exportado do excel)
-
-![](assets/images/data-goodtables1.png)
-
-![](assets/images/data-goodtables2.png)
+schema-error  Schema is not valid: cannot extract metadata &quot;schema.json&quot; because &quot;[Errno 2] No such file or directory: &#39;schema.json&#39;&quot;
+============  =======================================================================================================================
 </code></pre></div>
-  {
-    "name": "date",
-    "type": "date",
-    "format": "default",
-    "title": "Date"
+<p><img alt="" src="../../assets/images/path-schema-frictionless.png" /></p>
+<p><img alt="" src="../../assets/images/path-schema.png" /></p>
+<ul>
+<li><strong>Solução</strong>: corrigir o valor da propriedade <code>path</code> incorporando o nome da pasta ou URL onde se localiza o <code>schema</code> ou <code>dialect</code>, ou corrigindo seu nome, se for o caso</li>
+</ul>
+<h2 id="2-sobre-os-arquivos-de-dados-e-seu-conteudo">2. Sobre os arquivos de dados e seu conteúdo<a class="headerlink" href="#2-sobre-os-arquivos-de-dados-e-seu-conteudo" title="Permanent link">⚓︎</a></h2>
+<p><a href="#top">(inicio)</a></p>
+<h4 id="21-divergencias-de-caracteristicas-dos-dados-no-datapackagejson">2.1. Divergências de características dos dados no <code>datapackage.json</code><a class="headerlink" href="#21-divergencias-de-caracteristicas-dos-dados-no-datapackagejson" title="Permanent link">⚓︎</a></h4>
+<p><strong>2.1.1. formatos de data</strong></p>
+<p>Observar se a estrutura física do dado está coerente com sua representação lógica no arquivo de metadados <code>datapackage.json</code>, ex:</p>
+<ul>
+<li>
+<p>AAAA/MM/DD (formato <code>default</code> para data na especificação <code>Frictionless</code>);</p>
+</li>
+<li>
+<p>dd/mm/aaaa (formato usual no Brasil e como geralmente esse tipo de variável é exportado do excel)</p>
+</li>
+</ul>
+<p><img alt="" src="../../assets/images/data-goodtables1.png" /></p>
+<p><img alt="" src="../../assets/images/data-goodtables2.png" /></p>
+<div class="highlight"><pre><span></span><code>  {
+    &quot;name&quot;: &quot;date&quot;,
+    &quot;type&quot;: &quot;date&quot;,
+    &quot;format&quot;: &quot;default&quot;,
+    &quot;title&quot;: &quot;Date&quot;
   },
-<div class="highlight"><pre><span></span><code>* **Solução**: adequar o formato da data no `datapackage.json` ou no arquivo de dados:
-
-![](assets/images/data-commit.png)
-
-**2.1.2. dado obrigatório ausente**
-&lt;a href=&quot;#top&quot;&gt;(inicio)&lt;/a&gt;
-
-````$ frictionless validate datapackage.json
+</code></pre></div>
+<ul>
+<li><strong>Solução</strong>: adequar o formato da data no <code>datapackage.json</code> ou no arquivo de dados:</li>
+</ul>
+<p><img alt="" src="../../assets/images/data-commit.png" /></p>
+<p><strong>2.1.2. dado obrigatório ausente</strong>
+<a href="#top">(inicio)</a></p>
+<div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
 # -------
 # invalid: data/doacoes-comodatos-amigo-estado-mg.csv
 # -------
@@ -1097,8 +1157,8 @@ row  field  code        message
 ===  =====  ==========  =================================================================================================
  51      9  type-error  Type error in the cell &quot;&quot; in row &quot;51&quot; and field &quot;VALOR&quot; at position &quot;9&quot;: type is &quot;number/default&quot;
 ===  =====  ==========  =================================================================================================
-</code></pre></div></p>
-<p><img alt="" src="assets/images/dado-ausente-frictionless.png" /></p>
+</code></pre></div>
+<p><img alt="" src="../../assets/images/dado-ausente-frictionless.png" /></p>
 <p>````          {
             "name": "VALOR",
             "type": "number",
@@ -1121,62 +1181,62 @@ row  field  code        message
 &lt;a href=&quot;#top&quot;&gt;(inicio)&lt;/a&gt;
 
 - faltou informar os separadores de milhar (groupChar) e decimais (decimalChar):            
-
-````$ frictionless validate datapackage.json
-# -------
-# invalid: data/doacoes-comodatos-amigo-estado-mg.csv
-# -------
-
-===  =====  ==========  =============================================================================================================
+</code></pre></div>
+$ frictionless validate datapackage.json</p>
+<h1 id="-">-------<a class="headerlink" href="#-" title="Permanent link">⚓︎</a></h1>
+<h1 id="invalid-datadoacoes-comodatos-amigo-estado-mgcsv">invalid: data/doacoes-comodatos-amigo-estado-mg.csv<a class="headerlink" href="#invalid-datadoacoes-comodatos-amigo-estado-mgcsv" title="Permanent link">⚓︎</a></h1>
+<h1 id="-_1">-------<a class="headerlink" href="#-_1" title="Permanent link">⚓︎</a></h1>
+<p>===  =====  ==========  =============================================================================================================
 row  field  code        message
 ===  =====  ==========  =============================================================================================================
-  2      9  type-error  Type error in the cell &quot;300.000,00&quot; in row &quot;2&quot; and field &quot;VALOR&quot; at position &quot;9&quot;: type is &quot;number/default&quot;
-  3      9  type-error  Type error in the cell &quot;220.000,00&quot; in row &quot;3&quot; and field &quot;VALOR&quot; at position &quot;9&quot;: type is &quot;number/default&quot;
-  4      9  type-error  Type error in the cell &quot;347.000,00&quot; in row &quot;4&quot; and field &quot;VALOR&quot; at position &quot;9&quot;: type is &quot;number/default&quot;
+  2      9  type-error  Type error in the cell "300.000,00" in row "2" and field "VALOR" at position "9": type is "number/default"
+  3      9  type-error  Type error in the cell "220.000,00" in row "3" and field "VALOR" at position "9": type is "number/default"
+  4      9  type-error  Type error in the cell "347.000,00" in row "4" and field "VALOR" at position "9": type is "number/default"
+<div class="highlight"><pre><span></span><code>![](../../assets/images/number-default-frictionless.png)
+
+![](../../assets/images/number-default.png)
+
+* **Solução**: aplicar as propriedades de separador de milhar `groupChar` e/ou separador de decimais `decimalChar`, sempre quando o valor numérico utilizar essa grafia. Alterar o valor da propriedade `type` de `integer` para `number`:
 </code></pre></div>
-<img alt="" src="assets/images/number-default-frictionless.png" /></p>
-<p><img alt="" src="assets/images/number-default.png" /></p>
-<ul>
-<li><strong>Solução</strong>: aplicar as propriedades de separador de milhar <code>groupChar</code> e/ou separador de decimais <code>decimalChar</code>, sempre quando o valor numérico utilizar essa grafia. Alterar o valor da propriedade <code>type</code> de <code>integer</code> para <code>number</code>:</li>
-</ul>
-<div class="highlight"><pre><span></span><code>&quot;type&quot;: &quot;number&quot;,
-&quot;format&quot;: &quot;default&quot;,
-&quot;title&quot;: &quot;Valor&quot;,
-&quot;groupChar&quot;: &quot;.&quot;,
-&quot;decimalChar&quot;: &quot;,&quot;
+"type": "number",
+"format": "default",
+"title": "Valor",
+"groupChar": ".",
+"decimalChar": ","
+<div class="highlight"><pre><span></span><code>**2.1.4. valor fora das características informadas**
+&lt;a href=&quot;#top&quot;&gt;(inicio)&lt;/a&gt;
+
+  **a. type-error**
 </code></pre></div>
-<p><strong>2.1.4. valor fora das características informadas</strong>
-<a href="#top">(inicio)</a></p>
-<p><strong>a. type-error</strong></p>
-<p>````$ frictionless validate datapackage.json</p>
-<h1 id="-_6">-------<a class="headerlink" href="#-_6" title="Permanent link">⚓︎</a></h1>
-<h1 id="invalid-datadoacoes-comodatos-amigo-estado-mgcsv">invalid: data/doacoes-comodatos-amigo-estado-mg.csv<a class="headerlink" href="#invalid-datadoacoes-comodatos-amigo-estado-mgcsv" title="Permanent link">⚓︎</a></h1>
-<h1 id="-_7">-------<a class="headerlink" href="#-_7" title="Permanent link">⚓︎</a></h1>
+$ frictionless validate datapackage.json</p>
+<h1 id="-_2">-------<a class="headerlink" href="#-_2" title="Permanent link">⚓︎</a></h1>
+<h1 id="invalid-datadoacoes-comodatos-amigo-estado-mgcsv_1">invalid: data/doacoes-comodatos-amigo-estado-mg.csv<a class="headerlink" href="#invalid-datadoacoes-comodatos-amigo-estado-mgcsv_1" title="Permanent link">⚓︎</a></h1>
+<h1 id="-_3">-------<a class="headerlink" href="#-_3" title="Permanent link">⚓︎</a></h1>
 <p>===  =====  ==========  =======================================================================================================
 row  field  code        message                                               <br />
 ===  =====  ==========  =======================================================================================================
   2      9  type-error  Type error in the cell "300000%" in row "2" and field "VALOR" at position "9": type is "number/default"
 ===  =====  ==========  =======================================================================================================
-<div class="highlight"><pre><span></span><code>![](assets/images/valor-fora-frictionless.png)
+<div class="highlight"><pre><span></span><code>![](../../assets/images/valor-fora-frictionless.png)
 
-![](assets/images/valor-fora.png)
+![](../../assets/images/valor-fora.png)
 
 * **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis numéricas indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`  
 
   **b. constraint-error - pattern**
 </code></pre></div>
 $ frictionless validate datapackage.json</p>
-<h1 id="-_8">-------<a class="headerlink" href="#-_8" title="Permanent link">⚓︎</a></h1>
-<h1 id="invalid-datadoacoes-comodatos-amigo-estado-mgcsv_1">invalid: data/doacoes-comodatos-amigo-estado-mg.csv<a class="headerlink" href="#invalid-datadoacoes-comodatos-amigo-estado-mgcsv_1" title="Permanent link">⚓︎</a></h1>
-<h1 id="-_9">-------<a class="headerlink" href="#-_9" title="Permanent link">⚓︎</a></h1>
+<h1 id="-_4">-------<a class="headerlink" href="#-_4" title="Permanent link">⚓︎</a></h1>
+<h1 id="invalid-datadoacoes-comodatos-amigo-estado-mgcsv_2">invalid: data/doacoes-comodatos-amigo-estado-mg.csv<a class="headerlink" href="#invalid-datadoacoes-comodatos-amigo-estado-mgcsv_2" title="Permanent link">⚓︎</a></h1>
+<h1 id="-_5">-------<a class="headerlink" href="#-_5" title="Permanent link">⚓︎</a></h1>
 <p>===  =====  ================  ==============================================================================================================================================
 row  field  code              message                                                                                                                         <br />
 ===  =====  ================  ==============================================================================================================================================
   2     10  constraint-error  The cell "R$" in row at position "2" and field "MOEDA" at position "10" does not conform to a constraint: constraint "pattern" is "^[A-Z]{3}$"
 ===  =====  ================  ==============================================================================================================================================</p>
-<p><div class="highlight"><pre><span></span><code>![](assets/images/valor2-fora-frictionless.png)
+<p><div class="highlight"><pre><span></span><code>![](../../assets/images/valor2-fora-frictionless.png)
 
-![](assets/images/valor2-fora.png)
+![](../../assets/images/valor2-fora.png)
 
 * **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`
 
@@ -1187,17 +1247,17 @@ row  field  code              message                                           
 Na conversão de tipos de arquivo, texto ou valores de uma coluna podem &#39;vazar&#39;. Observar se há sinais de pontuação (&#39;,&#39;, &#39;;&#39;) que também funcionam como delimitadores, e podem redundar no erro:
 </code></pre></div>
 $ frictionless validate datapackage.json</p>
-<h1 id="-_10">-------<a class="headerlink" href="#-_10" title="Permanent link">⚓︎</a></h1>
-<h1 id="invalid-datapackagejson_3">invalid: datapackage.json<a class="headerlink" href="#invalid-datapackagejson_3" title="Permanent link">⚓︎</a></h1>
-<h1 id="-_11">-------<a class="headerlink" href="#-_11" title="Permanent link">⚓︎</a></h1>
+<h1 id="-_6">-------<a class="headerlink" href="#-_6" title="Permanent link">⚓︎</a></h1>
+<h1 id="invalid-datapackagejson">invalid: datapackage.json<a class="headerlink" href="#invalid-datapackagejson" title="Permanent link">⚓︎</a></h1>
+<h1 id="-_7">-------<a class="headerlink" href="#-_7" title="Permanent link">⚓︎</a></h1>
 <p>==========  ======================================
 code        message
 ==========  ======================================
 task-error  The task has an error: 'fieldPosition'
 ==========  ======================================
-<div class="highlight"><pre><span></span><code>![](assets/images/escaping-frictionless.png)
+<div class="highlight"><pre><span></span><code>![](../../assets/images/escaping-frictionless.png)
 
-![](assets/images/escaping.png)
+![](../../assets/images/escaping.png)
 
 * Solução: verificar se colunas de texto contêm &#39;,&#39; e/ou &#39;;&#39; que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de `csv`)
 
@@ -1212,9 +1272,9 @@ b. encoding UTF-8 sem Byte Order Mask (BOM)
 
 A assinatura &#39;Byte Order Mask (BOM)&#39; preserva a visualiação adequada dos caracteres especiais, quando houve conversão de arquivo tabular do formato `excel` para `csv`. Quando ela não está aplicada, pode ocorrer o problema em outras ferramentas de edição de `csv`, como o `excel`:
 
-![](assets/images/bom.png)
+![](../../assets/images/bom.png)
 
-![](assets/images/bom-comparado.png)
+![](../../assets/images/bom-comparado.png)
 
 * **Solução**: gerar o arquivo `csv` com o BOM. No editor de texto Sublime, &#39;Save with Encoding --&gt; UTF-8 with BOM&#39;. Via Python, usando o pacote &#39;Pandas&#39;, aplicar `read_file.to_csv (csv_file_path, encoding = &#39;utf-8-sig&#39;)`
 
@@ -1248,7 +1308,7 @@ A assinatura &#39;Byte Order Mask (BOM)&#39; preserva a visualiação adequada d
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 9, 2023 21:53:00</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 12, 2023 15:23:55</span>
       
         <br>
         Created:

@@ -55,7 +55,8 @@ Esse problema pode acontecer na inclusão ou edição de qualquer propriedade ou
 - na inclusão da propriedade `owner_org`; dentre outros ...
 
 
-````$ frictionless validate datapackage.json
+```
+$ frictionless validate datapackage.json
 # -------
 # invalid: datapackage.json
 # -------
@@ -64,11 +65,11 @@ code           message
 =============  ===================================================================================================================================
 package-error  The data package has an error: cannot extract metadata "datapackage.json" because "Expecting value: line 101 column 28 (char 3812)"
 =============  ===================================================================================================================================
-````
+```
 
-![](assets/images/sintaxe2-datapackage-frictionless.png)
+![](../../assets/images/sintaxe2-datapackage-frictionless.png)
 
-![](assets/images/sintaxe2-datapackage.png)
+![](../../assets/images/sintaxe2-datapackage.png)
 
 
 * Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)
@@ -77,7 +78,8 @@ package-error  The data package has an error: cannot extract metadata "datapacka
 
 Esse problema pode acontecer em diversas situações, tal qual exemplificado no caso de uso anterior.
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: datapackage.json
 # -------
@@ -89,9 +91,9 @@ package-error  The data package has an error: cannot extract metadata "datapacka
 
 ````
 
-![](assets/images/sintaxe-datapackage-frictionless.png)
+![](../../assets/images/sintaxe-datapackage-frictionless.png)
 
-![](assets/images/sintaxe-datapackage.png)
+![](../../assets/images/sintaxe-datapackage.png)
 
 * **Solução**: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)
 
@@ -100,7 +102,8 @@ package-error  The data package has an error: cannot extract metadata "datapacka
 
 A especificação `Frictionless` não aceita espaços, letras maiúsculas ou caracteres especiais no valor deste campo:
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: datapackage.json
 # -------
@@ -111,7 +114,7 @@ package-error  The data package has an error: "'doa▒▒es-comodatos-amigo-esta
 =============  ================================================================================================================================================================================================================
 ````
 
-![](assets/images/name.png)
+![](../../assets/images/name.png)
 
 * **Solução**: corrigir a propriedade `name` contendo [especificações legíveis por máquina](https://specs.frictionlessdata.io/data-resource/#metadata-properties)
 
@@ -121,7 +124,8 @@ package-error  The data package has an error: "'doa▒▒es-comodatos-amigo-esta
 
 **a. onde se localizam os arquivos de dados:**
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: doacoes-comodatos-amigo-estado-mg.csv
 # -------
@@ -133,15 +137,16 @@ row  field  code          message
 ===  =====  ============  ==============================================================================================================================
 ````
 
-![](assets/images/path-frictionless.png)
+![](../../assets/images/path-frictionless.png)
 
-![](assets/images/path.png)
+![](../../assets/images/path.png)
 
 * **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o recurso, ou corrigindo o nome do recurso, se for o caso
 
 **b. onde se localizam os arquivos de metadados `datapackage.json`, o `schema.json`, ou o `dialect.json`**
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: datapackage.json
 # -------
@@ -152,9 +157,9 @@ schema-error  Schema is not valid: cannot extract metadata "schema.json" because
 ============  =======================================================================================================================
 ````
 
-![](assets/images/path-schema-frictionless.png)
+![](../../assets/images/path-schema-frictionless.png)
 
-![](assets/images/path-schema.png)
+![](../../assets/images/path-schema.png)
 
 * **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o `schema` ou `dialect`, ou corrigindo seu nome, se for o caso
 
@@ -172,9 +177,9 @@ Observar se a estrutura física do dado está coerente com sua representação l
 
 - dd/mm/aaaa (formato usual no Brasil e como geralmente esse tipo de variável é exportado do excel)
 
-![](assets/images/data-goodtables1.png)
+![](../../assets/images/data-goodtables1.png)
 
-![](assets/images/data-goodtables2.png)
+![](../../assets/images/data-goodtables2.png)
 
 ````
   {
@@ -188,12 +193,13 @@ Observar se a estrutura física do dado está coerente com sua representação l
 
 * **Solução**: adequar o formato da data no `datapackage.json` ou no arquivo de dados:
 
-![](assets/images/data-commit.png)
+![](../../assets/images/data-commit.png)
 
 **2.1.2. dado obrigatório ausente**
 <a href="#top">(inicio)</a>
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: data/doacoes-comodatos-amigo-estado-mg.csv
 # -------
@@ -205,7 +211,7 @@ row  field  code        message
 ===  =====  ==========  =================================================================================================
 ````
 
-![](assets/images/dado-ausente-frictionless.png)
+![](../../assets/images/dado-ausente-frictionless.png)
 
 
 ````          {
@@ -233,7 +239,8 @@ row  field  code        message
 
 - faltou informar os separadores de milhar (groupChar) e decimais (decimalChar):            
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: data/doacoes-comodatos-amigo-estado-mg.csv
 # -------
@@ -245,9 +252,10 @@ row  field  code        message
   3      9  type-error  Type error in the cell "220.000,00" in row "3" and field "VALOR" at position "9": type is "number/default"
   4      9  type-error  Type error in the cell "347.000,00" in row "4" and field "VALOR" at position "9": type is "number/default"
 ````
-![](assets/images/number-default-frictionless.png)
 
-![](assets/images/number-default.png)
+![](../../assets/images/number-default-frictionless.png)
+
+![](../../assets/images/number-default.png)
 
 * **Solução**: aplicar as propriedades de separador de milhar `groupChar` e/ou separador de decimais `decimalChar`, sempre quando o valor numérico utilizar essa grafia. Alterar o valor da propriedade `type` de `integer` para `number`:
 
@@ -264,7 +272,8 @@ row  field  code        message
 
   **a. type-error**
 
-````$ frictionless validate datapackage.json
+````
+$ frictionless validate datapackage.json
 # -------
 # invalid: data/doacoes-comodatos-amigo-estado-mg.csv
 # -------
@@ -275,9 +284,10 @@ row  field  code        message
   2      9  type-error  Type error in the cell "300000%" in row "2" and field "VALOR" at position "9": type is "number/default"
 ===  =====  ==========  =======================================================================================================
 ````
-![](assets/images/valor-fora-frictionless.png)
 
-![](assets/images/valor-fora.png)
+![](../../assets/images/valor-fora-frictionless.png)
+
+![](../../assets/images/valor-fora.png)
 
 * **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis numéricas indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`  
   
@@ -296,9 +306,10 @@ row  field  code              message
 ===  =====  ================  ==============================================================================================================================================
 
 ````
-![](assets/images/valor2-fora-frictionless.png)
 
-![](assets/images/valor2-fora.png)
+![](../../assets/images/valor2-fora-frictionless.png)
+
+![](../../assets/images/valor2-fora.png)
 
 * **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`
 
@@ -320,9 +331,9 @@ task-error  The task has an error: 'fieldPosition'
 ==========  ======================================
 ````
 
-![](assets/images/escaping-frictionless.png)
+![](../../assets/images/escaping-frictionless.png)
 
-![](assets/images/escaping.png)
+![](../../assets/images/escaping.png)
 
 * Solução: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de `csv`)
 
@@ -337,9 +348,9 @@ b. encoding UTF-8 sem Byte Order Mask (BOM)
 
 A assinatura 'Byte Order Mask (BOM)' preserva a visualiação adequada dos caracteres especiais, quando houve conversão de arquivo tabular do formato `excel` para `csv`. Quando ela não está aplicada, pode ocorrer o problema em outras ferramentas de edição de `csv`, como o `excel`:
 
-![](assets/images/bom.png)
+![](../../assets/images/bom.png)
 
-![](assets/images/bom-comparado.png)
+![](../../assets/images/bom-comparado.png)
 
 * **Solução**: gerar o arquivo `csv` com o BOM. No editor de texto Sublime, 'Save with Encoding --> UTF-8 with BOM'. Via Python, usando o pacote 'Pandas', aplicar `read_file.to_csv (csv_file_path, encoding = 'utf-8-sig')`
 

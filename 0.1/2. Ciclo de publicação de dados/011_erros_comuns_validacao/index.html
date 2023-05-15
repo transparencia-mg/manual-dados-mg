@@ -13,7 +13,7 @@
     
     
       
-        <title>Erros comuns de validação: - Manual do Portal de Dados Abertos de Minas Gerais</title>
+        <title>Erros comuns de validação - Manual do Portal de Dados Abertos de Minas Gerais</title>
       
     
     
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Erros comuns de validação:
+              Erros comuns de validação
             
           </span>
         </div>
@@ -642,12 +642,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Erros comuns de validação:
+          Erros comuns de validação
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Erros comuns de validação:
+        Erros comuns de validação
       </a>
       
         
@@ -730,7 +730,7 @@
         
           <li class="md-nav__item">
   <a href="#22-valores-fora-dos-campos-delimitadores-ou" class="md-nav__link">
-    2.2. valores fora dos campos delimitadores (, ou ;):
+    2.2. Valores fora dos campos delimitadores (, ou ;):
   </a>
   
 </li>
@@ -970,7 +970,7 @@
         
           <li class="md-nav__item">
   <a href="#22-valores-fora-dos-campos-delimitadores-ou" class="md-nav__link">
-    2.2. valores fora dos campos delimitadores (, ou ;):
+    2.2. Valores fora dos campos delimitadores (, ou ;):
   </a>
   
 </li>
@@ -1041,9 +1041,9 @@
   </a>
 
 
-<h1 id="erros-comuns-de-validacao">Erros comuns de validação:<a class="headerlink" href="#erros-comuns-de-validacao" title="Permanent link">⚓︎</a></h1>
+<h1 id="erros-comuns-de-validacao">Erros comuns de validação<a class="headerlink" href="#erros-comuns-de-validacao" title="Permanent link">⚓︎</a></h1>
 <hr />
-<p>Este documento segue, tanto quanto possível, a estrutura de classificação hierárquica por assunto e método de descrição seguinte:</p>
+<p>Este documento segue, tanto quanto possível, a estrutura de classificação hierárquica por assunto e método de descrição abaixo:</p>
 <hr />
 <h2 id="naturezagrupo-do-erro">Natureza/grupo do erro<a class="headerlink" href="#naturezagrupo-do-erro" title="Permanent link">⚓︎</a></h2>
 <h2 id="titulo-do-erro">Título do erro<a class="headerlink" href="#titulo-do-erro" title="Permanent link">⚓︎</a></h2>
@@ -1090,7 +1090,7 @@ package-error  The data package has an error: cannot extract metadata &quot;data
 <p><img alt="" src="../../assets/images/sintaxe2-datapackage-frictionless.png" /></p>
 <p><img alt="" src="../../assets/images/sintaxe2-datapackage.png" /></p>
 <ul>
-<li>Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)</li>
+<li>Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do GitHub (que também podem fazer marcações visuais de erros de sintaxe)</li>
 </ul>
 <p><strong>b. faltou/sobrou alguma vírgula</strong></p>
 <p>Esse problema pode acontecer em diversas situações, tal qual exemplificado no caso de uso anterior.</p>
@@ -1283,7 +1283,7 @@ row  field  code              message
 <ul>
 <li><strong>Solução</strong>: alterar os valores no arquivo do recurso, observando as características das variáveis indicadas no <code>datapackage.json</code>. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no <code>datapackage.json</code></li>
 </ul>
-<h4 id="22-valores-fora-dos-campos-delimitadores-ou">2.2. valores fora dos campos delimitadores (, ou ;):<a class="headerlink" href="#22-valores-fora-dos-campos-delimitadores-ou" title="Permanent link">⚓︎</a></h4>
+<h4 id="22-valores-fora-dos-campos-delimitadores-ou">2.2. Valores fora dos campos delimitadores (, ou ;):<a class="headerlink" href="#22-valores-fora-dos-campos-delimitadores-ou" title="Permanent link">⚓︎</a></h4>
 <p><a href="#top">(inicio)</a></p>
 <p>Na conversão de tipos de arquivo, texto ou valores de uma coluna podem 'vazar'. Observar se há sinais de pontuação (',', ';') que também funcionam como delimitadores, e podem redundar no erro:</p>
 <div class="highlight"><pre><span></span><code>$ frictionless validate datapackage.json
@@ -1299,13 +1299,13 @@ task-error  The task has an error: &#39;fieldPosition&#39;
 <p><img alt="" src="../../assets/images/escaping-frictionless.png" /></p>
 <p><img alt="" src="../../assets/images/escaping.png" /></p>
 <ul>
-<li>Solução: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de <code>csv</code>)</li>
+<li><strong>Solução</strong>: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de <code>csv</code>)</li>
 </ul>
 <h4 id="23-arquivo-de-dados-sem-encoding-utf-8">2.3. Arquivo de dados sem encoding <code>utf-8</code><a class="headerlink" href="#23-arquivo-de-dados-sem-encoding-utf-8" title="Permanent link">⚓︎</a></h4>
 <p><a href="#top">(inicio)</a></p>
 <p>a. encoding Western, Latin, Windows...</p>
 <p>b. encoding UTF-8 sem Byte Order Mask (BOM)</p>
-<p>A assinatura 'Byte Order Mask (BOM)' preserva a visualiação adequada dos caracteres especiais, quando houve conversão de arquivo tabular do formato <code>excel</code> para <code>csv</code>. Quando ela não está aplicada, pode ocorrer o problema em outras ferramentas de edição de <code>csv</code>, como o <code>excel</code>:</p>
+<p>A assinatura 'Byte Order Mask (BOM)' preserva a visualiação adequada dos caracteres especiais, quando há conversão de arquivo tabular do formato <code>excel</code> para <code>csv</code>. Quando esta não está aplicada, pode ocorrer o problema em outras ferramentas de edição de <code>csv</code>, como o <code>excel</code>:</p>
 <p><img alt="" src="../../assets/images/bom.png" /></p>
 <p><img alt="" src="../../assets/images/bom-comparado.png" /></p>
 <ul>
@@ -1338,7 +1338,7 @@ task-error  The task has an error: &#39;fieldPosition&#39;
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 15, 2023 12:52:17</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 15, 2023 14:08:35</span>
       
         <br>
         Created:

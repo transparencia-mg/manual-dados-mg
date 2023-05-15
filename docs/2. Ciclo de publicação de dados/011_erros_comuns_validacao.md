@@ -6,11 +6,11 @@ tags:
   - metadados
   - qualidade
 ---
-# Erros comuns de validação:
+# Erros comuns de validação
 
 ---
 
-Este documento segue, tanto quanto possível, a estrutura de classificação hierárquica por assunto e método de descrição seguinte:
+Este documento segue, tanto quanto possível, a estrutura de classificação hierárquica por assunto e método de descrição abaixo:
 
 ---
 ## Natureza/grupo do erro
@@ -72,7 +72,7 @@ package-error  The data package has an error: cannot extract metadata "datapacka
 ![](../../assets/images/sintaxe2-datapackage.png)
 
 
-* Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)
+* Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do GitHub (que também podem fazer marcações visuais de erros de sintaxe)
 
 **b. faltou/sobrou alguma vírgula**
 
@@ -315,7 +315,7 @@ row  field  code              message
 * **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`
 
 
-#### 2.2. valores fora dos campos delimitadores (, ou ;):
+#### 2.2. Valores fora dos campos delimitadores (, ou ;):
 <a href="#top">(inicio)</a>
 
 Na conversão de tipos de arquivo, texto ou valores de uma coluna podem 'vazar'. Observar se há sinais de pontuação (',', ';') que também funcionam como delimitadores, e podem redundar no erro:
@@ -336,7 +336,7 @@ task-error  The task has an error: 'fieldPosition'
 
 ![](../../assets/images/escaping.png)
 
-* Solução: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de `csv`)
+* **Solução**: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de `csv`)
 
 
 #### 2.3. Arquivo de dados sem encoding `utf-8` 
@@ -347,7 +347,7 @@ a. encoding Western, Latin, Windows...
 
 b. encoding UTF-8 sem Byte Order Mask (BOM)
 
-A assinatura 'Byte Order Mask (BOM)' preserva a visualiação adequada dos caracteres especiais, quando houve conversão de arquivo tabular do formato `excel` para `csv`. Quando ela não está aplicada, pode ocorrer o problema em outras ferramentas de edição de `csv`, como o `excel`:
+A assinatura 'Byte Order Mask (BOM)' preserva a visualiação adequada dos caracteres especiais, quando há conversão de arquivo tabular do formato `excel` para `csv`. Quando esta não está aplicada, pode ocorrer o problema em outras ferramentas de edição de `csv`, como o `excel`:
 
 ![](../../assets/images/bom.png)
 

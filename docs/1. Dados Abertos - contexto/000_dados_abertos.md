@@ -14,15 +14,15 @@ Dados abertos são:
 
 Seu conceito e utilização estão previstos:
 
-- na [Lei de Acesso à Informação (Lei 12.527/2011)](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm);
+- na [Lei de Acesso à Informação (Lei nº 12.527/2011)](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm);
 
-- na [Lei de Governo Digital (Lei 14.129/2021)](https://www.in.gov.br/en/web/dou/-/lei-n-14.129-de-29-de-marco-de-2021-311282132)
+- na [Lei de Governo Digital (Lei nº 14.129/2021)](https://www.in.gov.br/en/web/dou/-/lei-n-14.129-de-29-de-marco-de-2021-311282132)
 
-- no [Decreto Estadual 45969/2012](https://www.almg.gov.br/legislacao-mineira/texto/DEC/45969/2012/?cons=1);
+- no [Decreto Estadual nº 45969/2012](https://www.almg.gov.br/legislacao-mineira/texto/DEC/45969/2012/?cons=1);
 
-- no [Decreto Estadual 48.383](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48383&comp=&ano=2022)
+- no [Decreto Estadual nº 48.383](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48383&comp=&ano=2022)
 
-- e na [Resolução 20, de 6/8/2014, da CGE](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).
+- e na [Resolução nº 20, de 6/8/2014, da CGE](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).
 
 
 ## Benefícios esperados

@@ -16,7 +16,7 @@ Um compilado para entender o que são os dados abertos, suas principais caracter
 Guia para identificação, escolha, preparação, documentação, validação, publicação e controle de versão de Dados Abertos. Destinado aos agentes públicos responsáveis pelas bases de interesse coletivo e geral a serem catalogadas e atualizadas no Portal de Dados Abertos. Seus tópicos são:
 
 1. [Escolha das bases](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/005_escolha_das_bases/)
-1. [Ciclo de abertura. documentação, validação e publicação](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/)
+1. [Ciclo de abertura: documentação, validação e publicação](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/)
 1. [Documentação: elaboração e edição dos metadados](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/007_documentacao/)
 1. [Publicando dados no Portal de Dados Abertos de MG - criar e documentar novo conjunto](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/008_conjunto/)
 1. [Adicionar recurso e documentar seus metadados](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/009_recurso/)
@@ -37,7 +37,7 @@ Guia para acesso, consulta, uso e reúso dos dados:
 
 - [Portal de Dados Abertos de Minas Gerais/PdA](https://dados.mg.gov.br/about)
 
-- [Portal de Transparência de Minas Gerais](https://www.transparencia.mg.gov.br/)
+- [Portal da Transparência de Minas Gerais](https://www.transparencia.mg.gov.br/)
 
 - [e-SIC](https://acessoainformacao.mg.gov.br/sistema/site/index.aspx) 
 

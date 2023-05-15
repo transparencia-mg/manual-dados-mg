@@ -8,9 +8,9 @@ tags:
   - treinamento
 ---
 
-# Oficinas, capacitações, palestras, webnarios
+# Oficinas, capacitações, palestras, webnários
 
-- [webnario OKBr março/2023 - Gerenciando dados no CKAN com dpckan e ckanext-datapackage-creator](https://transparencia-mg.github.io/reveal.js/presentations/20230328_gerenciar_dados_abertos_com_dpckan/index.html)
+- [Webnário OKBr março/2023 - Gerenciando dados no CKAN com dpckan e ckanext-datapackage-creator](https://transparencia-mg.github.io/reveal.js/presentations/20230328_gerenciar_dados_abertos_com_dpckan/index.html)
 
 - [Apresentação sobre dados abertos](https://github.com/dados-mg/dados-mg.github.io/blob/invitation/dados-abertos-pcmg-2023-02-16.pptx?raw=true)
 

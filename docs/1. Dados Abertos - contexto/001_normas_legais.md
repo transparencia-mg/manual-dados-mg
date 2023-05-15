@@ -2,7 +2,7 @@
 
 A Lei de Acesso à Informação (LAI) foi o marco inicial da obrigação normativa de disponibilização de bases de dados públicos em formato aberto. Mais recentemente, o tema teve interesse renovado pela publicação da [Lei de Governo Aberto](https://transparencia.github.io/manual-abertura-2023-3/0.1/1.%20Dados%20Abertos%2C%20contexto%20e%20pol%C3%ADticas/001_normas_legais/#lei-federal-14129-de-2011-lei-do-governo-digital) e o seu respectivo [Decreto Estadual regulamentador](https://transparencia.github.io/manual-abertura-2023-3/0.1/1.%20Dados%20Abertos%2C%20contexto%20e%20pol%C3%ADticas/001_normas_legais/#decreto-estadual-48383).
 
-## Lei de Acesso à Informação (LAI): Lei 12.527 de 2011
+## Lei de Acesso à Informação (LAI): Lei nº 12.527 de 2011
 
 > Art. 8º -  É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação 
 
@@ -34,11 +34,11 @@ que permita sua livre reutilização, consumo ou cruzamento em aplicações digi
 Acesse a Resolução [aqui](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=171158)
 
 
-## Lei Federal 14.129 de 2011 - Lei do Governo Digital 
+## Lei Federal nº 14.129 de 2011 - Lei do Governo Digital 
 
 As recentes normas mostram o interesse renovado na regulamentação da transparência ativa. 
 
-A Lei 14.129 criou a possibilidade de solicitação de abertura de base de dados, análoga à possibilidade de obtenção de informação via transparência passiva (e-SIC), com prazo predeterminado:
+A Lei nº 14.129 criou a possibilidade de solicitação de abertura de base de dados, análoga à possibilidade de obtenção de informação via transparência passiva (e-SIC), com prazo predeterminado:
 
 > Art. 30. Qualquer interessado poderá apresentar pedido de abertura de bases de dados da administração pública, que deverá conter os dados de contato do requerente e a especificação da base de dados requerida.
 
@@ -50,9 +50,9 @@ A Lei 14.129 criou a possibilidade de solicitação de abertura de base de dados
 Acesse a Lei 14129 [aqui](https://www.in.gov.br/en/web/dou/-/lei-n-14.129-de-29-de-marco-de-2021-311282132).
 
 
-## Decreto Estadual 48.383
+## Decreto Estadual nº 48.383
 
-Tal dispositivo está referendando a aplicação da Lei Federal 14.129/2021 em Minas Gerais, com destaque para os pontos:
+Tal dispositivo está referendando a aplicação da Lei Federal nº 14.129/2021 em Minas Gerais, com destaque para os pontos:
 
 - O compartilhamento amplo de dados que dispensa autorização para publicação no Portal de Dados Abertos (art. 27)
 

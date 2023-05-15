@@ -214,7 +214,8 @@ row  field  code        message
 ![](../../assets/images/dado-ausente-frictionless.png)
 
 
-````          {
+````          
+{
             "name": "VALOR",
             "type": "number",
             "format": "default",

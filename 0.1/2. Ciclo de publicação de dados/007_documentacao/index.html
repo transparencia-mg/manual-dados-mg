@@ -968,13 +968,13 @@
 <p>A W3C, entidade internacional que desenvolve padrões para a web, elaborou um <a href="https://www.w3.org/TR/dwbp/#metadata">Guia de Melhores Práticas</a>, em que existem três itens relacionados a metadados:</p>
 <ol>
 <li>
-<p>Fornecer metadados (<a href="http://blog.w3c.br/melhores-praticas-dados-na-web-2-forneca-metadados-umapordia/">BP1</a>) para leitura de pessoas e máquinas (computadores). Para leitura humana, poderia ser <a href="https://www.w3.org/TR/dwbp/dwbp-example.html">parte de uma página HTML na web</a> ou um arquivo de texto em separado. Para leitura por máquina, os metadadaos poderiam ser providos em formato JSON, ou <a href="https://www.w3.org/TR/dwbp/dwbp-example.ttl">embutidos no formato HTML</a> - sob a recomendação de reutilizar padrões de vocabulários populares.</p>
+<p>Fornecer metadados (<a href="http://blog.w3c.br/melhores-praticas-dados-na-web-2-forneca-metadados-umapordia/">BP1</a>) para leitura de pessoas e máquinas (computadores). Para leitura humana, poderia ser <a href="https://www.w3.org/TR/dwbp/dwbp-example.html">parte de uma página HTML na web</a> ou um arquivo de texto em separado. Para leitura por máquina, os metadados poderiam ser providos em formato JSON, ou <a href="https://www.w3.org/TR/dwbp/dwbp-example.ttl">embutidos no formato HTML</a> - sob a recomendação de reutilizar padrões de vocabulários populares.</p>
 </li>
 <li>
-<p>Fornecer metadados descritivos (<a href="http://blog.w3c.br/melhores-praticas-dados-na-web-3-forneca-metadados-com-parametros-de-localidade/">BP2</a>), de forma que pessoas entendam a natureza do conjunto de dados e suas distribuições (i.e. título, descrição, palavras-chave, data de publicação, entidade responsável pela publicação e contato com a mesma, cobertura temporal e espacial, data da última modificação e categorias) e agentes de software descobrirão automaticamente tais conjuntos e distribuições.</p>
+<p>Fornecer metadados descritivos (<a href="http://blog.w3c.br/melhores-praticas-dados-na-web-3-forneca-metadados-com-parametros-de-localidade/">BP2</a>), de forma que pessoas entendam a natureza do conjunto de dados e suas distribuições (i.e. título, descrição, palavras-chave, data de publicação, entidade responsável pela publicação e contato com a mesma, cobertura temporal e espacial, data da última modificação e categorias) e os agentes de software identifiquem automaticamente tais conjuntos e distribuições.</p>
 </li>
 <li>
-<p>Fornecer metadados estruturais (<a href="http://blog.w3c.br/melhores-praticas-dados-na-web-4-forneca-metadados-com-informacoes-estruturais/">BP3</a>), de forma que pessoas interpretem o esquema de um conjunto de dados e agentes de software sejam capazes de processar automaticamente os dados das distribuições</p>
+<p>Fornecer metadados estruturais (<a href="http://blog.w3c.br/melhores-praticas-dados-na-web-4-forneca-metadados-com-informacoes-estruturais/">BP3</a>), de forma que pessoas interpretem o esquema de um conjunto de dados e agentes de software sejam capazes de processar automaticamente os dados das distribuições.</p>
 </li>
 </ol>
 <p>Os metadados devem, por fim, permitir a interoperabilidade entre diferentes sistemas. </p>
@@ -987,7 +987,7 @@ padrões. Dessa maneira, facilitam a gestão de metadados, a extração, a docum
 <p>Os padrões de especificação Frictionless podem ser consultados <a href="https://specs.frictionlessdata.io/tabular-data-package/#language">aqui</a></p>
 <h2 id="datapackage-pacote-de-dados">Datapackage (pacote de dados)<a class="headerlink" href="#datapackage-pacote-de-dados" title="Permanent link">⚓︎</a></h2>
 <p>Segundo a especificação <em>frictionless data</em> (Dados sem Fricção) adotada para o Portal de Dados Abertos, as propriedades das variáveis, dos arquivos (recursos) e do conjunto de dados (dataset) devem estar descritas num formato padronizado e legível por máquina.</p>
-<p>A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recrursos e conjunto) formam um <code>datapackage</code></p>
+<p>A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recursos e conjunto) formam um <code>datapackage</code></p>
 <p><img alt="" src="../../assets/images/datapackage.png" /></p>
 <p>A maior parte dos conjuntos têm sido descrita num formato tabular, com o arquivo separado por vírgulas (ou ponto-e-vírgula), extensão <code>.csv</code>, que pode ser representado assim:</p>
 <p><img alt="tabular" src="https://user-images.githubusercontent.com/52294411/225655081-78c447af-d0e1-469a-b924-5fa75ba9252f.png" /></p>
@@ -1026,10 +1026,10 @@ padrões. Dessa maneira, facilitam a gestão de metadados, a extração, a docum
 <p>Descrição (<em>description</em>): <em>"Como Participar"</em>, "<em>Controle de Alterações</em>"</p>
 </li>
 <li>
-<p>Catálogo origem (<em>homepage</em>): Página (URL) do órgão onde está publicado o conjunto de dados.</p>
+<p>Catálogo origem (<em>homepage</em>): página (URL) do órgão onde está publicado o conjunto de dados.</p>
 </li>
 <li>
-<p>Organização (<em>owner_org</em>): Entidade custodiante dos dados </p>
+<p>Organização (<em>owner_org</em>): entidade custodiante dos dados </p>
 </li>
 <li>
 <p>Versão (<em>version</em>): indica a versão do conjunto; também deve estar discriminada e detalhada na seção <code>CHANGELOG</code></p>
@@ -1102,25 +1102,25 @@ padrões. Dessa maneira, facilitam a gestão de metadados, a extração, a docum
 <p>Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.</p>
 </li>
 <li>
-<p>Cobertura geográfica: Localização ou região geográfica a que se referem os dados. Ex.: Recife.</p>
+<p>Cobertura geográfica: localização ou região geográfica a que se referem os dados. Ex.: Recife.</p>
 </li>
 <li>
-<p>Cobertura temporal (<em>temporal</em>): Data ou período à que referem os dados. Ex.: 03/2012.</p>
+<p>Cobertura temporal (<em>temporal</em>): data ou período à que referem os dados. Ex.: 03/2012.</p>
 </li>
 <li>
-<p>Granularidade geográfica: Precisão geográfica da cobertura geográfica. Ex.: municipal.</p>
+<p>Granularidade geográfica: precisão geográfica da cobertura geográfica. Ex.: municipal.</p>
 </li>
 <li>
-<p>Granularidade temporal: Precisão temporal da cobertura temporal. Ex.: mês.</p>
+<p>Granularidade temporal: precisão temporal da cobertura temporal. Ex.: mês.</p>
 </li>
 <li>
-<p>Referências: Relações com outros conjuntos de dados.</p>
+<p>Referências: relações com outros conjuntos de dados.</p>
 </li>
 <li>
-<p>Metodologia: Processo de criação dos dados.</p>
+<p>Metodologia: processo de criação dos dados.</p>
 </li>
 <li>
-<p>Vocabulário/ontologia: Documentos estruturados com metadados específicos do conjunto de dados.</p>
+<p>Vocabulário/ontologia: documentos estruturados com metadados específicos do conjunto de dados.</p>
 </li>
 </ul>
 
@@ -1129,7 +1129,7 @@ padrões. Dessa maneira, facilitam a gestão de metadados, a extração, a docum
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 9, 2023 21:53:00</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 18, 2023 13:46:04</span>
       
         <br>
         Created:

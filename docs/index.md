@@ -43,7 +43,7 @@ Guia para acesso, consulta, uso e reúso dos dados:
 
 - [Fale Conosco](https://www.transparencia.mg.gov.br/faleconosco) 
 
-- [CGE/MG](https://www.cge.mg.gov.br/)
+- [Controladoria-Geral do Estado de Minas Gerais/CGEMG](https://www.cge.mg.gov.br/)
 
 ## Sobre o MkDocs
 

@@ -72,7 +72,7 @@ package-error  The data package has an error: cannot extract metadata "datapacka
 ![](../../assets/images/sintaxe2-datapackage.png)
 
 
-* Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do GitHub (que também podem fazer marcações visuais de erros de sintaxe)
+* Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do GitHub (que também podem fazer marcações visuais de erros de sintaxe).
 
 **b. faltou/sobrou alguma vírgula**
 
@@ -95,7 +95,7 @@ package-error  The data package has an error: cannot extract metadata "datapacka
 
 ![](../../assets/images/sintaxe-datapackage.png)
 
-* **Solução**: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)
+* **Solução**: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do GitHub (que também podem fazer marcações visuais de erros de sintaxe).
 
 #### 1.2. Nome `name` do recurso contém caracteres fora da faixa permitida
 <a href="#top">(inicio)</a>
@@ -116,7 +116,7 @@ package-error  The data package has an error: "'doa▒▒es-comodatos-amigo-esta
 
 ![](../../assets/images/name.png)
 
-* **Solução**: corrigir a propriedade `name` contendo [especificações legíveis por máquina](https://specs.frictionlessdata.io/data-resource/#metadata-properties)
+* **Solução**: corrigir a propriedade `name` contendo [especificações legíveis por máquina](https://specs.frictionlessdata.io/data-resource/#metadata-properties).
 
 
 #### 1.3. O caminho `path` incorreto
@@ -141,7 +141,7 @@ row  field  code          message
 
 ![](../../assets/images/path.png)
 
-* **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o recurso, ou corrigindo o nome do recurso, se for o caso
+* **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o recurso, ou corrigindo o nome do recurso, se for o caso.
 
 **b. onde se localizam os arquivos de metadados `datapackage.json`, o `schema.json`, ou o `dialect.json`**
 
@@ -161,7 +161,7 @@ schema-error  Schema is not valid: cannot extract metadata "schema.json" because
 
 ![](../../assets/images/path-schema.png)
 
-* **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o `schema` ou `dialect`, ou corrigindo seu nome, se for o caso
+* **Solução**: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o `schema` ou `dialect`, ou corrigindo seu nome, se for o caso.
 
 
 ## 2. Sobre os arquivos de dados e seu conteúdo
@@ -232,7 +232,7 @@ row  field  code        message
 
 ![](assets/images/dado-ausente.png)
 
-* **Solução**: completar o valor ausente indicado no arquivo do recurso. Se ele não for obrigatório, aplicar 'NA' na célula indicada no arquivo do recurso
+* **Solução**: completar o valor ausente indicado no arquivo do recurso. Se ele não for obrigatório, aplicar 'NA' na célula indicada no arquivo do recurso.
 
 
 **2.1.3. valor numérico não inteiro**
@@ -290,7 +290,7 @@ row  field  code        message
 
 ![](../../assets/images/valor-fora.png)
 
-* **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis numéricas indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`  
+* **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis numéricas indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`.  
   
   **b. constraint-error - pattern**
 
@@ -312,7 +312,7 @@ row  field  code              message
 
 ![](../../assets/images/valor2-fora.png)
 
-* **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`
+* **Solução**: alterar os valores no arquivo do recurso, observando as características das variáveis indicadas no `datapackage.json`. Caso o problema tenha sido na descrição do dado, alterar as propriedades necessárias no `datapackage.json`.
 
 
 #### 2.2. Valores fora dos campos delimitadores (, ou ;):
@@ -336,7 +336,7 @@ task-error  The task has an error: 'fieldPosition'
 
 ![](../../assets/images/escaping.png)
 
-* **Solução**: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de `csv`)
+* **Solução**: verificar se colunas de texto contêm ',' e/ou ';' que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas células, utilizando aspas no editor de `csv`.
 
 
 #### 2.3. Arquivo de dados sem encoding `utf-8` 
@@ -353,7 +353,7 @@ A assinatura 'Byte Order Mask (BOM)' preserva a visualiação adequada dos carac
 
 ![](../../assets/images/bom-comparado.png)
 
-* **Solução**: gerar o arquivo `csv` com o BOM. No editor de texto Sublime, 'Save with Encoding --> UTF-8 with BOM'. Via Python, usando o pacote 'Pandas', aplicar `read_file.to_csv (csv_file_path, encoding = 'utf-8-sig')`
+* **Solução**: gerar o arquivo `csv` com o BOM. No editor de texto Sublime, 'Save with Encoding --> UTF-8 with BOM'. Via Python, usando o pacote 'Pandas', aplicar `read_file.to_csv (csv_file_path, encoding = 'utf-8-sig')`.
 
 - - - 
 

@@ -17,21 +17,21 @@ Selecione o arquivo em sua máquina e clique no botão 'Carregar' (_Load_):
 **tela add new resource**
 ![image](https://user-images.githubusercontent.com/52294411/235779150-0a846533-bb46-4ae3-9d59-e5bda9520b8c.png)
 
-O nome do arquivo deve ser em letras minúsculas, sem espaços, separado por traços '-', sem caracteres especiais, acentos ou letras maiúsculas (nome legível por máquina). Após clicar em load (carregar), o CKAN irá preencher o campo 'nome' automaticamente como o nome do arquivo que forr carregado por você.
+O nome do arquivo deve ser em letras minúsculas, sem espaços, separado por traços '-', sem caracteres especiais, acentos ou letras maiúsculas (nome legível por máquina). Após clicar em load (carregar), o CKAN irá preencher o campo 'nome' automaticamente como o nome do arquivo que for carregado por você.
 	
 Além disso, o CKAN vai inferir as colunas do arquivo tabular e carregar as informações sobre os metadados de cada uma, para que você preencha:
 
 **tela inferência metadados**
 ![image](https://user-images.githubusercontent.com/52294411/235779423-197e18e0-89fe-41be-9fc6-90298e3971fe.png)
 
-Note que o nome do cabeçalho de cada coluna aparece, tal qual está registrado no arquivo carregado. Os nomes das colunas (ou cabeçalhos/headers devem ser preferencialmente legíveis por máquina). Também há uma visualização prévia dos valores de cada coluna, ao cliar em _Preview item_, abaixo do nome:
+Note que o nome do cabeçalho de cada coluna aparece, tal qual está registrado no arquivo carregado. Os nomes das colunas (ou cabeçalhos/headers devem ser preferencialmente legíveis por máquina). Também há uma visualização prévia dos valores de cada coluna, ao clicar em _Preview item_, abaixo do nome:
 
 **tela preview item**
 ![image](https://user-images.githubusercontent.com/52294411/235265080-a4f80f6c-dcae-4ea8-95e7-6cb4f2438213.png)
 	
 Cada caixa pertence a uma coluna, que deve ter, pelo menos Título (_Title_), Descrição (_Description_), Tipo (_Type_) e Formato (_Format_). Clique em Editar metadado (_Edit Metadata_) para editar os metadados de cada coluna:
 
-**tela inferencia metadados coluna**
+**tela inferência metadados coluna**
 ![image](https://user-images.githubusercontent.com/52294411/235264994-53357788-1dc7-4977-b4d3-050fd0773e9c.png)
 	
 O título e a descrição devem ser legíveis por pessoas, então comportam acentos, espaços, maiúsculas, caracteres especiais.
@@ -64,8 +64,7 @@ Você também pode adicionar mais metadados do recurso, clicando no botão '+Add
 
 **tela add metadata**
 
-
-Se o conjunto contiver somente um recurso, clique no botão '_Validate_', para checar o resultado na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após vocÊ clicar em '_Validate_'). 
+Se o conjunto contiver somente um recurso, clique no botão '_Validate_', para checar o resultado na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após você clicar em '_Validate_'). 
 
 ![image](https://user-images.githubusercontent.com/52294411/235782539-3d554c36-f931-4398-983c-40e732691441.png)
 
@@ -83,14 +82,14 @@ Para adicionar mais um recurso, clique no botão '+ Add Resource' no final da p�
 **tela add resource**
 ![image](https://user-images.githubusercontent.com/52294411/235264889-294a182e-4328-4b56-bc47-ef6b0d6ead0b.png)
 	
-Se você já tiver publicado um conjunto apenas com o primeiro recurso, pode voltar a adicionar mais recursos, após cliar no conjunto, e no botão Gerenciar (_Manage_). Então, na tela abaixo, clicar em '+Add new resource':
+Se você já tiver publicado um conjunto apenas com o primeiro recurso, pode voltar a adicionar mais recursos, após clicar no conjunto, e no botão Gerenciar (_Manage_). Então, na tela abaixo, clicar em '+Add new resource':
 
 **tela add new resource pos publish**
 ![image](https://user-images.githubusercontent.com/52294411/235785430-e49fe674-331f-4275-90f6-4b358078a302.png)
 	
 ## Incluir um relacionamento (chaves primária '_primary Key_'e estrangeira '_foreign Key_')
 
-Serve para representar o relacionamento entre colunas com mesmos valores (instâncias) de duas tabelas (recursos) que dizem respeito a um mesmo fenômeno. A visualização das referências entre as colunas que se relacionam podem ser notadas nas setas [deste conjunto-teste](http://projetockan.cge.mg.gov.br/datapackage-creator/show-diagram/teste-rapido-sprint-6). As chaves são incluidas nas caixas de adição de metadados, como as telas a seguir mostram:
+Serve para representar o relacionamento entre colunas com mesmos valores (instâncias) de duas tabelas (recursos) que dizem respeito a um mesmo fenômeno. A visualização das referências entre as colunas que se relacionam podem ser notadas nas setas [deste conjunto-teste](http://projetockan.cge.mg.gov.br/datapackage-creator/show-diagram/teste-rapido-sprint-6). As chaves são incluídas nas caixas de adição de metadados, como as telas a seguir mostram:
 
 **primary Key**
 ![image](https://github.com/Andrelamor/manual-abertura-2023-3/assets/52294411/55fbbabc-9863-463f-832b-18363ddcd911)

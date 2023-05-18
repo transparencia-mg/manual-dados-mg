@@ -18,7 +18,7 @@ Acesse sua conta inserindo login de usuário e senha. Para isso, você precisa s
 
 ## Criar e documentar novo conjunto de dados
 
-Após fazer login, na página de [Conjuntos de Dados(Datasets)](http://projetockan.cge.mg.gov.br/dataset/), ou de [Organizações(Organizations)](http://projetockan.cge.mg.gov.br/organization/)clicar no botão azul 'Adicionar Conjunto de Dados':
+Após fazer login, na página de [Conjuntos de Dados(Datasets)](http://projetockan.cge.mg.gov.br/dataset/), ou de [Organizações(Organizations)](http://projetockan.cge.mg.gov.br/organization/)clicar no botão azul 'Adicionar Conjunto de Dados (Add Dataset)':
 
 **tela add dataset**
 ![image](https://user-images.githubusercontent.com/52294411/235776345-fde61cfc-892c-4f7e-a1f6-b7300b70aeaf.png)
@@ -44,7 +44,7 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
 
 - Contribuidores (_Contributors_): o publicador (_Publisher_) já vem preenchido automaticamente com as informações de nome do login e email; caso o autor (_Author_) da base seja diferente do publicador (alguém de outro setor, por exemplo, informar nos campos correspondentes. Também é possível informar um site/URL referente ao publicador ou autor (como uma URL/página referência do setor ou política no sítio institucional do seu órgão/entidade).
 
-- Você também pode adicionar um 'Contribuidor', após clicar em '+Add Contributor' e selecionar seu tipo (_Select the contributor type_). A documentação do CKAN permite vários tipos, mas sugerimos restringir aos tipos publicador (_Publisher_), autor (_Author_) ou mantenedor (_Maintainer_)
+- Você também pode adicionar um 'Contribuidor', após clicar em '+Add Contributor' e selecionar seu tipo (_Select the contributor type_). A documentação do CKAN permite vários tipos, mas sugerimos restringir aos tipos publicador (_Publisher_), autor (_Author_) ou mantenedor (_Maintainer_).
 
 - Selecione a Frequência de Atualização (_Frequency_) na lista correspondente:
   - Diária (_Daily_)
@@ -56,17 +56,17 @@ Ainda na mesma página 'Criar um conjunto de dados (Create dataset)':
   - Anual (_Annual_)
   - Por evento (_On Demand_)
 
-- Insira palavras-chave no campo 'Etiquetas', separando-as por vírgulas e espaço, para facilitar a identificação, classificação, filtragem/seleção e acesso ao seu conjunto de dados (o campo livre, mas sugere-se o reaproveitamento de vocabulários controlados e analogias a legislações da área temática e com outros portais de dados **inserir link para VCGE federal**)
+- Insira palavras-chave no campo 'Etiquetas', separando-as por vírgulas e espaço, para facilitar a identificação, classificação, filtragem/seleção e acesso ao seu conjunto de dados (o campo é livre, mas sugere-se o reaproveitamento de vocabulários controlados e analogias à legislações da área temática e com outros portais de dados **inserir link para VCGE federal**)
 
 ![image](https://user-images.githubusercontent.com/52294411/235250980-859fe8b1-f8e1-46d0-b4aa-dc60be6c2f4e.png)
 
 - Você também pode adicionar propriedades adicionais, clicando em '+Add Property'
 
-* OBS.: os metadados Título (_Title_), Descrição (_Description_) e Organização (_Organization_) são obrigatórios, por isso estão marcados com asterisco
+* OBS.: os metadados Título (_Title_), Descrição (_Description_) e Organização (_Organization_) são obrigatórios, por isso estão marcados com asterisco.
 
-* os metadados Licença (_License_) e Publicador (_Publisher_) são requisitos para um conjunto ser considerado aberto por suas características intrínsecas de acesso livre e de facilidade de acesso/contato com o responsável
+* os metadados Licença (_License_) e Publicador (_Publisher_) são requisitos para um conjunto ser considerado aberto por suas características intrínsecas de acesso livre e de facilidade de acesso/contato com o responsável.
 
-* Frequência de Atualização (_Frequency_) também é um metadado muito importante e fortemente recomnedado, para assegurar uma regularidade e fixar uma expectativa concreta quando às novas atualizações e inserção de novos dados e/ou recursos
+* Frequência de Atualização (_Frequency_) também é um metadado muito importante e fortemente recomendado, para assegurar uma regularidade e fixar uma expectativa concreta quanto às novas atualizações e inserção de novos dados e/ou recursos.
 
 * Dica: verifique a página onde você está navegando no menu superior da página (Home / Conjunto de Dados / Criar um conjunto de dados >>)
 

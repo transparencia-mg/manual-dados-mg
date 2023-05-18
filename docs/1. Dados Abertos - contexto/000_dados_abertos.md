@@ -20,9 +20,9 @@ Seu conceito e utilização estão previstos:
 
 - no [Decreto Estadual nº 45969/2012](https://www.almg.gov.br/legislacao-mineira/texto/DEC/45969/2012/?cons=1);
 
-- no [Decreto Estadual nº 48.383](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48383&comp=&ano=2022)
+- no [Decreto Estadual nº 48.383/2022](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=48383&comp=&ano=2022)
 
-- e na [Resolução nº 20, de 6/8/2014, da CGE](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).
+- e na [Resolução nº 20/2014, da CGE](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).
 
 
 ## Benefícios esperados
@@ -41,10 +41,8 @@ Dentre outros benefícios esperados da utilização dos dados abertos, podem ser
 
 • Transparência na prestação de contas dos resultados e das ações da gestão pública;
 
-• Economia de tempo para atendimento a pedidos por dados e informações governa-
- mentais;
+• Economia de tempo para atendimento a pedidos por dados e informações governamentais;
 
-• Possibilidade de desenvolvimento de pesquisas científicas a partir dos dados disponi-
- bilizados.
+• Possibilidade de desenvolvimento de pesquisas científicas a partir dos dados disponibilizados.
 
 Entretanto, para assegurar que a publicação e disponibilização de dados públicos seja um fator motivador de tais benefícios, é preciso observar as regras estabelecidas, princípios e diretrizes.

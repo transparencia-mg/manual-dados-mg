@@ -10,7 +10,7 @@ tags:
 
 # Publicar dados
 
-Após adicionar os recursos desejados, clique no botão '_Validate_', para checar se o arquivo e seus metadados foram salvos na porção superior da página. Aparecendo o texto em verde '_Successfully saved resourse_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após clicar em '_Validate_'). 
+Após adicionar os recursos desejados, clique no botão '_Validate_', para checar se o arquivo e seus metadados foram salvos na porção superior da página. Aparecendo o texto em verde '_Successfully saved resource_', pode clicar no botão 'Publish', no canto inferior da página (o botão '_PUBLISH_' fica esmaecido, e somente se torna acessível, num tom azul-escuro, após clicar em '_Validate_'). 
 
 ![image](https://user-images.githubusercontent.com/52294411/235782539-3d554c36-f931-4398-983c-40e732691441.png)
 

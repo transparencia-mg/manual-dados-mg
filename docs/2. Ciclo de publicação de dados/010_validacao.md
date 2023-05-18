@@ -9,7 +9,7 @@ tags:
 
 # Validação Automática 
 
-Esta etapa também serve para para oferecer informação íntegra aos usuários. Consiste em comparar se os dados de cada variável espelham fielmente a descrição contida no respectivo dicionário de dados. 
+Esta etapa também serve para oferecer informação íntegra aos usuários. Consiste em comparar se os dados de cada variável espelham fielmente a descrição contida no respectivo dicionário de dados. 
 
 ## Verificar a validação dos dados no Portal de Dados com o plugin ckanext-datapackage-creator
 
@@ -23,9 +23,8 @@ No caso acima, houve uma referência incorreta de chaves primária (primary key)
 
 #### Corrigir eventuais inconsistências (rol exemplificativo)
 
-1. Tipo de dado da coluna: data, numeral inteiro/decimal, com vírgulas, etc
+1. Tipo de dado da coluna: data, numeral inteiro/decimal, com vírgulas, etc.
 2. Chaves primária e estrangeira
-
 3. Nomes cabeçalho 
 4. Linhas repetidas
 5. Encoding
@@ -48,7 +47,7 @@ No caso acima, houve uma referência incorreta de chaves primária (primary key)
 
 ## Operação da validação com o framework da Frictionless Data
 
-O conjunto de ferramentas da especificação Frictionless permite automatizar a validação, seja no HD local, ou conectado a um repositório github onde o conjuntos de dados esteja hospedado.
+O conjunto de ferramentas da especificação Frictionless permite automatizar a validação, seja no HD local, ou conectado a um repositório GitHub onde o conjuntos de dados esteja hospedado.
 
 Na **oficina "Dados abertos sem fricção" ([vídeo](https://www.youtube.com/watch?v=tZ0bmlnqMuY) e [apresentação](https://ead.prodemge.gov.br/pluginfile.php/19736/mod_resource/content/2/Dados%20Abertos%20sem%20friccao-DCTA-CGE.pdf))** realizada em novembro de 2020, durante a semana INOVA, foi demonstrado como preparar um conjunto de dados para publicação, com ferramenta online da _Frictionless Data_ (especificação de metadados utilizada no Portal de Dados Abertos). Seu conteúdo inclui a documentação de um pequeno conjunto de dados, com a ferramenta online [_datapackage creator_](https://create.frictionlessdata.io/) seguido da validação e limpeza.
 

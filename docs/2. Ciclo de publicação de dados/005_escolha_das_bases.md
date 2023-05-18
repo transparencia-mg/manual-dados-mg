@@ -8,7 +8,7 @@ tags:
 
 A escolha das bases para serem preparadas e publicadas em formato aberto é um processo autônomo e de protagonismo de cada órgão ou entidade custodiante dos dados.
 
-A partir da publicação do Decreto Estadual 48.383/2022, a adoção de Planos de Abertura de Dados foi facultada para essa finalidade:
+A partir da publicação do Decreto Estadual nº 48.383/2022, a adoção de Planos de Abertura de Dados foi facultada para essa finalidade:
 
 > § 1º A implementação da transparência ativa de dados poderá ocorrer por meio da execução de Plano de Dados Abertos no âmbito de cada órgão ou entidade da Administração Pública direta, autárquica e fundacional, o qual deverá dispor, no mínimo, sobre os seguintes tópicos:
 
@@ -25,7 +25,7 @@ A partir da publicação do Decreto Estadual 48.383/2022, a adoção de Planos d
 
 Independentemente da adoção de Planos de Abertura, recomenda-se o uso de alguns critérios para facilitar no processo de escolha das bases e ordem de priorização para publicação. O principal deles é coincidente, não por acaso, com uma das diretrizes estratégicas do Planejamento da CGE: _Promover melhora na gestão pública por meio de elevado grau de transparência ativa nas secretarias e vinculadas e **menor necessidade de busca por transparência passiva**_.
 
-Dessa forma, dados e informações que estejam em bases mais demandadas pelos cidadãos por meio dos mecanismos de transparência passiva (e-SIC, fale conosco) devem ser priorizados. A principal analogia para adoção desse critério de escolha, ou priorização de base para abertura, estão nos critérios da norma federal que versa sobre o tema ([Resolução CG INDA 03/2017](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19357601/do1-2017-10-17-resolucao-n-3-de-13-de-outubro-de-2017-19357481)). Segundo essa norma. os principais critérios para escolha de bases para abertura são:
+Dessa forma, dados e informações que estejam em bases mais demandadas pelos cidadãos por meio dos mecanismos de transparência passiva (e-SIC, fale conosco) devem ser priorizados. A principal analogia, para adoção desse critério de escolha ou priorização de base para abertura, está nos critérios da norma federal que versa sobre o tema ([Resolução CG INDA 03/2017](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19357601/do1-2017-10-17-resolucao-n-3-de-13-de-outubro-de-2017-19357481)). Segundo essa norma, os principais critérios para escolha de bases para abertura são:
 
 - Base de dados muito demandada - identificada em canais de transparência passiva (e-SIC, Fale Conosco, etc)
 
@@ -51,4 +51,4 @@ A Superitnendência Central de Transparência promoveu, em 2022, uma ação junt
  
 Esse trabalho visa alcançar benefícios tanto para os custodiantes das bases, quanto para os usuários do Portal de Dados Abertos de Minas Gerais, uma vez que poderão ser disponibilizados em formato aberto as principais bases demandadas pelos usuários ou outras bases não indicadas, mas que trazem valor às atividades desenvolvidas pelos órgãos e entidades.
 
-O resultado dessa ação se consiste no levantamento inicial das bases caracterizadas como propoensas para abertura, e os pontos focais dos órgãos serão provocados oportunamente para iniciarem os trabalhos de preparação e documentação das bases para abertura e publicação - num primeiro momento, serão consideradas as bases mais viáveis (que já estão estruturadas, não precisam de limpeza e nem anonimização). As demais terão seu cronograma estruturado num momento subsequente. 
+O resultado dessa ação consiste no levantamento inicial das bases caracterizadas como propensas para abertura; e os pontos focais dos órgãos serão provocados oportunamente para iniciarem os trabalhos de preparação e documentação das bases para abertura e publicação. Num primeiro momento, serão consideradas as bases mais viáveis (que já estão estruturadas, não precisam de limpeza e nem anonimização). As demais terão seu cronograma estruturado num momento subsequente. 

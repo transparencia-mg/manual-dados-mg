@@ -19,6 +19,6 @@ Depois de criado o processo, selecionar o Tipo de Documento 'CGE - Cadastro de U
 
 Após preenchido e assinado, gentileza tramitar para CGE/SUTI/SCT/DCTA. 
 
-**OBSERVAÇÃO SOBRE O CAMPO E-MAIL DA CHEFIA IMEDIATA: preencher com o email institucional do SETOR, que servirá de referência para contato na página inicial do conjunto de dados que vier a ser publicado**
+**OBSERVAÇÃO SOBRE O CAMPO E-MAIL DA CHEFIA IMEDIATA: preencher com o e-mail institucional do SETOR, que servirá de referência para contato na página inicial do conjunto de dados que vier a ser publicado**
 
-Quando recebermos, vamos enviar um convite para o email pessoal cadastrado, para que possa criar o correspondente usuário, dentro da organização, e publicar os conjuntos de dados que já estejam documentados e válidos de acordo com o processo de abertura.
+Quando recebermos, vamos enviar um convite para o e-mail pessoal cadastrado, para que possa criar o correspondente usuário, dentro da organização, e publicar os conjuntos de dados que já estejam documentados e válidos de acordo com o processo de abertura.

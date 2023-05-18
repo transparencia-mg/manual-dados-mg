@@ -37,7 +37,7 @@ Guia para acesso, consulta, uso e reúso dos dados:
 
 - [Portal de Dados Abertos de Minas Gerais/PdA](https://dados.mg.gov.br/about)
 
-- [Portal da Transparência de Minas Gerais](https://www.transparencia.mg.gov.br/)
+- [Portal da Transparência de Minas Gerais/PdT](https://www.transparencia.mg.gov.br/)
 
 - [e-SIC](https://acessoainformacao.mg.gov.br/sistema/site/index.aspx) 
 

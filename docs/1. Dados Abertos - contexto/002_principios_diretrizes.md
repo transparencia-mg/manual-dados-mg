@@ -7,17 +7,17 @@ São proposições amplamente difundidas sobre as características mínimas espe
 1. Se o dado não pode ser encontrado e indexado na web, ele não existe. 
 
 
-    bases de dados de datawarehouses ou sistemas internos de acesso restrito não são abertos  
+    Ex: bases de dados de datawarehouses ou sistemas internos de acesso restrito não são abertos  
   
 2. Se não estiver aberto e disponível em formato compreensível por máquina, ele não pode ser reaproveitado. 
  
     
-    arquivos não-estruturados, como boletins (em pdf) não são compreendiddos por programas
+    Ex: arquivos não-estruturados, como boletins (em pdf) não são compreendiddos por programas
 
 3. Se algum dispositivo legal não permitir sua reaplicação, ele não é útil.
 
 
-    dado disponível na web, em formato aberto e estruturado, mas tem uma licença restringindo seu uso
+    Ex: dado disponível na web, em formato aberto e estruturado, mas tem uma licença restringindo seu uso
 
 **Formatos**
 
@@ -27,11 +27,11 @@ Conforme a [Cartilha Técnica para Publicação de Dados Abertos no Brasil](http
 
 Os formatos de dados mais utilizados no Portal de Dados Abertos de Minas Gerais são:
 
-- o `csv`, para os dados
+- o `csv`, para os dados. O CSV (valores separados por vírgulas) é um arquivo de texto com formato específico para possibilitar o salvamento dos dados em um formato estruturado de tabela.
 
-- o `json`, para os metadados;
+- o `json`, para os metadados. O JSON, que significa JavaScript Object Notation, é uma formatação utilizada para estruturar dados em formato de texto e transmiti-los de um sistema para outro
 
-Ambos têm uma característica essencial, que é ser **tabular**.
+Ambos têm uma característica essencial, que é ser **tabular**, ou seja, dados estruturados em formato de tabela.
 
 **Representação do dado tabular**:
 
@@ -88,7 +88,7 @@ Os formatos `.PDF, .DOC, .DOCX, .XLS e .XLSX` são INCOMPATÍVEIS com a filosofi
 
 **Escala de Dados Abertos**
 
-Uma figura comum nas cartilhas e materiais que trata de fazer mostrar o grau de maturidade dos dados de acordo com um conjunto de atributos necessários, prescritos nas leis e normas (incluindo até a terceira estrela abaixo)e desejáveis
+Uma figura comum nas cartilhas e materiais é esta que apresenta o grau de maturidade dos dados de acordo com um conjunto de atributos necessários, prescritos nas leis e normas (incluindo até a terceira estrela abaixo):
 
 ★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.
 
@@ -110,12 +110,12 @@ As demais estrelas fornecem mais possibilidades, como navegar mais facilmente po
 
 | princípio                              | referência legal                              | arquitetura PdA                                                                                                                                                                                                                  |
 |----------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| oportuno, atual                        | Lei 12527, art. 8 § 3º, VI             | frequência de atualização equivalente à das consultas do Portal da   Transparência; versionamento em repositório com controle e informação da   periodicidade de atualização como propriedade de metadado no datapackage.json |
-| compreensível                          | Lei 12527, art. 8 § 3º, IV             | adoção de dicionário de dados com padrão predefinido                                                                                                                                                                          |
-| acessível                              | Lei 12527, art. 8 § 3º, III            | disponibilização dos datasets na plataforma CKAN, com possibilidade de   requisições via API                                                                                                                                  |
-| utilizável, processável por máquina                             | Lei 12527, art. 8 § 3º, II             | formatos abertos e estruturados dos arquivos de recursos dos datasets   (csv, json)                                                                                                                                           |
-| comparável                             | Decreto Federal 8777/2016: art. 2º, IV | especificação documentada publicamente através dos datapackage.json                                                                                                                                                           |
-| interoperável | Lei 12527, art. 8 § 3º, III            | adoção do padrão Frictionless Data                                                                                                                                                                                            |
+| oportuno, atual                        | Lei nº 12.527/2011, art. 8 § 3º, VI             | frequência de atualização equivalente à das consultas do Portal da   Transparência; versionamento em repositório com controle e informação da periodicidade de atualização como propriedade de metadado no datapackage.json |
+| compreensível                          | Lei nº 12.527/2011, art. 8 § 3º, IV             | adoção de dicionário de dados com padrão predefinido                                                                                                                                                                          |
+| acessível                              | Lei 12.527/2011, art. 8 § 3º, III            | disponibilização dos datasets na plataforma CKAN, com possibilidade de requisições via API                                                                                                                                  |
+| utilizável, processável por máquina                             | Lei nº 12.527/2011, art. 8 § 3º, II             | formatos abertos e estruturados dos arquivos de recursos dos datasets (csv, json)                                                                                                                                           |
+| comparável                             | Decreto Federal 8.777/2016: art. 2º, IV | especificação documentada publicamente através dos datapackage.json                                                                                                                                                           |
+| interoperável | Lei nº 12.527/2011, art. 8 § 3º, III            | adoção do padrão Frictionless Data                                                                                                                                                                                            |
 
 ## Saiba Mais
 

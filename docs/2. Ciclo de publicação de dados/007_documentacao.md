@@ -20,13 +20,13 @@ Ter metadados, em um catálogo de todas as bases de dados (abertos ou não) foi 
 
 A W3C, entidade internacional que desenvolve padrões para a web, elaborou um [Guia de Melhores Práticas](https://www.w3.org/TR/dwbp/#metadata), em que existem três itens relacionados a metadados:
 
-1. Fornecer metadados ([BP1](http://blog.w3c.br/melhores-praticas-dados-na-web-2-forneca-metadados-umapordia/)) para leitura de pessoas e máquinas (computadores). Para leitura humana, poderia ser [parte de uma página HTML na web](https://www.w3.org/TR/dwbp/dwbp-example.html) ou um arquivo de texto em separado. Para leitura por máquina, os metadadaos poderiam ser providos em formato JSON, ou [embutidos no formato HTML](https://www.w3.org/TR/dwbp/dwbp-example.ttl) - sob a recomendação de reutilizar padrões de vocabulários populares.
+1. Fornecer metadados ([BP1](http://blog.w3c.br/melhores-praticas-dados-na-web-2-forneca-metadados-umapordia/)) para leitura de pessoas e máquinas (computadores). Para leitura humana, poderia ser [parte de uma página HTML na web](https://www.w3.org/TR/dwbp/dwbp-example.html) ou um arquivo de texto em separado. Para leitura por máquina, os metadados poderiam ser providos em formato JSON, ou [embutidos no formato HTML](https://www.w3.org/TR/dwbp/dwbp-example.ttl) - sob a recomendação de reutilizar padrões de vocabulários populares.
 
 
-2. Fornecer metadados descritivos ([BP2](http://blog.w3c.br/melhores-praticas-dados-na-web-3-forneca-metadados-com-parametros-de-localidade/)), de forma que pessoas entendam a natureza do conjunto de dados e suas distribuições (i.e. título, descrição, palavras-chave, data de publicação, entidade responsável pela publicação e contato com a mesma, cobertura temporal e espacial, data da última modificação e categorias) e agentes de software descobrirão automaticamente tais conjuntos e distribuições.
+2. Fornecer metadados descritivos ([BP2](http://blog.w3c.br/melhores-praticas-dados-na-web-3-forneca-metadados-com-parametros-de-localidade/)), de forma que pessoas entendam a natureza do conjunto de dados e suas distribuições (i.e. título, descrição, palavras-chave, data de publicação, entidade responsável pela publicação e contato com a mesma, cobertura temporal e espacial, data da última modificação e categorias) e os agentes de software identifiquem automaticamente tais conjuntos e distribuições.
 
 
-3. Fornecer metadados estruturais ([BP3](http://blog.w3c.br/melhores-praticas-dados-na-web-4-forneca-metadados-com-informacoes-estruturais/)), de forma que pessoas interpretem o esquema de um conjunto de dados e agentes de software sejam capazes de processar automaticamente os dados das distribuições
+3. Fornecer metadados estruturais ([BP3](http://blog.w3c.br/melhores-praticas-dados-na-web-4-forneca-metadados-com-informacoes-estruturais/)), de forma que pessoas interpretem o esquema de um conjunto de dados e agentes de software sejam capazes de processar automaticamente os dados das distribuições.
 
 Os metadados devem, por fim, permitir a interoperabilidade entre diferentes sistemas. 
 
@@ -48,7 +48,7 @@ Os padrões de especificação Frictionless podem ser consultados [aqui](https:/
 
 Segundo a especificação _frictionless data_ (Dados sem Fricção) adotada para o Portal de Dados Abertos, as propriedades das variáveis, dos arquivos (recursos) e do conjunto de dados (dataset) devem estar descritas num formato padronizado e legível por máquina.
 
-A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recrursos e conjunto) formam um `datapackage`
+A junção dos arquivos de dados, com os arquivos contendo a descrição (metadados) dessas três instâncias (variáveis, recursos e conjunto) formam um `datapackage`
 
 ![](../assets/images/datapackage.png)
 
@@ -86,9 +86,9 @@ Conjunto (_dataset_):
 
  - Descrição (_description_): _"Como Participar"_, "_Controle de Alterações_"
 
- - Catálogo origem (_homepage_): Página (URL) do órgão onde está publicado o conjunto de dados.
+ - Catálogo origem (_homepage_): página (URL) do órgão onde está publicado o conjunto de dados.
 
- - Organização (_owner_org_): Entidade custodiante dos dados 
+ - Organização (_owner_org_): entidade custodiante dos dados 
 
  - Versão (_version_): indica a versão do conjunto; também deve estar discriminada e detalhada na seção `CHANGELOG`
 
@@ -138,17 +138,17 @@ Recursos (_resources_):
 
  - Documentação: URL de documento que expõe detalhes sobre o conjunto de dados.
 
- - Cobertura geográfica: Localização ou região geográfica a que se referem os dados. Ex.: Recife.
+ - Cobertura geográfica: localização ou região geográfica a que se referem os dados. Ex.: Recife.
 
- - Cobertura temporal (_temporal_): Data ou período à que referem os dados. Ex.: 03/2012.
+ - Cobertura temporal (_temporal_): data ou período à que referem os dados. Ex.: 03/2012.
 
- - Granularidade geográfica: Precisão geográfica da cobertura geográfica. Ex.: municipal.
+ - Granularidade geográfica: precisão geográfica da cobertura geográfica. Ex.: municipal.
 
- - Granularidade temporal: Precisão temporal da cobertura temporal. Ex.: mês.
+ - Granularidade temporal: precisão temporal da cobertura temporal. Ex.: mês.
 
- - Referências: Relações com outros conjuntos de dados.
+ - Referências: relações com outros conjuntos de dados.
 
- - Metodologia: Processo de criação dos dados.
+ - Metodologia: processo de criação dos dados.
 
- - Vocabulário/ontologia: Documentos estruturados com metadados específicos do conjunto de dados.
+ - Vocabulário/ontologia: documentos estruturados com metadados específicos do conjunto de dados.
 

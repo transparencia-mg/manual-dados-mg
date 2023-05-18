@@ -4,9 +4,9 @@ Um Portal de Dados Abertos é uma ferramenta eletrônica capaz de reunir diferen
 
 Reunir dados abertos em um único repositório facilita: 
 
- - pelos órgãos e entidades, a publicação dos conjuntos de dados
+ - pelos órgãos e entidades: a publicação dos conjuntos de dados;
 
- - pela sociedade, a busca dos dados, pois não há necessidade de procura pelos diferentes sítios institucionais, ou solicitação direta aos órgaos e entidades.
+ - pela sociedade: a busca dos dados, pois não há necessidade de procura pelos diferentes sítios institucionais, ou solicitação direta aos órgaos e entidades.
 
 Além disso, o Portal de Dados Abertos visa facilitar a análise das informações (Lei de Acesso à Informação, art. 8, parágrafo 3, inciso II), ao possibiltar:
 
@@ -16,16 +16,16 @@ Além disso, o Portal de Dados Abertos visa facilitar a análise das informaçõ
 
 * Cruzar diferentes bases de dados que se complementam, para aprofundar o conhecimento sobre algo;
 
-* Produzir reportagens e pesquisas científicas
+* Produzir reportagens e pesquisas científicas;
 
-* Desenvolver sites e aplicativos com as bases de dados fornecidas 
+* Desenvolver sites e aplicativos com as bases de dados fornecidas. 
 
 
 Dentre outros benefícios esperados com a publicação de conjuntos no Portal de Dados Abertos, estão:
 
 * Padronização do formato de estruturação dos dados (uso de metadados com especificações de qualidade);
 
-* Preparação para possíveis pedidos de abertura de dados (haja vista sua previsão legal a partir da regulamentação da Lei Federal 14.129, de 2021, pelo  Decreto Estadual 48.383, de 2022);
+* Preparação para possíveis pedidos de abertura de dados (haja vista sua previsão legal a partir da regulamentação da Lei Federal nº 14.129/2021, pelo  Decreto Estadual 48.383/2022);
 
 * Controle social, avaliações de usuários, parcerias.
 

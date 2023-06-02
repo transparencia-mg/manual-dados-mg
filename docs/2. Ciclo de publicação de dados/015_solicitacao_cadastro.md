@@ -17,7 +17,7 @@ Depois de criado o processo, selecionar o Tipo de Documento 'CGE - Cadastro de U
 
 ![image](https://user-images.githubusercontent.com/52294411/184001453-c8801b02-e8e2-46ac-a17c-c3736e78f764.png)
 
-Após preenchido e assinado, gentileza tramitar para CGE/SUTI/SCT/DCTA. 
+Após preenchido e assinado, gentileza tramitar para CGE/DTA. 
 
 **OBSERVAÇÃO SOBRE O CAMPO E-MAIL DA CHEFIA IMEDIATA: preencher com o e-mail institucional do SETOR, que servirá de referência para contato na página inicial do conjunto de dados que vier a ser publicado**
 
